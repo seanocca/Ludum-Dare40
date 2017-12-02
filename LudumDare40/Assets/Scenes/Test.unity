@@ -125,7 +125,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4692201275052568, guid: 12540ed1e89584f5c9bc6c98df660e82, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0.5
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 4692201275052568, guid: 12540ed1e89584f5c9bc6c98df660e82, type: 2}
       propertyPath: m_LocalPosition.z
@@ -151,19 +151,14 @@ Prefab:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
-    - target: {fileID: 114366243625358440, guid: 12540ed1e89584f5c9bc6c98df660e82,
-        type: 2}
-      propertyPath: moveL
-      value: 97
-      objectReference: {fileID: 0}
-    - target: {fileID: 114366243625358440, guid: 12540ed1e89584f5c9bc6c98df660e82,
-        type: 2}
-      propertyPath: moveR
-      value: 100
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 12540ed1e89584f5c9bc6c98df660e82, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &661209733 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1788707442257618, guid: 12540ed1e89584f5c9bc6c98df660e82,
+    type: 2}
+  m_PrefabInternal: {fileID: 203913068}
 --- !u!1 &820052746
 GameObject:
   m_ObjectHideFlags: 0
@@ -211,7 +206,7 @@ MonoBehaviour:
   - {fileID: 1696162285932744, guid: d274583d8ee474619ba5b43d50e8e74f, type: 2}
   - {fileID: 1614302503381874, guid: 6ac9a565b22a64c1eb2b4d49296102b0, type: 2}
   - {fileID: 1753080741724082, guid: 067b239702ebe42d2ba55bfe32331967, type: 2}
-  player: {fileID: 0}
+  player: {fileID: 661209733}
   spawnedRoadSections: []
   lastPositionCheck: 1
 --- !u!1001 &1325698293
@@ -384,13 +379,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1782242306}
-  m_LocalRotation: {x: 0.2419552, y: -0, z: -0, w: 0.9702875}
-  m_LocalPosition: {x: 0, y: 2.685, z: -1.287}
+  m_LocalRotation: {x: 0.26723832, y: 0, z: 0, w: 0.9636305}
+  m_LocalPosition: {x: 0, y: 1.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 28.004002, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 31, y: 0, z: 0}
 --- !u!114 &1782242311
 MonoBehaviour:
   m_ObjectHideFlags: 0
