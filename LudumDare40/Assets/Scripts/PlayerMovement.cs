@@ -7,11 +7,15 @@ public class PlayerMovement : MonoBehaviour {
     public static Vector3 currPlayerPosition;
 
     public float pharmAmount = 100f;
-    private float playerSpeed = 0.5f;
+    private float playerSpeed = 2f;
+    private float horizVel = 0;
 
-    private int speedLoop;
+    public KeyCode moveL;
+    public KeyCode moveR;
 
-    private bool isMoving = false;
+    private int currLane = 3;
+
+    private bool isMovingSideways = false;
 
 	// Use this for initialization
 	void Start () {
@@ -21,50 +25,58 @@ public class PlayerMovement : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
+        GetComponent<Rigidbody>().velocity = new Vector3(horizVel, 0, playerSpeed);
 
-        if (isMoving == false)
+        if (Input.GetKeyDown(moveL) && isMovingSideways == false && currLane > 1) 
         {
-            Debug.Log("Player Coroutine ON");
+            Debug.Log("Player Moving Left");
+            horizVel = -2;
+            isMovingSideways = true;
+            currLane--;
             StartCoroutine("PlayerMove");
-            //StartCoroutine("HitDetection");
-        }else if (isMoving == false && pharmAmount <= 0f)
-        {
-            StopCoroutine("PlayerMove");
         }
+
+        if (Input.GetKeyDown(moveR) && isMovingSideways == false && currLane < 5)
+        {
+            Debug.Log("Player Moving Right");
+            horizVel = 2;
+            isMovingSideways = true;
+            currLane++;
+            StartCoroutine("PlayerMove");
+        }
+
+
 	}
 
+    /// <summary>
+    /// Moves player forward.
+    /// Gets players current Vector 3
+    /// Checks if the player hit something to slow her down.
+    /// Then the player is moved forward
+    /// </summary>
+    /// <returns></returns>
     IEnumerator PlayerMove()
     {
-        isMoving = true;
-        while (pharmAmount > 0f)
-        {
-            Debug.Log("Player is Moving");
-            currPlayerPosition = this.transform.position;
-            if (playerSpeed == 0.25f)
-            {
-                speedLoop++;
-                if (speedLoop == 3)
-                {
-                    playerSpeed = 0.5f;
-                }
-            }
-            currPlayerPosition.z += playerSpeed;
-            this.transform.position = currPlayerPosition;
-            yield return new WaitForSecondsRealtime(0.5f);
-        }
-        isMoving = false;
-        yield return null;
+        yield return new WaitForSecondsRealtime(0.5f);
+        horizVel = 0;
+        isMovingSideways = false;
     }
 
+    /// <summary>
+    /// Has the Player hit an obstacle.
+    /// It Either Kills her or slows her down.
+    /// </summary>
+    /// <param name="other"></param>
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "DeathObstacle")
         {
-            StopCoroutine("Moving");
+            pharmAmount = 0f;
+            //End Current Game
         }else if (other.gameObject.tag == "SlowObstacle")
         {
             //Slow player down
-            playerSpeed = 0.25f;
+            playerSpeed = 0.5f;
         }
     }
 
