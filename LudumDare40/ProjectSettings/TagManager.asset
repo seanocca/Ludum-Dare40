@@ -5,7 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Road
-  - Obstacle
+  - SlowObstacle
+  - DeathObstacle
   layers:
   - Default
   - TransparentFX
