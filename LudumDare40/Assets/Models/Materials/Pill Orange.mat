@@ -6,8 +6,8 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: No Name
-  m_Shader: {fileID: 4800000, guid: a125593ee68e2458eb1aa6294e238ef3, type: 3}
+  m_Name: Pill Orange
+  m_Shader: {fileID: 4800000, guid: dc21dfd4d785b45c998e923216109fdd, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -72,5 +72,5 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 0.5882353}
+    - _Color: {r: 1, g: 1, b: 1, a: 0.784}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
