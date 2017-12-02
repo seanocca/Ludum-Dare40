@@ -22,7 +22,7 @@ public class GameManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (player.transform.position.z == lastPositionCheck) {
+		if (player.transform.position.z >= lastPositionCheck && player.transform.position.z <= lastPositionCheck + 1f) {
 			SpawnRoad ();
 			DestroyRoad ();
 		}
