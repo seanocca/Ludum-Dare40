@@ -4,14 +4,28 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour {
 
+	public GameObject[] roadSections;
+
+	public GameObject player; 
+
+	public List<GameObject> spawnedRoadSections;
+
+	private Vector3 playerPosition; 
+	public float lastPositionCheck = 1f;
+	private float roadLength = 10f;
+
 	// Use this for initialization
 	void Start () {
-		
+		// Grab the road objects already in scene at start and store them in a list
+		spawnedRoadSections.AddRange (GameObject.FindGameObjectsWithTag ("Road"));
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		
+		if (player.transform.position.z == lastPositionCheck) {
+			SpawnRoad ();
+			DestroyRoad ();
+		}
 	}
 
     private void PlayGame()
@@ -23,4 +37,33 @@ public class GameManager : MonoBehaviour {
             //gameCamera.transform.position = new Vector3();
             //menu.SetActive(false);
     }
+
+	private void SpawnRoad() {
+		// Get a random road section from the array of stored sections
+		int rng = Random.Range (0, roadSections.Length);
+
+		// Calculate the next position to spawn road at, based on the position we checked the player at plus the road length
+		Vector3 nextPosition = new Vector3 (0,0, lastPositionCheck + (roadLength * 2) - 1);	
+
+		// increase the position to check to the next position
+		lastPositionCheck += roadLength;
+
+		// Instantiate the random section
+		GameObject road_section = Instantiate (roadSections [rng], nextPosition, Quaternion.identity);
+		// Add to list of road_sections in the game scene
+		spawnedRoadSections.Add (road_section);
+
+		DestroyRoad ();
+	}
+
+	private void DestroyRoad() {
+		// Check to make sure that more than 3 road section exits
+		if (spawnedRoadSections.Count > 3) {
+			// If so remove the oldest
+			GameObject roadToDestroy = spawnedRoadSections[0];
+			spawnedRoadSections.RemoveAt (0);
+			Destroy (roadToDestroy);
+		}
+	}
+
 }
