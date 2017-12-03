@@ -61,6 +61,8 @@ public class Player : MonoBehaviour
         {
             pharmAmount = 0f;
             PlayerMovement.playerSpeed = 0f;
+            StopAllCoroutines();
+            Time.timeScale = 0;
 
             //Player showing death
             //Game Over
