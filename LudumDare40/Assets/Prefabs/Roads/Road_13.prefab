@@ -308,6 +308,7 @@ GameObject:
   - component: {fileID: 4989882760161740}
   - component: {fileID: 33980061416138150}
   - component: {fileID: 23101510874058198}
+  - component: {fileID: 65642051604010490}
   m_Layer: 0
   m_Name: Trafic_Cone
   m_TagString: SlowObstacle
@@ -931,6 +932,7 @@ GameObject:
   - component: {fileID: 4282234777853686}
   - component: {fileID: 33244735051325882}
   - component: {fileID: 23812037830263982}
+  - component: {fileID: 65832712146054784}
   m_Layer: 0
   m_Name: Trafic_Cone (1)
   m_TagString: SlowObstacle
@@ -5541,6 +5543,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.17, y: 1.2, z: 1.9}
   m_Center: {x: 0.39999998, y: 0.7, z: 0}
+--- !u!65 &65642051604010490
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1290709208004876}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.79999995, y: 0.79999995, z: 0.79999995}
+  m_Center: {x: 0, y: 0.5, z: 0}
 --- !u!65 &65699917611143020
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -5553,6 +5567,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.17, y: 1.2, z: 1.9}
   m_Center: {x: 0.39999998, y: 0.7, z: 0}
+--- !u!65 &65832712146054784
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1707046040314164}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.79999995, y: 0.79999995, z: 0.79999995}
+  m_Center: {x: 0, y: 0.5, z: 0}
 --- !u!65 &65953925141197286
 BoxCollider:
   m_ObjectHideFlags: 1

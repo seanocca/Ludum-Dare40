@@ -106,6 +106,7 @@ GameObject:
   - component: {fileID: 4413443630566968}
   - component: {fileID: 33113619148247402}
   - component: {fileID: 23420113418425286}
+  - component: {fileID: 65843504003441526}
   m_Layer: 0
   m_Name: Trafic_Cone
   m_TagString: SlowObstacle
@@ -157,6 +158,7 @@ GameObject:
   - component: {fileID: 4022133367193068}
   - component: {fileID: 33818658858065214}
   - component: {fileID: 23656453291889472}
+  - component: {fileID: 65107015597808722}
   m_Layer: 0
   m_Name: Trafic_Cone (2)
   m_TagString: SlowObstacle
@@ -429,6 +431,7 @@ GameObject:
   - component: {fileID: 4521625906248668}
   - component: {fileID: 33181528967574502}
   - component: {fileID: 23197155464838380}
+  - component: {fileID: 65250311736449958}
   m_Layer: 0
   m_Name: Trafic_Cone (9)
   m_TagString: SlowObstacle
@@ -446,6 +449,7 @@ GameObject:
   - component: {fileID: 4002561373587062}
   - component: {fileID: 33840326877139458}
   - component: {fileID: 23857300306310498}
+  - component: {fileID: 65727442922153236}
   m_Layer: 0
   m_Name: Trafic_Cone (3)
   m_TagString: SlowObstacle
@@ -633,6 +637,7 @@ GameObject:
   - component: {fileID: 4377782166746060}
   - component: {fileID: 33844224025390946}
   - component: {fileID: 23885232625818478}
+  - component: {fileID: 65784926041797124}
   m_Layer: 0
   m_Name: Trafic_Cone (5)
   m_TagString: SlowObstacle
@@ -684,6 +689,7 @@ GameObject:
   - component: {fileID: 4669960202003460}
   - component: {fileID: 33765693311497938}
   - component: {fileID: 23865913408485416}
+  - component: {fileID: 65787652310429762}
   m_Layer: 0
   m_Name: Trafic_Cone (4)
   m_TagString: SlowObstacle
@@ -718,6 +724,7 @@ GameObject:
   - component: {fileID: 4120356172220616}
   - component: {fileID: 33162006874998742}
   - component: {fileID: 23915637396968092}
+  - component: {fileID: 65383072221674348}
   m_Layer: 0
   m_Name: Trafic_Cone (7)
   m_TagString: SlowObstacle
@@ -818,6 +825,7 @@ GameObject:
   - component: {fileID: 4409814012616060}
   - component: {fileID: 33750808683488336}
   - component: {fileID: 23351199277308660}
+  - component: {fileID: 65915947054309308}
   m_Layer: 0
   m_Name: Trafic_Cone (6)
   m_TagString: SlowObstacle
@@ -852,6 +860,7 @@ GameObject:
   - component: {fileID: 4013601406095740}
   - component: {fileID: 33952307553667330}
   - component: {fileID: 23308828238371772}
+  - component: {fileID: 65312884280746630}
   m_Layer: 0
   m_Name: Trafic_Cone (1)
   m_TagString: SlowObstacle
@@ -4431,3 +4440,111 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1215636168970556}
   m_Mesh: {fileID: 4300000, guid: 414bbdbb818a34d4db4fb1c9ab39424b, type: 3}
+--- !u!65 &65107015597808722
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1173736034333736}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.79999995, y: 0.79999995, z: 0.79999995}
+  m_Center: {x: 0, y: 0.5, z: 0}
+--- !u!65 &65250311736449958
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1487738971851246}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.79999995, y: 0.79999995, z: 0.79999995}
+  m_Center: {x: 0, y: 0.5, z: 0}
+--- !u!65 &65312884280746630
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1798650956913032}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.79999995, y: 0.79999995, z: 0.79999995}
+  m_Center: {x: 0, y: 0.5, z: 0}
+--- !u!65 &65383072221674348
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1703684711778834}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.79999995, y: 0.79999995, z: 0.79999995}
+  m_Center: {x: 0, y: 0.5, z: 0}
+--- !u!65 &65727442922153236
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1488935878799968}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.79999995, y: 0.79999995, z: 0.79999995}
+  m_Center: {x: 0, y: 0.5, z: 0}
+--- !u!65 &65784926041797124
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1660814068645320}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.79999995, y: 0.79999995, z: 0.79999995}
+  m_Center: {x: 0, y: 0.5, z: 0}
+--- !u!65 &65787652310429762
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1681588863027530}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.79999995, y: 0.79999995, z: 0.79999995}
+  m_Center: {x: 0, y: 0.5, z: 0}
+--- !u!65 &65843504003441526
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1121192684840548}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.79999995, y: 0.79999995, z: 0.79999995}
+  m_Center: {x: 0, y: 0.5, z: 0}
+--- !u!65 &65915947054309308
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1769326811314714}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.79999995, y: 0.79999995, z: 0.79999995}
+  m_Center: {x: 0, y: 0.5, z: 0}
