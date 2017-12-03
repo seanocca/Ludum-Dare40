@@ -2,12 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour {
+public class PlayerMovement : Player {
 
-    public static Vector3 currPlayerPosition;
-
-    public float pharmAmount = 100f;
-    private float playerSpeed = 2f;
     private float horizVel = 0;
 
     public KeyCode moveL;
@@ -45,7 +41,6 @@ public class PlayerMovement : MonoBehaviour {
             StartCoroutine("PlayerMove");
         }
 
-
 	}
 
     /// <summary>
@@ -62,22 +57,4 @@ public class PlayerMovement : MonoBehaviour {
         isMovingSideways = false;
     }
 
-    /// <summary>
-    /// Has the Player hit an obstacle.
-    /// It Either Kills her or slows her down.
-    /// </summary>
-    /// <param name="other"></param>
-    void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.tag == "DeathObstacle")
-        {
-            pharmAmount = 0f;
-            //End Current Game
-        }else if (other.gameObject.tag == "SlowObstacle")
-        {
-            //Slow player down
-            playerSpeed = 0.5f;
-        }
-    }
-
-}
+ }

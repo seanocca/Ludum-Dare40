@@ -38,7 +38,7 @@ GameObject:
   - component: {fileID: 4170143897308794}
   m_Layer: 0
   m_Name: Alcohol
-  m_TagString: Untagged
+  m_TagString: Alcohol
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
