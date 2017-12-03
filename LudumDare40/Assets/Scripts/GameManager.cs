@@ -10,7 +10,6 @@ public class GameManager : MonoBehaviour {
 
 	public List<GameObject> spawnedRoadSections;
 
-	private Vector3 playerPosition; 
 	public float lastPositionCheck = 1f;
 	private float roadLength = 10f;
 

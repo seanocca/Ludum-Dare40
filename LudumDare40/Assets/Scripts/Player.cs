@@ -20,6 +20,7 @@ public class Player : MonoBehaviour
     public static bool increasePharm = false;
 
     public Text pharmaText;
+    public Text speedText;
 
 
     /// <summary>
@@ -28,7 +29,7 @@ public class Player : MonoBehaviour
     /// </summary>
     void FixedUpdate()
     {       
-        pharmaText.text = "Medic: " + pharmAmount.ToString();
+        pharmaText.text = "Medic: " + pharmAmount;
 
         if (pharmAmount <= 0f)
         {

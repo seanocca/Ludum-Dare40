@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerMovement : Player {
 
-    public static float playerSpeed = 2f;
+    public static float playerSpeed = 3f;
     private float horizVel = 0;
 
     public KeyCode moveL;
@@ -14,10 +14,12 @@ public class PlayerMovement : Player {
 
     private int currLane = 3;
 
-    private bool isMovingSideways = false;
+    private bool isMovingSideways = false;    
 
-	// Update is called once per frame
-	void Update () {
+    // Update is called once per frame
+    void Update () {
+
+        speedText.text = "Speed: " + playerSpeed;
 
         GetComponent<Rigidbody>().velocity = new Vector3(horizVel, 0, playerSpeed);
 
@@ -70,26 +72,25 @@ public class PlayerMovement : Player {
         while (pharmAmount > 0f)
         {
             yield return new WaitForSecondsRealtime(waitTime);
-            if (playerSpeed > 0.5f)
-            {
-                if (pharmAmount > 100)
-                {
-                    playerSpeed -= 0.08f;
-                }
-                else if (pharmAmount > 75)
-                {
-                    playerSpeed -= 0.04f;
-                }
-            }
-            if (playerSpeed < 20)
+            if (playerSpeed < 20 && pharmAmount < 85)
             {
                 if (pharmAmount > 50)
                 {
-                    playerSpeed += 0.04f;
+                    playerSpeed += playerSpeed / (waitTime * pharmAmount);
                 }
                 else
                 {
                     playerSpeed += 0.12f;
+                }
+            } else if (playerSpeed > 1f && pharmAmount > 85)
+            {
+                if (pharmAmount > 100)
+                {
+                    playerSpeed -= (waitTime / pharmAmount ) / playerSpeed;
+                }
+                else if (pharmAmount > 85)
+                {
+                    playerSpeed -= (waitTime / (pharmAmount * 2)) / playerSpeed;
                 }
             }
         }
