@@ -7,8 +7,7 @@ public class Player : MonoBehaviour
 {
     public static Vector3 currPlayerPosition;
 
-    public static float pharmAmount = 100f;
-    public static float playerSpeed = 1f;
+    public static float pharmAmount = 100f;    
 
     public static float waitTime = 0.5f;
     public static float lostPharm = 1f;
@@ -22,20 +21,23 @@ public class Player : MonoBehaviour
 
     public Text pharmaText;
 
-    void FixedUpdate()
-    {
-        if (losingPharm == false && pharmAmount > 0f)
-        {
-            StartCoroutine("LosingPharm");
-            StartCoroutine("IncreasingSpeed");
-        }
 
+    /// <summary>
+    /// Updates text on screen with the pharmAmount
+    /// Checks to see if the game is over if the pharmAmount has run out
+    /// </summary>
+    void FixedUpdate()
+    {       
         pharmaText.text = "Medic: " + pharmAmount.ToString();
 
+        if (pharmAmount <= 0f)
+        {
+            //Game Over
+        }
     }
 
     /// <summary>
-    /// Has the Player hit an obstacle.
+    /// Has the Player hit an obstacle or artefact.
     /// It Either Kills her or slows her down.
     /// </summary>
     /// <param name="other"></param>
@@ -44,13 +46,15 @@ public class Player : MonoBehaviour
         if (other.gameObject.tag == "DeathObstacle")
         {
             pharmAmount = 0f;
-            //Topple over player showing death
-            //End Current Game
+            PlayerMovement.playerSpeed = 0f;
+
+            //Player showing death
+            //Game Over
         }
         else if (other.gameObject.tag == "SlowObstacle")
         {
             //Slow player down
-            playerSpeed = 0.5f;
+            PlayerMovement.playerSpeed = 0.5f;
             Destroy(other.gameObject);
         }
 
@@ -71,7 +75,7 @@ public class Player : MonoBehaviour
         if (other.gameObject.tag == "Alcohol")
         {
             //Slowly Increase PharmAmount for three seconds
-            StartCoroutine("IncreasePharm");
+            StartCoroutine("IncreasingPharm");
             Destroy(other.gameObject);
         }
 
@@ -94,11 +98,18 @@ public class Player : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Gets this player position
+    /// </summary>
+    /// <returns> Returns player position</returns>
     public Vector3 GetPlayerPosition()
     {
         return this.transform.position;
     }
 
+    /// <summary>
+    /// Decreases the pharmaceutical amount the the mum has
+    /// </summary>
     IEnumerator LosingPharm()
     {
         losingPharm = true;
@@ -111,30 +122,17 @@ public class Player : MonoBehaviour
         yield return null;
     }
 
-    IEnumerator IncreasingSpeed()
-    {
-        increaseSpeed = true;
-        while (pharmAmount > 0f)
-        {
-            yield return new WaitForSecondsRealtime(waitTime);
-            if (pharmAmount > 50)
-            {
-                playerSpeed += 0.08f;
-            }
-            else
-            {
-                playerSpeed += 0.16f;
-            }
-        }
-        increaseSpeed = false;
-        yield return null;
-    }
-
+    /// <summary>
+    /// Increases the pharma amount to
+    /// stop the effects of losing pharma
+    /// for 10 seconds
+    /// </summary>
+    /// <returns></returns>
     IEnumerator IncreasingPharm()
     {
         int x = 0;
         increasePharm = true;
-        while (x < 80)
+        while (x < 20)
         {
             yield return new WaitForSecondsRealtime(waitTime);
             pharmAmount += incPharm;
