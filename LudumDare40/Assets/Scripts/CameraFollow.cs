@@ -6,12 +6,17 @@ public class CameraFollow : MonoBehaviour
 
     public static CameraFollow Instance { get; set; }
 
+	[SerializeField]
     private GameObject player;
+
+	private GameObject gameManager;
 
     public bool inPlay;
 
     void Awake()
     {
+		gameManager = GameObject.Find ("GameManager");
+		this.inPlay = gameManager.GetComponent<GameManager> ().inPlay;
         if (Instance != null && Instance != this)
         {
             Destroy(gameObject);
@@ -24,9 +29,6 @@ public class CameraFollow : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player");
-
-        inPlay = true;
 
     }
 
@@ -37,13 +39,12 @@ public class CameraFollow : MonoBehaviour
         {
             player = GameObject.FindGameObjectWithTag("Player");
         }
-        else
+
+        if (inPlay)
         {
-            if (inPlay)
-            {
-				transform.position = new Vector3 (0f ,player.transform.position.y + 2.4f, player.transform.position.z - 1.25f );
-            }
+			transform.position = new Vector3 (0f ,player.transform.position.y + 2.4f, player.transform.position.z - 1.25f );
         }
+
     }
 
 }

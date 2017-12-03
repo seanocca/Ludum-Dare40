@@ -9,17 +9,23 @@ public class GameManager : MonoBehaviour {
 
 	public GameObject player; 
 
+	public GameObject camera;
+
 	public List<GameObject> spawnedRoadSections;
 
 	public float lastPositionCheck = 1f;
 	private float roadLength = 10f;
 
-	public static bool inPlay = false;
+	public bool inPlay = false;
 
 
 	public GameObject playerStart;
 
-
+	void Awake() {
+		if (camera == null) {
+			GameObject.Find ("Main Camera");
+		}
+	}
 
 	// Use this for initialization
 	void Start () {
@@ -38,9 +44,11 @@ public class GameManager : MonoBehaviour {
 		} else {
 			if (Input.GetKeyDown ("return")) {
 				Debug.Log ("Enter");
-				inPlay = true;
 				Destroy (playerStart);
 				GameObject gameplayer = Instantiate (player, new Vector3 (0.0f, 0.2f, 1.0f), Quaternion.identity);
+				player = gameplayer;
+				camera.GetComponent<CameraFollow> ().inPlay = true;
+				inPlay = true;
 
 			}
 		}
