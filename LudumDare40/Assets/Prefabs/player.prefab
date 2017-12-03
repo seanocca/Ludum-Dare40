@@ -226,6 +226,7 @@ GameObject:
   - component: {fileID: 114366243625358440}
   - component: {fileID: 54225257690387748}
   - component: {fileID: 95483074270859302}
+  - component: {fileID: 136039318205774334}
   m_Layer: 0
   m_Name: player
   m_TagString: Player
@@ -949,6 +950,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abb971dbbadc51843a0d54cdc62a75ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pharmAmount: 100
   moveL: 97
   moveR: 100
+--- !u!136 &136039318205774334
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1788707442257618}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.100000024
+  m_Height: 1.27
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.6, z: 0.5}
