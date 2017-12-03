@@ -22,6 +22,19 @@ public class Player : MonoBehaviour
     public Text pharmaText;
     public Text speedText;
 
+	public Text alcohol_text;
+	public Text pill_bottle_text;
+	public Text pill_text;
+	public Text capsule_blue_text;
+	public Text capsule_red_text;
+	public Text capsule_blue_red_text;
+
+	public int alcohol_count = 0;
+	public int pill_bottle_count = 0;
+	public int pill_count = 0;
+	public int capsule_blue_count = 0;
+	public int capsule_red_count = 0;
+	public int capsule_blue_red_count = 0;
 
     /// <summary>
     /// Updates text on screen with the pharmAmount
@@ -62,6 +75,8 @@ public class Player : MonoBehaviour
         if (other.gameObject.tag == "Pill")
         {
             //Increase PharmAmount
+			pill_count++;
+			pill_text.text = pill_count.ToString ();
             pharmAmount += pillPharm;
             Destroy(other.gameObject);
         }
@@ -69,6 +84,8 @@ public class Player : MonoBehaviour
         if (other.gameObject.tag == "PillBottle")
         {
             //Increase PharmAmount
+			pill_bottle_count++;
+			pill_bottle_text.text = pill_bottle_count.ToString ();
             pharmAmount += pillBottlePharm;
             Destroy(other.gameObject);
         }        
@@ -76,6 +93,8 @@ public class Player : MonoBehaviour
         if (other.gameObject.tag == "Alcohol")
         {
             //Slowly Increase PharmAmount for three seconds
+			alcohol_count++;
+			alcohol_text.text = alcohol_count.ToString ();
             StartCoroutine("IncreasingPharm");
             Destroy(other.gameObject);
         }
@@ -83,18 +102,24 @@ public class Player : MonoBehaviour
         if (other.gameObject.tag == "CapsuleBlue")
         {
             //Blurr Screen and reset to the best amount
+			capsule_blue_count++;
+			capsule_blue_text.text = capsule_blue_count.ToString ();
             Destroy(other.gameObject);
         }
 
         if (other.gameObject.tag == "CapsuleRed")
         {
             //Fisheye Screen and Increase or Decrease to the best amount
+			capsule_red_count++;
+			capsule_red_text.text = capsule_blue_count.ToString ();
             Destroy(other.gameObject);
         }
 
         if (other.gameObject.tag == "CapsuleRedBlue")
         {
             //Make Skybox go nuts
+			capsule_blue_red_count++;
+			capsule_blue_red_text.text = capsule_blue_red_count.ToString ();
             Destroy(other.gameObject);
         }
     }

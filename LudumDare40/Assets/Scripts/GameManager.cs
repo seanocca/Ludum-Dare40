@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour {
 
@@ -12,6 +13,15 @@ public class GameManager : MonoBehaviour {
 
 	public float lastPositionCheck = 1f;
 	private float roadLength = 10f;
+
+	[SerializeField]
+	public Text alcohol_text;
+	public Text pill_bottle_text;
+	public Text pill_text;
+	public Text capsule_blue_text;
+	public Text capsule_red_text;
+	public Text capsule_blue_red_text;
+
 
 	// Use this for initialization
 	void Start () {
