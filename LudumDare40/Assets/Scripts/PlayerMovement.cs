@@ -13,8 +13,7 @@ public class PlayerMovement : Player {
     public KeyCode moveRR;
 
     private int currLane = 3;
-
-    private bool isMovingSideways = false;   
+  
 
 	private Animator animator;
 
@@ -29,22 +28,31 @@ public class PlayerMovement : Player {
 
         GetComponent<Rigidbody>().velocity = new Vector3(horizVel, 0, playerSpeed);
 
-        if ((Input.GetKey(moveL) || Input.GetKey(moveLL)) && isMovingSideways == false && currLane > 1) 
+        if ((Input.GetKeyDown(moveL) || Input.GetKeyDown(moveLL)) && currLane > 1) 
         {
             Debug.Log("Player Moving Left");
-            horizVel = -4;
-            isMovingSideways = true;
+
+            Vector3 newPos = GetPlayerPosition();
+
+            newPos.x = newPos.x - 1;
+
+            this.transform.position = Vector3.Slerp(GetPlayerPosition(), newPos ,1f);
+
             currLane--;
-            StartCoroutine("PlayerMove");
+
         }
 
-        if ((Input.GetKey(moveR) || Input.GetKey(moveRR))&& isMovingSideways == false && currLane < 5)
+        if ((Input.GetKeyDown(moveR) || Input.GetKeyDown(moveRR))&& currLane < 5)
         {
             Debug.Log("Player Moving Right");
-            horizVel = 4;
-            isMovingSideways = true;
+
+            Vector3 newPos = GetPlayerPosition();
+
+            newPos.x = newPos.x + 1;
+
+            this.transform.position = Vector3.Slerp(GetPlayerPosition(), newPos,1f);
+
             currLane++;
-            StartCoroutine("PlayerMove");
         }
 
         if (losingPharm == false && pharmAmount > 0f)
@@ -57,19 +65,6 @@ public class PlayerMovement : Player {
 
     }
 
-    /// <summary>
-    /// Moves player forward.
-    /// Gets players current Vector 3
-    /// Checks if the player hit something to slow her down.
-    /// Then the player is moved forward
-    /// </summary>
-    /// <returns></returns>
-    IEnumerator PlayerMove()
-    {
-        yield return new WaitForSecondsRealtime(0.25f);
-        horizVel = 0;
-        isMovingSideways = false;
-    }
 
     /// <summary>
     /// Increases or decreases speed of player depending on the pharmacuetical amount
