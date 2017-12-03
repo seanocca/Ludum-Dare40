@@ -13,6 +13,7 @@ public class CameraFollow : MonoBehaviour
 
     public bool inPlay;
 
+	private Vector3 offset = new Vector3(0.0f, 1.4f, -0.3f);
     void Awake()
     {
 		gameManager = GameObject.Find ("GameManager");

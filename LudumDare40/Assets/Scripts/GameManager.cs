@@ -21,10 +21,33 @@ public class GameManager : MonoBehaviour {
 
 	public GameObject playerStart;
 
+	public GameObject title;
+	public GameObject enter;
+	public GameObject credits;
+	public GameObject alcohol;
+	public GameObject alcohol_text;
+	public GameObject pill_bottle;
+	public GameObject pill_bottle_text;
+	public GameObject pill;
+	public GameObject pill_text;
+	public GameObject capsule_blue_red;
+	public GameObject capsule_blue_red_text;
+
 	void Awake() {
 		if (camera == null) {
 			GameObject.Find ("Main Camera");
 		}
+		title = GameObject.Find ("Title");
+		enter = GameObject.Find ("Enter");
+		credits = GameObject.Find ("Credits");
+		alcohol = GameObject.Find ("Alcohol");
+		alcohol_text = GameObject.Find ("alcohol_text");
+		pill_bottle = GameObject.Find ("Pill_Bottle");
+		pill_bottle_text = GameObject.Find ("pill_bottle_text");
+		pill = GameObject.Find ("pill");
+		pill_text = GameObject.Find ("pill_text");
+		capsule_blue_red = GameObject.Find ("capsule_blue_red");
+		capsule_blue_red_text = GameObject.Find ("capsule_blue_red_text");
 	}
 
 	// Use this for initialization
@@ -32,6 +55,14 @@ public class GameManager : MonoBehaviour {
 		// Grab the road objects already in scene at start and store them in a list
 		spawnedRoadSections.AddRange (GameObject.FindGameObjectsWithTag ("Road"));
 		inPlay = false;
+		alcohol.SetActive(false);
+		alcohol_text.SetActive(false);
+		pill_bottle.SetActive(false);
+		pill_bottle_text.SetActive(false);
+		pill.SetActive(false);
+		pill_text.SetActive(false);
+		capsule_blue_red.SetActive(false);
+		capsule_blue_red_text.SetActive(false);
 	}
 	
 	// Update is called once per frame
@@ -48,6 +79,17 @@ public class GameManager : MonoBehaviour {
 				GameObject gameplayer = Instantiate (player, new Vector3 (0.0f, 0.2f, 1.0f), Quaternion.identity);
 				player = gameplayer;
 				camera.GetComponent<CameraFollow> ().inPlay = true;
+				title.SetActive(false);
+				enter.SetActive(false);
+				credits.SetActive(false);
+				alcohol.SetActive(true);
+				alcohol_text.SetActive(true);
+				pill_bottle.SetActive(true);
+				pill_bottle_text.SetActive(true);
+				pill.SetActive(true);
+				pill_text.SetActive(true);
+				capsule_blue_red.SetActive(true);
+				capsule_blue_red_text.SetActive(true);
 				inPlay = true;
 
 			}

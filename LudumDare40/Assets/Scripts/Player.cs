@@ -40,17 +40,17 @@ public class Player : MonoBehaviour
     public int totalScore = 0;
 
 	void Awake() {
+
+	}
+
+    void Start()
+    {
 		alcohol_text = GameObject.Find("alcohol_text").GetComponent<Text>();
 		pill_bottle_text = GameObject.Find ("pill_bottle_text").GetComponent<Text>();
 		pill_text = GameObject.Find ("pill_text").GetComponent<Text>();
 		capsule_blue_red_text = GameObject.Find ("capsule_blue_red_text").GetComponent<Text>();
 
 		blurr = GameObject.Find("Blur");
-	}
-
-    void Start()
-    {
-       
     }
 
     /// <summary>
