@@ -52,3 +52,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Blur
+    uniqueID: 3089369013
+    locked: 0
+  - name: UI
+    uniqueID: 206202251
+    locked: 0

@@ -216,7 +216,7 @@ public class Player : MonoBehaviour
         else if (pharmAmount > 10f && pharmAmount < 0f) { barColour = new Color(255f, 265f, 0f, 255f); }
         else if (pharmAmount > 0f) { barColour = Color.red; }
 
-        Debug.Log(pharmAmount);
+        Debug.Log(pharmAmount.ToString() + barColour.ToString());
 
         render = GameManager.pharmBar.GetComponent<Renderer>();
         render.material.color = barColour;
