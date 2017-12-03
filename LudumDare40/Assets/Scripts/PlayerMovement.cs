@@ -14,7 +14,13 @@ public class PlayerMovement : Player {
 
     private int currLane = 3;
 
-    private bool isMovingSideways = false;    
+    private bool isMovingSideways = false;   
+
+	private Animator animator;
+
+	void Start() {
+		animator = GetComponent<Animator> ();
+	}
 
     // Update is called once per frame
     void Update () {
@@ -46,6 +52,8 @@ public class PlayerMovement : Player {
             StartCoroutine("LosingPharm");
             StartCoroutine("IncreasingSpeed");
         }
+
+		animator.SetFloat ("playerSpeed", playerSpeed);
 
     }
 

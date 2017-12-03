@@ -55,6 +55,7 @@ GameObject:
   - component: {fileID: 4050274901127598}
   - component: {fileID: 33208942744446102}
   - component: {fileID: 23358916121236528}
+  - component: {fileID: 65259980478400800}
   m_Layer: 0
   m_Name: jeep_red
   m_TagString: DeathObstacle
@@ -7219,6 +7220,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.5, z: 0.5}
   m_Center: {x: 0, y: 0.2, z: 0}
+--- !u!65 &65259980478400800
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1037603968658636}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.5999999, y: 1.3999999, z: 2.3999999}
+  m_Center: {x: 0.39999998, y: 0.79999995, z: 0}
 --- !u!65 &65283861651800204
 BoxCollider:
   m_ObjectHideFlags: 1

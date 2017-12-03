@@ -801,6 +801,7 @@ GameObject:
   - component: {fileID: 4068396660391682}
   - component: {fileID: 33294865061276940}
   - component: {fileID: 23313917074282604}
+  - component: {fileID: 65497026128584420}
   m_Layer: 0
   m_Name: jeep_green
   m_TagString: DeathObstacle
@@ -1056,6 +1057,7 @@ GameObject:
   - component: {fileID: 4547583404481624}
   - component: {fileID: 33097296453594102}
   - component: {fileID: 23148851132794884}
+  - component: {fileID: 65605433779342168}
   m_Layer: 0
   m_Name: jeep_red
   m_TagString: DeathObstacle
@@ -4375,6 +4377,30 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.6, z: 0.5}
   m_Center: {x: 0, y: 0.3, z: 0}
+--- !u!65 &65497026128584420
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1718181876853254}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.5999999, y: 1.3999999, z: 2.3999999}
+  m_Center: {x: 0.39999998, y: 0.79999995, z: 0}
+--- !u!65 &65605433779342168
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1984986536455390}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.5999999, y: 1.3999999, z: 2.3999999}
+  m_Center: {x: 0.39999998, y: 0.79999995, z: 0}
 --- !u!65 &65647186712060002
 BoxCollider:
   m_ObjectHideFlags: 1
