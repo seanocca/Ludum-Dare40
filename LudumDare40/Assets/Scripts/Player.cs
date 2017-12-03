@@ -26,31 +26,29 @@ public class Player : MonoBehaviour
     public static bool increasePharm = false;
 
 
+    public Color barColour;
+    public static Renderer render;
 
-	public Text alcohol_text;
-	public Text pill_bottle_text;
-	public Text pill_text;
-	public Text capsule_blue_red_text;
+    private Text alcohol_texts;
+    private Text pill_bottle_texts;
+    private Text pill_texts;
+    private Text capsule_blue_red_texts;
 
-	public int alcohol_count = 0;
-	public int pill_bottle_count = 0;
-	public int pill_count = 0;
-	public int capsule_blue_red_count = 0;
+    public int alcohol_count = 0;
+    public int pill_bottle_count = 0;
+    public int pill_count = 0;
+    public int capsule_blue_red_count = 0;
 
     public int totalScore = 0;
 
-	void Awake() {
-
-	}
-
-    void Start()
+    void Awake()
     {
-		alcohol_text = GameObject.Find("alcohol_text").GetComponent<Text>();
-		pill_bottle_text = GameObject.Find ("pill_bottle_text").GetComponent<Text>();
-		pill_text = GameObject.Find ("pill_text").GetComponent<Text>();
-		capsule_blue_red_text = GameObject.Find ("capsule_blue_red_text").GetComponent<Text>();
-
-		blurr = GameObject.Find("Blur");
+        //alcohol_texts = GameObject.Find("alcohol_text").GetComponent<Text>();
+        pill_bottle_texts = GameManager.pill_bottle_text.GetComponent<Text>();
+        pill_texts = GameManager.pill_text.GetComponent<Text>();
+        capsule_blue_red_texts = GameManager.capsule_blue_red_text.GetComponent<Text>();
+        alcohol_texts = GameManager.alcohol_text.GetComponent<Text>();
+        blurr = GameObject.Find("Blur");
     }
 
     /// <summary>
@@ -58,8 +56,8 @@ public class Player : MonoBehaviour
     /// Checks to see if the game is over if the pharmAmount has run out
     /// </summary>
     void FixedUpdate()
-    {       
-
+    {
+        PharmaBar();
         if (pharmAmount <= 0f)
         {
             //Game Over
@@ -107,7 +105,7 @@ public class Player : MonoBehaviour
             {
                 incSize -= 0.25f;
             }
-			pill_text.text = pill_count.ToString ();
+			pill_texts.text = pill_count.ToString ();
             pharmAmount += pillPharm;
             Destroy(other.gameObject);
         }
@@ -120,7 +118,7 @@ public class Player : MonoBehaviour
             {
                 incSize -= 0.5f;
             }
-			pill_bottle_text.text = pill_bottle_count.ToString ();
+			pill_bottle_texts.text = pill_bottle_count.ToString ();
             pharmAmount += pillBottlePharm;
             Destroy(other.gameObject);
         }        
@@ -132,7 +130,7 @@ public class Player : MonoBehaviour
             StartCoroutine("BlurrScreen");
             incSize += 0.25f;
             playerSpeed -= 0.2f;
-			alcohol_text.text = alcohol_count.ToString ();
+			alcohol_texts.text = alcohol_count.ToString ();
             StartCoroutine("IncreasingPharm");
             Destroy(other.gameObject);
         }
@@ -146,7 +144,7 @@ public class Player : MonoBehaviour
                 incSize += 0.5f;
             }
             playerSpeed += 0.2f;
-			capsule_blue_red_text.text = capsule_blue_red_count.ToString ();
+			capsule_blue_red_texts.text = capsule_blue_red_count.ToString ();
             Destroy(other.gameObject);
         }
     }
@@ -205,5 +203,24 @@ public class Player : MonoBehaviour
         rend.material.SetFloat("_Size", incSize);
         yield return null;
         
+    }
+
+    public void PharmaBar()
+    {
+
+        if (pharmAmount > 150f && pharmAmount < 100f) { barColour = Color.red; }
+        else if (pharmAmount > 100f && pharmAmount < 75f) { barColour = new Color(255f, 165f, 0f, 255f); }
+        else if (pharmAmount > 75f && pharmAmount < 50f) { barColour = Color.yellow; }
+        else if (pharmAmount > 50f && pharmAmount < 25f) { barColour = Color.green; }
+        else if (pharmAmount > 25f && pharmAmount < 10f) { barColour = Color.yellow; }
+        else if (pharmAmount > 10f && pharmAmount < 0f) { barColour = new Color(255f, 265f, 0f, 255f); }
+        else if (pharmAmount > 0f) { barColour = Color.red; }
+
+        Debug.Log(pharmAmount);
+
+        render = GameManager.pharmBar.GetComponent<Renderer>();
+        render.material.color = barColour;
+
+
     }
 }

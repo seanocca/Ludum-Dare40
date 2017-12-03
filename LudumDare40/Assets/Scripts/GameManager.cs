@@ -21,17 +21,18 @@ public class GameManager : MonoBehaviour {
 
 	public GameObject playerStart;
 
-	public GameObject title;
-	public GameObject enter;
-	public GameObject credits;
-	public GameObject alcohol;
-	public GameObject alcohol_text;
-	public GameObject pill_bottle;
-	public GameObject pill_bottle_text;
-	public GameObject pill;
-	public GameObject pill_text;
-	public GameObject capsule_blue_red;
-	public GameObject capsule_blue_red_text;
+	public static GameObject title;
+    public static GameObject enter;
+    public static GameObject credits;
+    public static GameObject alcohol;
+    public static GameObject alcohol_text;
+    public static GameObject pill_bottle;
+    public static GameObject pill_bottle_text;
+    public static GameObject pill;
+    public static GameObject pill_text;
+    public static GameObject capsule_blue_red;
+    public static GameObject capsule_blue_red_text;
+    public static GameObject pharmBar;
 
 	void Awake() {
 		if (camera == null) {
@@ -48,6 +49,7 @@ public class GameManager : MonoBehaviour {
 		pill_text = GameObject.Find ("pill_text");
 		capsule_blue_red = GameObject.Find ("capsule_blue_red");
 		capsule_blue_red_text = GameObject.Find ("capsule_blue_red_text");
+        pharmBar = GameObject.Find("PharmaBar");
 	}
 
 	// Use this for initialization
@@ -63,6 +65,7 @@ public class GameManager : MonoBehaviour {
 		pill_text.SetActive(false);
 		capsule_blue_red.SetActive(false);
 		capsule_blue_red_text.SetActive(false);
+        pharmBar.SetActive(false);
 	}
 	
 	// Update is called once per frame
@@ -90,7 +93,8 @@ public class GameManager : MonoBehaviour {
 				pill_text.SetActive(true);
 				capsule_blue_red.SetActive(true);
 				capsule_blue_red_text.SetActive(true);
-				inPlay = true;
+                pharmBar.SetActive(true);
+                inPlay = true;
 
 			}
 		}
