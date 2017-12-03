@@ -9,6 +9,9 @@ public class Player : MonoBehaviour
 
     public static float pharmAmount = 100f;    
 
+    public 
+    public Shader shaderBlur
+
     public static float waitTime = 0.5f;
     public static float lostPharm = 1f;
     public static float incPharm = 0.5f;
@@ -167,6 +170,12 @@ public class Player : MonoBehaviour
             x++;
         }
         increasePharm = false;
+        yield return null;
+    }
+
+    IEnumerator BlurrScreen()
+    {
+        if ()
         yield return null;
     }
 }
