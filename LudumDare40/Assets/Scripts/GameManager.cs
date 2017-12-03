@@ -14,26 +14,35 @@ public class GameManager : MonoBehaviour {
 	public float lastPositionCheck = 1f;
 	private float roadLength = 10f;
 
-	[SerializeField]
-	public Text alcohol_text;
-	public Text pill_bottle_text;
-	public Text pill_text;
-	public Text capsule_blue_text;
-	public Text capsule_red_text;
-	public Text capsule_blue_red_text;
+	public static bool inPlay = false;
+
+
+	public GameObject playerStart;
+
 
 
 	// Use this for initialization
 	void Start () {
 		// Grab the road objects already in scene at start and store them in a list
 		spawnedRoadSections.AddRange (GameObject.FindGameObjectsWithTag ("Road"));
+		inPlay = false;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		if (player.transform.position.z >= lastPositionCheck && player.transform.position.z <= lastPositionCheck + 1f) {
-			SpawnRoad ();
-			DestroyRoad ();
+		if (inPlay) {
+			if (player.transform.position.z >= lastPositionCheck && player.transform.position.z <= lastPositionCheck + 1f) {
+				SpawnRoad ();
+				DestroyRoad ();
+			}
+		} else {
+			if (Input.GetKeyDown ("return")) {
+				Debug.Log ("Enter");
+				inPlay = true;
+				Destroy (playerStart);
+				GameObject gameplayer = Instantiate (player, new Vector3 (0.0f, 0.2f, 1.0f), Quaternion.identity);
+
+			}
 		}
 	}
 

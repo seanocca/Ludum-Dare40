@@ -22,8 +22,6 @@ public class PlayerMovement : Player {
     // Update is called once per frame
     void Update () {
 
-        speedText.text = "Speed: " + playerSpeed;
-
         GetComponent<Rigidbody>().velocity = new Vector3(horizVel, 0, playerSpeed);
 
         if ((Input.GetKeyDown(moveL) || Input.GetKeyDown(moveLL)) && currLane > 1) 

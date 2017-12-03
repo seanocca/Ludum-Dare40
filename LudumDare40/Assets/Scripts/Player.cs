@@ -25,8 +25,7 @@ public class Player : MonoBehaviour
     public static bool increaseSpeed = false;
     public static bool increasePharm = false;
 
-    public Text pharmaText;
-    public Text speedText;
+
 
 	public Text alcohol_text;
 	public Text pill_bottle_text;
@@ -40,6 +39,13 @@ public class Player : MonoBehaviour
 
     public int totalScore = 0;
 
+	void Awake() {
+		alcohol_text = GameObject.Find("alcohol_text").GetComponent<Text>();
+		pill_bottle_text = GameObject.Find ("pill_bottle_text").GetComponent<Text>();
+		pill_text = GameObject.Find ("pill").GetComponent<Text>();
+		capsule_blue_red_text = GameObject.Find ("capsule_blue_red_text").GetComponent<Text>();
+	}
+
     void Start()
     {
         blurr = GameObject.FindGameObjectWithTag("BlurredPlane");
@@ -51,7 +57,6 @@ public class Player : MonoBehaviour
     /// </summary>
     void FixedUpdate()
     {       
-        pharmaText.text = "Medic: " + pharmAmount;
 
         if (pharmAmount <= 0f)
         {

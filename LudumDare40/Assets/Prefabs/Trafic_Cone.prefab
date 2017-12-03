@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4741397318411460}
   - component: {fileID: 33222880815444194}
   - component: {fileID: 23803570087332694}
+  - component: {fileID: 65301301251872680}
   m_Layer: 0
   m_Name: Trafic_Cone
   m_TagString: SlowObstacle
@@ -82,3 +83,15 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1306997814413106}
   m_Mesh: {fileID: 4300000, guid: 8beff2814ecca44fd92684e2ca928344, type: 3}
+--- !u!65 &65301301251872680
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1306997814413106}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.79999995, y: 0.79999995, z: 0.79999995}
+  m_Center: {x: 0, y: 0.5, z: 0}
