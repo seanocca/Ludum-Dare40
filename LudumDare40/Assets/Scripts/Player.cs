@@ -96,9 +96,9 @@ public class Player : MonoBehaviour
         {
             //Increase PharmAmount
 			pill_count++;
-            if (pill_count % 5 == 0)
+            if (incSize > 0.25f)
             {
-                incSize -= 0.5f;
+                incSize -= 0.25f;
             }
 			pill_text.text = pill_count.ToString ();
             pharmAmount += pillPharm;
@@ -109,7 +109,7 @@ public class Player : MonoBehaviour
         {
             //Increase PharmAmount
 			pill_bottle_count++;
-            if (pill_bottle_count % 10 == 0)
+            if (incSize > 0.5f)
             {
                 incSize -= 0.5f;
             }
@@ -122,10 +122,9 @@ public class Player : MonoBehaviour
         {
             //Slowly Increase PharmAmount for three seconds
 			alcohol_count++;
-            if (alcohol_count % 10 == 0)
-            {
-                StartCoroutine("BlurrScreen");
-            }
+            StartCoroutine("BlurrScreen");
+            incSize += 0.25f;
+            playerSpeed -= 0.2f;
 			alcohol_text.text = alcohol_count.ToString ();
             StartCoroutine("IncreasingPharm");
             Destroy(other.gameObject);
@@ -138,7 +137,8 @@ public class Player : MonoBehaviour
             {
                 StartCoroutine("BlurrScreen");
                 incSize += 0.5f;
-            }            
+            }
+            playerSpeed += 0.2f;
 			capsule_blue_red_text.text = capsule_blue_red_count.ToString ();
             Destroy(other.gameObject);
         }
@@ -196,9 +196,6 @@ public class Player : MonoBehaviour
         }
         rend = blurr.GetComponent<Renderer>();
         rend.material.SetFloat("_Size", incSize);
-        int rando = Random.Range(0, 5);
-        yield return new WaitForSecondsRealtime(2f);
-        blurr.SetActive(false);
         yield return null;
         
     }
