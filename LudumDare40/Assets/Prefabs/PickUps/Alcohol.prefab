@@ -36,6 +36,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4170143897308794}
+  - component: {fileID: 111736794333888922}
   m_Layer: 0
   m_Name: Alcohol
   m_TagString: Untagged
@@ -67,14 +68,14 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1598046864550112}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1, y: 0.5, z: 4}
+  m_LocalPosition: {x: 0, y: 0.5, z: 4}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children:
   - {fileID: 4441814276915176}
   - {fileID: 4488274853580594}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -7.241481}
 --- !u!4 &4441814276915176
 Transform:
   m_ObjectHideFlags: 1
@@ -183,3 +184,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1773278137913258}
   m_Mesh: {fileID: 4300000, guid: 568f003e61bf24bfa824cbc52dc76507, type: 3}
+--- !u!111 &111736794333888922
+Animation:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1598046864550112}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 34a7eed9186da4aa6bdb2e858ae1b67f, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 86c317cf6dcb74801a3156502a8fd344, type: 2}
+  - {fileID: 7400000, guid: 34a7eed9186da4aa6bdb2e858ae1b67f, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0

@@ -21,6 +21,7 @@ GameObject:
   - component: {fileID: 4825710283561652}
   - component: {fileID: 33225590265014168}
   - component: {fileID: 23513135040416088}
+  - component: {fileID: 111835165429158236}
   m_Layer: 0
   m_Name: capsule_blue
   m_TagString: Untagged
@@ -82,3 +83,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1757031571034838}
   m_Mesh: {fileID: 4300000, guid: 03b497d2dbe304ea5b337dd851e6a8c8, type: 3}
+--- !u!111 &111835165429158236
+Animation:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1757031571034838}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 86c317cf6dcb74801a3156502a8fd344, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 86c317cf6dcb74801a3156502a8fd344, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
