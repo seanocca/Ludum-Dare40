@@ -311,605 +311,235 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
---- !u!1 &1206318772166098
-=======
---- !u!1 &1178803402234154
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
 --- !u!1 &1273552325560896
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-<<<<<<< HEAD
-<<<<<<< HEAD
-  - component: {fileID: 4232457325439464}
-  - component: {fileID: 33551761080368410}
-  - component: {fileID: 23741113051849006}
-  m_Layer: 0
-  m_Name: Pill_Bottle_orange
-=======
-  - component: {fileID: 4455462885924868}
-  - component: {fileID: 33641542298042400}
-  - component: {fileID: 23095331102072366}
-  m_Layer: 0
-  m_Name: house_orange
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
   - component: {fileID: 4441680689423776}
   - component: {fileID: 33836050348705890}
   - component: {fileID: 23126885267732928}
   m_Layer: 0
   m_Name: road_left_right (4)
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
---- !u!1 &1220002101524182
-=======
---- !u!1 &1206318772166098
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
 --- !u!1 &1278301160007968
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
 GameObject:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-<<<<<<< HEAD
-<<<<<<< HEAD
-  - component: {fileID: 4270791758201002}
-  - component: {fileID: 33052566270578684}
-  - component: {fileID: 23448723793856816}
-  m_Layer: 0
-  m_Name: footpath (10)
-=======
-  - component: {fileID: 4232457325439464}
-  - component: {fileID: 33551761080368410}
-  - component: {fileID: 23741113051849006}
-  m_Layer: 0
-  m_Name: Pill_Bottle_orange
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
   - component: {fileID: 4400128745824274}
   - component: {fileID: 33735277518318234}
   - component: {fileID: 23507273923425440}
   m_Layer: 0
   m_Name: road_centre (2)
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
---- !u!1 &1243226992924046
-=======
---- !u!1 &1220002101524182
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
 --- !u!1 &1280989233750614
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-<<<<<<< HEAD
-<<<<<<< HEAD
-  - component: {fileID: 4125263583738624}
-  - component: {fileID: 33357777138873628}
-  - component: {fileID: 23429792066358264}
-  m_Layer: 0
-  m_Name: Pill_Bottle_orange
-=======
-  - component: {fileID: 4270791758201002}
-  - component: {fileID: 33052566270578684}
-  - component: {fileID: 23448723793856816}
-  m_Layer: 0
-  m_Name: footpath (10)
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
   - component: {fileID: 4132420305646280}
   - component: {fileID: 33124088303307028}
   - component: {fileID: 23324210255241848}
   m_Layer: 0
   m_Name: road_centre (1)
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
---- !u!1 &1244817083497216
-=======
---- !u!1 &1243226992924046
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
 --- !u!1 &1285485227792440
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-<<<<<<< HEAD
-<<<<<<< HEAD
-  - component: {fileID: 4128926761825804}
-  - component: {fileID: 33982729372003036}
-  - component: {fileID: 23433826892603134}
-  m_Layer: 0
-  m_Name: alcohol_outter
-=======
-  - component: {fileID: 4125263583738624}
-  - component: {fileID: 33357777138873628}
-  - component: {fileID: 23429792066358264}
-  m_Layer: 0
-  m_Name: Pill_Bottle_orange
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
   - component: {fileID: 4193075285808452}
   - component: {fileID: 33765273109688154}
   - component: {fileID: 23502272101877690}
   m_Layer: 0
   m_Name: road_centre (9)
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
---- !u!1 &1248975722818190
-=======
---- !u!1 &1244817083497216
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
 --- !u!1 &1285997743982362
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-<<<<<<< HEAD
-<<<<<<< HEAD
-  - component: {fileID: 4565174677662326}
-  m_Layer: 0
-  m_Name: GameObject
-=======
-  - component: {fileID: 4128926761825804}
-  - component: {fileID: 33982729372003036}
-  - component: {fileID: 23433826892603134}
-  m_Layer: 0
-  m_Name: alcohol_outter
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
   - component: {fileID: 4042777641923220}
   - component: {fileID: 33899910452129170}
   - component: {fileID: 23209650925128664}
   m_Layer: 0
   m_Name: road_centre (3)
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
---- !u!1 &1257767916357928
-=======
---- !u!1 &1248975722818190
->>>>>>> parent of d5a2426... Remade prefabs and animations
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-<<<<<<< HEAD
-  - component: {fileID: 4980597913063834}
-  - component: {fileID: 33413596534851840}
-  - component: {fileID: 23450520231374624}
-  m_Layer: 0
-  m_Name: road_left_right (13)
-=======
-  - component: {fileID: 4565174677662326}
-  m_Layer: 0
-  m_Name: GameObject
->>>>>>> parent of d5a2426... Remade prefabs and animations
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-<<<<<<< HEAD
---- !u!1 &1266266934696838
-=======
---- !u!1 &1257767916357928
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
 --- !u!1 &1289109627620392
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-<<<<<<< HEAD
-<<<<<<< HEAD
-  - component: {fileID: 4939559960831154}
-  - component: {fileID: 33482928133474346}
-  - component: {fileID: 23446265735712064}
-  m_Layer: 0
-  m_Name: footpath (7)
-=======
-  - component: {fileID: 4980597913063834}
-  - component: {fileID: 33413596534851840}
-  - component: {fileID: 23450520231374624}
-  m_Layer: 0
-  m_Name: road_left_right (13)
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
   - component: {fileID: 4899559883715188}
   - component: {fileID: 33934404081415766}
   - component: {fileID: 23848972179733080}
   m_Layer: 0
   m_Name: road_left_right (17)
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
---- !u!1 &1273090627319378
-=======
---- !u!1 &1266266934696838
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
 --- !u!1 &1302279390170494
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
 GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-<<<<<<< HEAD
-<<<<<<< HEAD
-  - component: {fileID: 4059357272459832}
-  - component: {fileID: 33895353338641256}
-  - component: {fileID: 23644842382659438}
-  m_Layer: 0
-  m_Name: road_centre (1)
-=======
-  - component: {fileID: 4939559960831154}
-  - component: {fileID: 33482928133474346}
-  - component: {fileID: 23446265735712064}
-  m_Layer: 0
-  m_Name: footpath (7)
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
   - component: {fileID: 4186367890982516}
   m_Layer: 0
   m_Name: Pill_Bottle_outer
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
---- !u!1 &1288382741543458
-=======
---- !u!1 &1273090627319378
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
 --- !u!1 &1317315966787032
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-<<<<<<< HEAD
-<<<<<<< HEAD
-  - component: {fileID: 4211761483045030}
-  - component: {fileID: 33141396635502694}
-  - component: {fileID: 23849930862147774}
-  m_Layer: 0
-  m_Name: footpath (9)
-=======
-  - component: {fileID: 4059357272459832}
-  - component: {fileID: 33895353338641256}
-  - component: {fileID: 23644842382659438}
-  m_Layer: 0
-  m_Name: road_centre (1)
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
   - component: {fileID: 4035743239407296}
   - component: {fileID: 33312991654095834}
   - component: {fileID: 23401093913199884}
   m_Layer: 0
   m_Name: road_centre (7)
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
---- !u!1 &1299348986449336
-=======
---- !u!1 &1288382741543458
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
 --- !u!1 &1332975401357574
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-<<<<<<< HEAD
-<<<<<<< HEAD
-  - component: {fileID: 4818124996813686}
-  m_Layer: 0
-  m_Name: Pill_Bottle (3)
-=======
-  - component: {fileID: 4211761483045030}
-  - component: {fileID: 33141396635502694}
-  - component: {fileID: 23849930862147774}
-  m_Layer: 0
-  m_Name: footpath (9)
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
   - component: {fileID: 4203074106126110}
   - component: {fileID: 33472519208754666}
   - component: {fileID: 23710999207114724}
   m_Layer: 0
   m_Name: footpath (19)
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
---- !u!1 &1328259397736144
-=======
---- !u!1 &1299348986449336
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
 --- !u!1 &1333944231333154
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-<<<<<<< HEAD
-<<<<<<< HEAD
-  - component: {fileID: 4080421598320358}
-  - component: {fileID: 33926688149478434}
-  - component: {fileID: 23519705090029516}
-  m_Layer: 0
-  m_Name: road_left_right (3)
-=======
-  - component: {fileID: 4818124996813686}
-  m_Layer: 0
-  m_Name: Pill_Bottle (3)
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
   - component: {fileID: 4671870781660910}
   - component: {fileID: 33020244870493680}
   - component: {fileID: 23909372817034124}
   m_Layer: 0
   m_Name: road_left_right (18)
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
---- !u!1 &1363138942720926
-=======
---- !u!1 &1328259397736144
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
 --- !u!1 &1337415327866754
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-<<<<<<< HEAD
-<<<<<<< HEAD
-  - component: {fileID: 4332239314130994}
-  m_Layer: 0
-  m_Name: GameObject
-=======
-  - component: {fileID: 4080421598320358}
-  - component: {fileID: 33926688149478434}
-  - component: {fileID: 23519705090029516}
-  m_Layer: 0
-  m_Name: road_left_right (3)
->>>>>>> parent of d5a2426... Remade prefabs and animations
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-<<<<<<< HEAD
---- !u!1 &1372592774330132
-=======
---- !u!1 &1340564665771578
->>>>>>> parent of d5a2426... Remade prefabs and animations
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-<<<<<<< HEAD
-  - component: {fileID: 4231994684854414}
-  - component: {fileID: 33691882616466658}
-  - component: {fileID: 23456288902814178}
-=======
-  - component: {fileID: 4518129116998300}
-  - component: {fileID: 33540241959744624}
-  - component: {fileID: 23965767789481278}
->>>>>>> parent of d5a2426... Remade prefabs and animations
-  m_Layer: 0
-  m_Name: house_pink
-  m_TagString: Untagged
-=======
   - component: {fileID: 4102128176656308}
   - component: {fileID: 111513937666008280}
   - component: {fileID: 65148183531165768}
   m_Layer: 0
   m_Name: alcohol
   m_TagString: Alcohol
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
---- !u!1 &1377801915688008
-=======
---- !u!1 &1363138942720926
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
 --- !u!1 &1346297314364226
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
 GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-<<<<<<< HEAD
-<<<<<<< HEAD
-  - component: {fileID: 4316052217414614}
-  m_Layer: 0
-  m_Name: Pill_Bottle (2)
-=======
-  - component: {fileID: 4332239314130994}
-  m_Layer: 0
-  m_Name: GameObject
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
   - component: {fileID: 4455835995155098}
   - component: {fileID: 33270373817204104}
   - component: {fileID: 23400935765341760}
   m_Layer: 0
   m_Name: Matrix_part
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
---- !u!1 &1382015066329666
-=======
---- !u!1 &1372592774330132
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
 --- !u!1 &1378854390258970
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
 GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-<<<<<<< HEAD
-<<<<<<< HEAD
-  - component: {fileID: 4708927202838886}
-  m_Layer: 0
-  m_Name: Pill_Bottle_outer
-=======
-  - component: {fileID: 4231994684854414}
-  - component: {fileID: 33691882616466658}
-  - component: {fileID: 23456288902814178}
-=======
   - component: {fileID: 4895301562866856}
   - component: {fileID: 33599929683714662}
   - component: {fileID: 23340770740719544}
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
   m_Layer: 0
   m_Name: Matrix_part
->>>>>>> parent of d5a2426... Remade prefabs and animations
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
---- !u!1 &1387814311954540
-=======
---- !u!1 &1377801915688008
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
 --- !u!1 &1390936041525218
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-<<<<<<< HEAD
-<<<<<<< HEAD
-  - component: {fileID: 4284233366711470}
-  - component: {fileID: 33422817967654804}
-  - component: {fileID: 23397558799756150}
-  m_Layer: 0
-  m_Name: road_left_right (6)
-=======
-  - component: {fileID: 4316052217414614}
-=======
   - component: {fileID: 4781676627115006}
   - component: {fileID: 33182408212053338}
   - component: {fileID: 23697737252708366}
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
   m_Layer: 0
   m_Name: footpath (6)
   m_TagString: Untagged
@@ -928,88 +558,36 @@ GameObject:
   - component: {fileID: 33777936896955306}
   - component: {fileID: 23182443379401360}
   m_Layer: 0
-<<<<<<< HEAD
-  m_Name: Pill_Bottle_outer
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
   m_Name: footpath (9)
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
---- !u!1 &1397423952289480
-=======
---- !u!1 &1387814311954540
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
 --- !u!1 &1397165989369386
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-<<<<<<< HEAD
-<<<<<<< HEAD
-  - component: {fileID: 4788754217307894}
-  - component: {fileID: 33737450465788208}
-  - component: {fileID: 23779786885566890}
-  m_Layer: 0
-  m_Name: footpath (2)
-=======
-  - component: {fileID: 4284233366711470}
-  - component: {fileID: 33422817967654804}
-  - component: {fileID: 23397558799756150}
-  m_Layer: 0
-  m_Name: road_left_right (6)
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
   - component: {fileID: 4602999122763220}
   - component: {fileID: 33129538076655224}
   - component: {fileID: 23406644138606652}
   m_Layer: 0
   m_Name: footpath
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
---- !u!1 &1398810034732208
-=======
---- !u!1 &1397423952289480
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
 --- !u!1 &1406005794699222
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
 GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-<<<<<<< HEAD
-<<<<<<< HEAD
-  - component: {fileID: 4069280827862668}
-  - component: {fileID: 33021097798231368}
-  - component: {fileID: 23052994942971696}
-  m_Layer: 0
-  m_Name: footpath (14)
-=======
-  - component: {fileID: 4788754217307894}
-  - component: {fileID: 33737450465788208}
-  - component: {fileID: 23779786885566890}
-  m_Layer: 0
-  m_Name: footpath (2)
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
   - component: {fileID: 4531645153549330}
   m_Layer: 0
   m_Name: Pill_Bottle
@@ -1030,605 +608,255 @@ GameObject:
   - component: {fileID: 23606852891866950}
   m_Layer: 0
   m_Name: alcohol_inner
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
---- !u!1 &1402043961568592
-=======
---- !u!1 &1398810034732208
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
 --- !u!1 &1408777035869404
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-<<<<<<< HEAD
-<<<<<<< HEAD
-  - component: {fileID: 4700712863078912}
-  - component: {fileID: 33310657190038860}
-  - component: {fileID: 23627492911819078}
-  m_Layer: 0
-  m_Name: road_centre (9)
-=======
-  - component: {fileID: 4069280827862668}
-  - component: {fileID: 33021097798231368}
-  - component: {fileID: 23052994942971696}
-  m_Layer: 0
-  m_Name: footpath (14)
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
   - component: {fileID: 4191017521764362}
   - component: {fileID: 33227887225995656}
   - component: {fileID: 23391003355738340}
   m_Layer: 0
   m_Name: footpath (12)
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
---- !u!1 &1405498340286822
-=======
---- !u!1 &1402043961568592
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
 --- !u!1 &1415305209163170
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-<<<<<<< HEAD
-<<<<<<< HEAD
-  - component: {fileID: 4264355195786868}
-  - component: {fileID: 33361404810724584}
-  - component: {fileID: 23538574094945514}
-  m_Layer: 0
-  m_Name: Pill_Bottle_orange
-=======
-  - component: {fileID: 4700712863078912}
-  - component: {fileID: 33310657190038860}
-  - component: {fileID: 23627492911819078}
-  m_Layer: 0
-  m_Name: road_centre (9)
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
   - component: {fileID: 4654091293181296}
   - component: {fileID: 33581924791083004}
   - component: {fileID: 23815310086470240}
   m_Layer: 0
   m_Name: road_centre (8)
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
---- !u!1 &1413193928539976
-=======
---- !u!1 &1405498340286822
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
 --- !u!1 &1423502700163636
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
 GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-<<<<<<< HEAD
-<<<<<<< HEAD
-  - component: {fileID: 4595871748786100}
-  - component: {fileID: 33153781322187636}
-  - component: {fileID: 23393393354923790}
-  m_Layer: 0
-  m_Name: Matrix_part
-=======
-  - component: {fileID: 4264355195786868}
-  - component: {fileID: 33361404810724584}
-  - component: {fileID: 23538574094945514}
-  m_Layer: 0
-  m_Name: Pill_Bottle_orange
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
   - component: {fileID: 4664860470053660}
   m_Layer: 0
   m_Name: GameObject
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
---- !u!1 &1433332160264696
-=======
---- !u!1 &1413193928539976
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
 --- !u!1 &1429929151367550
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
 GameObject:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-<<<<<<< HEAD
-<<<<<<< HEAD
-  - component: {fileID: 4405289985645348}
-  - component: {fileID: 33496413686962996}
-  - component: {fileID: 23269520837395096}
-  m_Layer: 0
-  m_Name: footpath (19)
-=======
-  - component: {fileID: 4595871748786100}
-  - component: {fileID: 33153781322187636}
-  - component: {fileID: 23393393354923790}
-  m_Layer: 0
-  m_Name: Matrix_part
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
   - component: {fileID: 4764714267590190}
   - component: {fileID: 33362429060969770}
   - component: {fileID: 23087317126293146}
   m_Layer: 0
   m_Name: alcohol_inner
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
---- !u!1 &1456483083565494
-=======
---- !u!1 &1433332160264696
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
 --- !u!1 &1461330089635668
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
 GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-<<<<<<< HEAD
-<<<<<<< HEAD
-  - component: {fileID: 4268134724493266}
-  - component: {fileID: 33234295096031380}
-  - component: {fileID: 23203193898316704}
-  m_Layer: 0
-  m_Name: road_left_right (5)
-=======
-  - component: {fileID: 4405289985645348}
-  - component: {fileID: 33496413686962996}
-  - component: {fileID: 23269520837395096}
-  m_Layer: 0
-  m_Name: footpath (19)
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
   - component: {fileID: 4132408616360514}
   - component: {fileID: 33507137362678420}
   - component: {fileID: 23970836462303616}
   m_Layer: 0
   m_Name: Matrix
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
---- !u!1 &1476517022132718
-=======
---- !u!1 &1456483083565494
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
 --- !u!1 &1463732709894714
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-<<<<<<< HEAD
-<<<<<<< HEAD
-  - component: {fileID: 4794529445826038}
-  - component: {fileID: 33477673359955678}
-  - component: {fileID: 23496494395259532}
-  m_Layer: 0
-  m_Name: footpath (16)
-=======
-  - component: {fileID: 4268134724493266}
-  - component: {fileID: 33234295096031380}
-  - component: {fileID: 23203193898316704}
-  m_Layer: 0
-  m_Name: road_left_right (5)
->>>>>>> parent of d5a2426... Remade prefabs and animations
-  m_TagString: Untagged
-=======
   - component: {fileID: 4543144486794784}
   - component: {fileID: 111061187908894910}
   - component: {fileID: 65093287061888910}
   m_Layer: 0
   m_Name: pill_bottle (2)
   m_TagString: PillBottle
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
---- !u!1 &1490833271036392
-=======
---- !u!1 &1476517022132718
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
 --- !u!1 &1469041373734984
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
 GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-<<<<<<< HEAD
-<<<<<<< HEAD
-  - component: {fileID: 4844288412969112}
-  - component: {fileID: 33659038154703354}
-  - component: {fileID: 23135826238957404}
-  m_Layer: 0
-  m_Name: road_centre (8)
-=======
-  - component: {fileID: 4794529445826038}
-  - component: {fileID: 33477673359955678}
-  - component: {fileID: 23496494395259532}
-  m_Layer: 0
-  m_Name: footpath (16)
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
   - component: {fileID: 4123843520062504}
   m_Layer: 0
   m_Name: Pill_Bottle
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
---- !u!1 &1496585983328760
-=======
---- !u!1 &1490833271036392
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
 --- !u!1 &1484688099187620
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-<<<<<<< HEAD
-<<<<<<< HEAD
-  - component: {fileID: 4893936493631154}
-  m_Layer: 0
-  m_Name: Pill_Bottle (4)
-=======
-  - component: {fileID: 4844288412969112}
-  - component: {fileID: 33659038154703354}
-  - component: {fileID: 23135826238957404}
-  m_Layer: 0
-  m_Name: road_centre (8)
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
   - component: {fileID: 4582037294067960}
   - component: {fileID: 33773266956189454}
   - component: {fileID: 23363988160685546}
   m_Layer: 0
   m_Name: footpath (18)
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
---- !u!1 &1500732547685816
-=======
---- !u!1 &1496585983328760
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
 --- !u!1 &1491137714231160
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-<<<<<<< HEAD
-<<<<<<< HEAD
-  - component: {fileID: 4216667634224236}
-  - component: {fileID: 33089684429871214}
-  - component: {fileID: 23352116888794302}
-  m_Layer: 0
-  m_Name: road_left_right (19)
-=======
-  - component: {fileID: 4893936493631154}
-  m_Layer: 0
-  m_Name: Pill_Bottle (4)
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
   - component: {fileID: 4651771621838134}
   - component: {fileID: 33867247817807114}
   - component: {fileID: 23777841287390040}
   m_Layer: 0
   m_Name: footpath (4)
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
---- !u!1 &1533698014943264
-=======
---- !u!1 &1500732547685816
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
 --- !u!1 &1514346765092430
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
 GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-<<<<<<< HEAD
-<<<<<<< HEAD
-  - component: {fileID: 4124750404616328}
-  - component: {fileID: 33735047581198126}
-  - component: {fileID: 23500033208806184}
-  m_Layer: 0
-  m_Name: road_left_right (8)
-=======
-  - component: {fileID: 4216667634224236}
-  - component: {fileID: 33089684429871214}
-  - component: {fileID: 23352116888794302}
-  m_Layer: 0
-  m_Name: road_left_right (19)
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
   - component: {fileID: 4020950295026240}
   - component: {fileID: 33859752111041052}
   - component: {fileID: 23921256514624440}
   m_Layer: 0
   m_Name: Matrix
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
---- !u!1 &1543185553002598
-=======
---- !u!1 &1533698014943264
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
 --- !u!1 &1518260331411420
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
 GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-<<<<<<< HEAD
-<<<<<<< HEAD
-  - component: {fileID: 4430708731483114}
-  - component: {fileID: 33428924385369100}
-  - component: {fileID: 23666811269713874}
-  m_Layer: 0
-  m_Name: Matrix
-=======
-  - component: {fileID: 4124750404616328}
-  - component: {fileID: 33735047581198126}
-  - component: {fileID: 23500033208806184}
-  m_Layer: 0
-  m_Name: road_left_right (8)
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
   - component: {fileID: 4204575449877054}
   - component: {fileID: 33153866925635828}
   - component: {fileID: 23681172236866734}
   m_Layer: 0
   m_Name: alcohol_outter
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
---- !u!1 &1561769953478986
-=======
---- !u!1 &1543185553002598
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
 --- !u!1 &1525104541706752
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-<<<<<<< HEAD
-<<<<<<< HEAD
-  - component: {fileID: 4385018355152586}
-  m_Layer: 0
-  m_Name: Pill_Bottle_outer
-=======
-  - component: {fileID: 4430708731483114}
-  - component: {fileID: 33428924385369100}
-  - component: {fileID: 23666811269713874}
-  m_Layer: 0
-  m_Name: Matrix
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
   - component: {fileID: 4628503721745122}
   - component: {fileID: 33498022613677524}
   - component: {fileID: 23898277540560042}
   m_Layer: 0
   m_Name: road_left_right (3)
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
---- !u!1 &1568945663700800
-=======
---- !u!1 &1561769953478986
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
 --- !u!1 &1528860451492854
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
 GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-<<<<<<< HEAD
-<<<<<<< HEAD
-  - component: {fileID: 4342588865249116}
-  - component: {fileID: 33824645780369734}
-  - component: {fileID: 23327982344880222}
-  m_Layer: 0
-  m_Name: footpath (4)
-=======
-  - component: {fileID: 4385018355152586}
-  m_Layer: 0
-  m_Name: Pill_Bottle_outer
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
   - component: {fileID: 4628647673791494}
   - component: {fileID: 33624539915325720}
   - component: {fileID: 23012449189305886}
   m_Layer: 0
   m_Name: Pill_Bottle_orange
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
---- !u!1 &1574963457795226
-=======
---- !u!1 &1568945663700800
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
 --- !u!1 &1535657841920720
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-<<<<<<< HEAD
-<<<<<<< HEAD
-  - component: {fileID: 4968142460509698}
-  - component: {fileID: 33486630406751304}
-  - component: {fileID: 23917774712416166}
-  m_Layer: 0
-  m_Name: Matrix
-=======
-  - component: {fileID: 4342588865249116}
-  - component: {fileID: 33824645780369734}
-  - component: {fileID: 23327982344880222}
-  m_Layer: 0
-  m_Name: footpath (4)
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
-  - component: {fileID: 4489492632319734}
-  - component: {fileID: 33110867758910568}
-  - component: {fileID: 23701184594489882}
-  m_Layer: 0
-  m_Name: footpath (13)
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
-<<<<<<< HEAD
-<<<<<<< HEAD
---- !u!1 &1596596708858100
-=======
---- !u!1 &1574963457795226
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
---- !u!1 &1537955904202488
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-<<<<<<< HEAD
-<<<<<<< HEAD
-  - component: {fileID: 4760526117669956}
-  - component: {fileID: 33988386098267528}
-  - component: {fileID: 23877253215606640}
+  - component: {fileID: 4489492632319734}
+  - component: {fileID: 33110867758910568}
+  - component: {fileID: 23701184594489882}
   m_Layer: 0
-=======
-  - component: {fileID: 4968142460509698}
-  - component: {fileID: 33486630406751304}
-  - component: {fileID: 23917774712416166}
-=======
+  m_Name: footpath (13)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1537955904202488
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
   - component: {fileID: 4563228200497090}
   - component: {fileID: 33972361573924642}
   - component: {fileID: 23828330026923250}
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
   m_Layer: 0
   m_Name: footpath (1)
   m_TagString: Untagged
@@ -1645,12 +873,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4407507535548484}
   m_Layer: 0
-<<<<<<< HEAD
->>>>>>> parent of d5a2426... Remade prefabs and animations
-  m_Name: road_left_right (17)
-=======
   m_Name: Pill_Bottle_outer
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3210,130 +2433,38 @@ Transform:
   m_Father: {fileID: 4316494524272820}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
-<<<<<<< HEAD
---- !u!4 &4463493866092442
-=======
---- !u!4 &4455462885924868
->>>>>>> parent of d5a2426... Remade prefabs and animations
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 1831419013066374}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.19999999, y: 0.19999999, z: -0.049999997}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4708927202838886}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4485294737511234
-=======
-  m_GameObject: {fileID: 1178803402234154}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.5, y: 0, z: 4.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4744130656893118}
-  m_RootOrder: 59
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4463493866092442
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
 --- !u!4 &4602999122763220
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_GameObject: {fileID: 1104883948655488}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 2}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4744130656893118}
-  m_RootOrder: 21
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4488442796262976
-=======
-  m_GameObject: {fileID: 1831419013066374}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.19999999, y: 0.19999999, z: -0.049999997}
-=======
   m_GameObject: {fileID: 1397165989369386}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -2, y: 0, z: 0}
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4401493717191868}
   m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
---- !u!4 &4485294737511234
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
 --- !u!4 &4608730184453362
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_GameObject: {fileID: 1152898724869514}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 1}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4744130656893118}
-  m_RootOrder: 18
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4519317475519824
-=======
-  m_GameObject: {fileID: 1104883948655488}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 2}
-=======
   m_GameObject: {fileID: 1844902984450564}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 4.5, y: 0, z: 4.5}
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4401493717191868}
   m_RootOrder: 51
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
---- !u!4 &4488442796262976
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
 --- !u!4 &4623763251495436
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_GameObject: {fileID: 1610008379274798}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2, y: 0, z: 1}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4744130656893118}
-  m_RootOrder: 31
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4520110411184012
-=======
-  m_GameObject: {fileID: 1152898724869514}
-=======
   m_GameObject: {fileID: 1922891858949424}
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0.5, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -3342,45 +2473,12 @@ Transform:
   m_Father: {fileID: 4401493717191868}
   m_RootOrder: 52
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
---- !u!4 &4518129116998300
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1340564665771578}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: -4.5, y: 0, z: 4.5}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4744130656893118}
-  m_RootOrder: 58
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
---- !u!4 &4519317475519824
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
 --- !u!4 &4628503721745122
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_GameObject: {fileID: 1651761102595722}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2, y: 0, z: 8}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4744130656893118}
-  m_RootOrder: 38
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4526874903335168
-=======
-  m_GameObject: {fileID: 1610008379274798}
-=======
   m_GameObject: {fileID: 1525104541706752}
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1, y: 0, z: 5}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -3388,32 +2486,12 @@ Transform:
   m_Father: {fileID: 4401493717191868}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
---- !u!4 &4520110411184012
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
 --- !u!4 &4628647673791494
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_GameObject: {fileID: 1946993939654044}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2, y: 0, z: 1}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4744130656893118}
-  m_RootOrder: 41
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4537624796220084
-=======
-  m_GameObject: {fileID: 1651761102595722}
-=======
   m_GameObject: {fileID: 1528860451492854}
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.19999999, y: 0.049999997, z: -0.19999999}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -3421,23 +2499,12 @@ Transform:
   m_Father: {fileID: 4098332303586448}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
---- !u!4 &4526874903335168
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
 --- !u!4 &4651771621838134
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-  m_GameObject: {fileID: 1946993939654044}
-=======
   m_GameObject: {fileID: 1491137714231160}
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -2, y: 0, z: 4}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -3450,20 +2517,6 @@ Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-<<<<<<< HEAD
->>>>>>> parent of d5a2426... Remade prefabs and animations
-  m_GameObject: {fileID: 1872321154582120}
-  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: 1, y: 0.5, z: 2}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
-  m_Children:
-  - {fileID: 4264355195786868}
-  - {fileID: 4708927202838886}
-  m_Father: {fileID: 4744130656893118}
-  m_RootOrder: 52
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
---- !u!4 &4552220651261704
-=======
   m_GameObject: {fileID: 1415305209163170}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -3473,7 +2526,6 @@ Transform:
   m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4656888254348282
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -3587,132 +2639,16 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children:
-<<<<<<< HEAD
-  - {fileID: 4760772208261820}
-  - {fileID: 4938864003827116}
-  - {fileID: 4438543584293916}
-  m_Father: {fileID: 4316052217414614}
-  m_RootOrder: 1
-<<<<<<< HEAD
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4725689842836106
-=======
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4725689842836106
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1801012549795556}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.8644231, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4568049954748948}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4744130656893118
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
   - {fileID: 4880462688993746}
   - {fileID: 4438928162686334}
   m_Father: {fileID: 4102128176656308}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4731724588665178
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_GameObject: {fileID: 1801012549795556}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.8644231, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4568049954748948}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4744130656893118
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-=======
->>>>>>> parent of d5a2426... Remade prefabs and animations
-  m_GameObject: {fileID: 1806738920425770}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 4913096571187946}
-  - {fileID: 4083143964039496}
-  - {fileID: 4763304278563718}
-  - {fileID: 4059357272459832}
-  - {fileID: 4377769264385758}
-  - {fileID: 4080421598320358}
-  - {fileID: 4305128049942140}
-  - {fileID: 4954099683142144}
-  - {fileID: 4268134724493266}
-  - {fileID: 4213255851471336}
-  - {fileID: 4284233366711470}
-  - {fileID: 4925161781203470}
-  - {fileID: 4130033405766940}
-  - {fileID: 4124750404616328}
-  - {fileID: 4683646658563896}
-  - {fileID: 4830490676965132}
-  - {fileID: 4611157691648872}
-  - {fileID: 4964522459872686}
-  - {fileID: 4488442796262976}
-  - {fileID: 4849893344607020}
-  - {fileID: 4980597913063834}
-  - {fileID: 4485294737511234}
-  - {fileID: 4901618535371050}
-  - {fileID: 4552220651261704}
-  - {fileID: 4844288412969112}
-  - {fileID: 4180757415230864}
-  - {fileID: 4760526117669956}
-  - {fileID: 4700712863078912}
-  - {fileID: 4368677093483076}
-  - {fileID: 4216667634224236}
-  - {fileID: 4971617963445192}
-  - {fileID: 4519317475519824}
-  - {fileID: 4788754217307894}
-  - {fileID: 4891328324061242}
-  - {fileID: 4342588865249116}
-  - {fileID: 4271155192136798}
-  - {fileID: 4391299787054922}
-  - {fileID: 4939559960831154}
-  - {fileID: 4520110411184012}
-  - {fileID: 4211761483045030}
-  - {fileID: 4270791758201002}
-  - {fileID: 4526874903335168}
-  - {fileID: 4803198911702648}
-  - {fileID: 4172535742689394}
-  - {fileID: 4069280827862668}
-  - {fileID: 4076535755644682}
-  - {fileID: 4794529445826038}
-  - {fileID: 4321619109872776}
-  - {fileID: 4381448706105428}
-  - {fileID: 4405289985645348}
-  - {fileID: 4014764099295276}
-  - {fileID: 4286419595906250}
-  - {fileID: 4537624796220084}
-  - {fileID: 4316052217414614}
-  - {fileID: 4818124996813686}
-  - {fileID: 4893936493631154}
-  - {fileID: 4568049954748948}
-  - {fileID: 4055638926960128}
-<<<<<<< HEAD
-=======
-  - {fileID: 4518129116998300}
-  - {fileID: 4455462885924868}
->>>>>>> parent of d5a2426... Remade prefabs and animations
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
-=======
   m_GameObject: {fileID: 1722059521410164}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -3720,7 +2656,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4407507535548484}
   m_RootOrder: 2
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4732028328236920
 Transform:
@@ -4082,22 +3017,12 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-<<<<<<< HEAD
---- !u!23 &23077946985730788
-<<<<<<< HEAD
-=======
-=======
 --- !u!23 &23012449189305886
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 1922963699992178}
-=======
   m_GameObject: {fileID: 1528860451492854}
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -4106,11 +3031,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-<<<<<<< HEAD
-  - {fileID: 2100000, guid: 47ce0a45523ee45cd877f6216e9b3ee6, type: 2}
-=======
   - {fileID: 2100000, guid: 1c4fa86a29b3b4da0beb69e55c3f8d53, type: 2}
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4130,25 +3051,12 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-<<<<<<< HEAD
---- !u!23 &23095331102072366
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
 --- !u!23 &23034257640053846
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_GameObject: {fileID: 1922963699992178}
-=======
-  m_GameObject: {fileID: 1178803402234154}
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
   m_GameObject: {fileID: 1797220340598830}
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -6489,28 +5397,12 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
---- !u!23 &23999725914277210
-=======
---- !u!23 &23965767789481278
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
 --- !u!23 &23995631310559420
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_GameObject: {fileID: 1651761102595722}
-=======
-  m_GameObject: {fileID: 1340564665771578}
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
   m_GameObject: {fileID: 1548632922676334}
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -6539,66 +5431,14 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-<<<<<<< HEAD
-<<<<<<< HEAD
---- !u!33 &33006535905228304
-=======
 --- !u!33 &33020244870493680
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-<<<<<<< HEAD
-=======
---- !u!23 &23999725914277210
-MeshRenderer:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1651761102595722}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 47ce0a45523ee45cd877f6216e9b3ee6, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &33006535905228304
-MeshFilter:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
->>>>>>> parent of d5a2426... Remade prefabs and animations
-  m_GameObject: {fileID: 1610008379274798}
-  m_Mesh: {fileID: 4300000, guid: 1d0f98d00821041f4b5405823f9555a6, type: 3}
---- !u!33 &33015678509028544
-=======
   m_GameObject: {fileID: 1333944231333154}
   m_Mesh: {fileID: 4300000, guid: 414bbdbb818a34d4db4fb1c9ab39424b, type: 3}
 --- !u!33 &33049807334768886
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -6857,58 +5697,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1332975401357574}
   m_Mesh: {fileID: 4300000, guid: 1d0f98d00821041f4b5405823f9555a6, type: 3}
-<<<<<<< HEAD
---- !u!33 &33497562381393460
-<<<<<<< HEAD
-=======
-MeshFilter:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1922963699992178}
-  m_Mesh: {fileID: 4300000, guid: 414bbdbb818a34d4db4fb1c9ab39424b, type: 3}
---- !u!33 &33525539760778362
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
 --- !u!33 &33498022613677524
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_GameObject: {fileID: 1922963699992178}
-  m_Mesh: {fileID: 4300000, guid: 414bbdbb818a34d4db4fb1c9ab39424b, type: 3}
---- !u!33 &33525539760778362
-=======
-  m_GameObject: {fileID: 1904259711035856}
-  m_Mesh: {fileID: 4300000, guid: 1d0f98d00821041f4b5405823f9555a6, type: 3}
---- !u!33 &33540241959744624
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
   m_GameObject: {fileID: 1525104541706752}
   m_Mesh: {fileID: 4300000, guid: 414bbdbb818a34d4db4fb1c9ab39424b, type: 3}
 --- !u!33 &33507137362678420
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_GameObject: {fileID: 1904259711035856}
-  m_Mesh: {fileID: 4300000, guid: 1d0f98d00821041f4b5405823f9555a6, type: 3}
-=======
-  m_GameObject: {fileID: 1340564665771578}
-  m_Mesh: {fileID: 4300000, guid: cb43fb2d4771e406eb72ef9f80b60cb5, type: 3}
->>>>>>> parent of d5a2426... Remade prefabs and animations
---- !u!33 &33548519796985328
-=======
   m_GameObject: {fileID: 1461330089635668}
   m_Mesh: {fileID: 4300000, guid: 62af96f860f694d3ca6e75965f11557b, type: 3}
 --- !u!33 &33507602422201778
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -6948,378 +5751,128 @@ MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 1651761102595722}
-  m_Mesh: {fileID: 4300000, guid: 1d0f98d00821041f4b5405823f9555a6, type: 3}
---- !u!33 &33630364458625338
-<<<<<<< HEAD
-=======
   m_GameObject: {fileID: 1844902984450564}
   m_Mesh: {fileID: 4300000, guid: 9a5ce725694f74c9b9dac49fed34b48a, type: 3}
 --- !u!33 &33599929683714662
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 1831005379396336}
-  m_Mesh: {fileID: 4300000, guid: a2991cfb3391a4f2f80133612c27cf2c, type: 3}
---- !u!33 &33630951138597838
-=======
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
   m_GameObject: {fileID: 1378854390258970}
   m_Mesh: {fileID: 4300002, guid: 62af96f860f694d3ca6e75965f11557b, type: 3}
 --- !u!33 &33623599814833878
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_GameObject: {fileID: 1152898724869514}
-  m_Mesh: {fileID: 4300000, guid: 8c88f8a7b6fed45f79e0b43003fc0c0a, type: 3}
---- !u!33 &33659038154703354
-=======
-  m_GameObject: {fileID: 1831005379396336}
-  m_Mesh: {fileID: 4300000, guid: a2991cfb3391a4f2f80133612c27cf2c, type: 3}
---- !u!33 &33630951138597838
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
   m_GameObject: {fileID: 1408033313029514}
   m_Mesh: {fileID: 4300000, guid: ed307488a285843d993684a7a521ee94, type: 3}
 --- !u!33 &33624539915325720
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_GameObject: {fileID: 1490833271036392}
-  m_Mesh: {fileID: 4300000, guid: 8c88f8a7b6fed45f79e0b43003fc0c0a, type: 3}
---- !u!33 &33661087372266072
-=======
-  m_GameObject: {fileID: 1152898724869514}
-  m_Mesh: {fileID: 4300000, guid: 8c88f8a7b6fed45f79e0b43003fc0c0a, type: 3}
---- !u!33 &33641542298042400
->>>>>>> parent of d5a2426... Remade prefabs and animations
-MeshFilter:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 1155498445416988}
-  m_Mesh: {fileID: 4300000, guid: 1d0f98d00821041f4b5405823f9555a6, type: 3}
---- !u!33 &33669318413861164
-=======
-  m_GameObject: {fileID: 1178803402234154}
-  m_Mesh: {fileID: 4300000, guid: 9a5ce725694f74c9b9dac49fed34b48a, type: 3}
---- !u!33 &33659038154703354
->>>>>>> parent of d5a2426... Remade prefabs and animations
-MeshFilter:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 1600837161475468}
-  m_Mesh: {fileID: 4300000, guid: 62af96f860f694d3ca6e75965f11557b, type: 3}
---- !u!33 &33671273467759256
-=======
-  m_GameObject: {fileID: 1490833271036392}
-  m_Mesh: {fileID: 4300000, guid: 8c88f8a7b6fed45f79e0b43003fc0c0a, type: 3}
---- !u!33 &33661087372266072
->>>>>>> parent of d5a2426... Remade prefabs and animations
-MeshFilter:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 1779807059499672}
-  m_Mesh: {fileID: 4300000, guid: 8c88f8a7b6fed45f79e0b43003fc0c0a, type: 3}
---- !u!33 &33691882616466658
-=======
   m_GameObject: {fileID: 1528860451492854}
   m_Mesh: {fileID: 4300000, guid: a2991cfb3391a4f2f80133612c27cf2c, type: 3}
 --- !u!33 &33661763542437428
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 1372592774330132}
-  m_Mesh: {fileID: 4300002, guid: 62af96f860f694d3ca6e75965f11557b, type: 3}
---- !u!33 &33735045750055452
-=======
-  m_GameObject: {fileID: 1155498445416988}
-  m_Mesh: {fileID: 4300000, guid: 1d0f98d00821041f4b5405823f9555a6, type: 3}
---- !u!33 &33669318413861164
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
   m_GameObject: {fileID: 1797220340598830}
   m_Mesh: {fileID: 4300000, guid: 1d0f98d00821041f4b5405823f9555a6, type: 3}
 --- !u!33 &33683618858778226
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_GameObject: {fileID: 1955036108808826}
-  m_Mesh: {fileID: 4300000, guid: 1d0f98d00821041f4b5405823f9555a6, type: 3}
---- !u!33 &33735047581198126
-=======
-  m_GameObject: {fileID: 1600837161475468}
-  m_Mesh: {fileID: 4300000, guid: 62af96f860f694d3ca6e75965f11557b, type: 3}
---- !u!33 &33671273467759256
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
   m_GameObject: {fileID: 1219603957223010}
   m_Mesh: {fileID: 4300000, guid: 568f003e61bf24bfa824cbc52dc76507, type: 3}
 --- !u!33 &33723192919597050
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_GameObject: {fileID: 1533698014943264}
-  m_Mesh: {fileID: 4300000, guid: 414bbdbb818a34d4db4fb1c9ab39424b, type: 3}
---- !u!33 &33737450465788208
-MeshFilter:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1397423952289480}
-  m_Mesh: {fileID: 4300000, guid: 1d0f98d00821041f4b5405823f9555a6, type: 3}
---- !u!33 &33812291053330786
-=======
-  m_GameObject: {fileID: 1779807059499672}
-  m_Mesh: {fileID: 4300000, guid: 8c88f8a7b6fed45f79e0b43003fc0c0a, type: 3}
---- !u!33 &33691882616466658
->>>>>>> parent of d5a2426... Remade prefabs and animations
-MeshFilter:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 1785895638518644}
-  m_Mesh: {fileID: 4300000, guid: 1d0f98d00821041f4b5405823f9555a6, type: 3}
---- !u!33 &33824645780369734
-=======
   m_GameObject: {fileID: 1967974354391034}
   m_Mesh: {fileID: 4300000, guid: ed307488a285843d993684a7a521ee94, type: 3}
 --- !u!33 &33735277518318234
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-<<<<<<< HEAD
-  m_GameObject: {fileID: 1568945663700800}
-  m_Mesh: {fileID: 4300000, guid: 1d0f98d00821041f4b5405823f9555a6, type: 3}
---- !u!33 &33841737496073202
-=======
-  m_GameObject: {fileID: 1372592774330132}
-  m_Mesh: {fileID: 4300002, guid: 62af96f860f694d3ca6e75965f11557b, type: 3}
---- !u!33 &33735045750055452
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
   m_GameObject: {fileID: 1278301160007968}
   m_Mesh: {fileID: 4300000, guid: 8c88f8a7b6fed45f79e0b43003fc0c0a, type: 3}
 --- !u!33 &33765273109688154
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_GameObject: {fileID: 1700643857111196}
-  m_Mesh: {fileID: 4300000, guid: 8c88f8a7b6fed45f79e0b43003fc0c0a, type: 3}
---- !u!33 &33872485773900384
-=======
-  m_GameObject: {fileID: 1955036108808826}
-  m_Mesh: {fileID: 4300000, guid: 1d0f98d00821041f4b5405823f9555a6, type: 3}
---- !u!33 &33735047581198126
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
   m_GameObject: {fileID: 1285485227792440}
   m_Mesh: {fileID: 4300000, guid: 8c88f8a7b6fed45f79e0b43003fc0c0a, type: 3}
 --- !u!33 &33771608901249754
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_GameObject: {fileID: 1020908942131160}
-  m_Mesh: {fileID: 4300002, guid: 62af96f860f694d3ca6e75965f11557b, type: 3}
---- !u!33 &33895353338641256
-=======
-  m_GameObject: {fileID: 1533698014943264}
-  m_Mesh: {fileID: 4300000, guid: 414bbdbb818a34d4db4fb1c9ab39424b, type: 3}
---- !u!33 &33737450465788208
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
   m_GameObject: {fileID: 1097161238687690}
   m_Mesh: {fileID: 4300000, guid: 414bbdbb818a34d4db4fb1c9ab39424b, type: 3}
 --- !u!33 &33773266956189454
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_GameObject: {fileID: 1273090627319378}
-  m_Mesh: {fileID: 4300000, guid: 8c88f8a7b6fed45f79e0b43003fc0c0a, type: 3}
---- !u!33 &33900509760900532
-=======
-  m_GameObject: {fileID: 1397423952289480}
-  m_Mesh: {fileID: 4300000, guid: 1d0f98d00821041f4b5405823f9555a6, type: 3}
---- !u!33 &33812291053330786
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
   m_GameObject: {fileID: 1484688099187620}
   m_Mesh: {fileID: 4300000, guid: 1d0f98d00821041f4b5405823f9555a6, type: 3}
 --- !u!33 &33777115804294520
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_GameObject: {fileID: 1946993939654044}
-  m_Mesh: {fileID: 4300000, guid: 1d0f98d00821041f4b5405823f9555a6, type: 3}
---- !u!33 &33912263036738516
-=======
-  m_GameObject: {fileID: 1785895638518644}
-  m_Mesh: {fileID: 4300000, guid: 1d0f98d00821041f4b5405823f9555a6, type: 3}
---- !u!33 &33824645780369734
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
   m_GameObject: {fileID: 1099538842735946}
   m_Mesh: {fileID: 4300000, guid: ed307488a285843d993684a7a521ee94, type: 3}
 --- !u!33 &33777936896955306
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_GameObject: {fileID: 1644087588371164}
-  m_Mesh: {fileID: 4300000, guid: 1d0f98d00821041f4b5405823f9555a6, type: 3}
---- !u!33 &33914964412260428
-=======
-  m_GameObject: {fileID: 1568945663700800}
-  m_Mesh: {fileID: 4300000, guid: 1d0f98d00821041f4b5405823f9555a6, type: 3}
---- !u!33 &33841737496073202
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
   m_GameObject: {fileID: 1394176156975318}
   m_Mesh: {fileID: 4300000, guid: 1d0f98d00821041f4b5405823f9555a6, type: 3}
 --- !u!33 &33789396635605638
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_GameObject: {fileID: 1853075913282970}
-  m_Mesh: {fileID: 4300000, guid: 414bbdbb818a34d4db4fb1c9ab39424b, type: 3}
---- !u!33 &33926688149478434
-=======
-  m_GameObject: {fileID: 1700643857111196}
-  m_Mesh: {fileID: 4300000, guid: 8c88f8a7b6fed45f79e0b43003fc0c0a, type: 3}
---- !u!33 &33872485773900384
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
   m_GameObject: {fileID: 1786919087237334}
   m_Mesh: {fileID: 4300000, guid: 8c88f8a7b6fed45f79e0b43003fc0c0a, type: 3}
 --- !u!33 &33835920188123126
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_GameObject: {fileID: 1328259397736144}
-  m_Mesh: {fileID: 4300000, guid: 414bbdbb818a34d4db4fb1c9ab39424b, type: 3}
---- !u!33 &33941210552531050
-=======
-  m_GameObject: {fileID: 1020908942131160}
-  m_Mesh: {fileID: 4300002, guid: 62af96f860f694d3ca6e75965f11557b, type: 3}
---- !u!33 &33895353338641256
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
   m_GameObject: {fileID: 1952915376825562}
   m_Mesh: {fileID: 4300000, guid: 568f003e61bf24bfa824cbc52dc76507, type: 3}
 --- !u!33 &33836050348705890
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_GameObject: {fileID: 1016325102518792}
-  m_Mesh: {fileID: 4300000, guid: 414bbdbb818a34d4db4fb1c9ab39424b, type: 3}
---- !u!33 &33955885403911526
-=======
-  m_GameObject: {fileID: 1273090627319378}
-  m_Mesh: {fileID: 4300000, guid: 8c88f8a7b6fed45f79e0b43003fc0c0a, type: 3}
---- !u!33 &33900509760900532
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
   m_GameObject: {fileID: 1273552325560896}
   m_Mesh: {fileID: 4300000, guid: 414bbdbb818a34d4db4fb1c9ab39424b, type: 3}
 --- !u!33 &33839946098425538
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-<<<<<<< HEAD
-<<<<<<< HEAD
-  m_GameObject: {fileID: 1733600425625472}
-  m_Mesh: {fileID: 4300000, guid: 8c88f8a7b6fed45f79e0b43003fc0c0a, type: 3}
---- !u!33 &33970423014147070
-=======
-  m_GameObject: {fileID: 1946993939654044}
-  m_Mesh: {fileID: 4300000, guid: 1d0f98d00821041f4b5405823f9555a6, type: 3}
---- !u!33 &33912263036738516
->>>>>>> parent of d5a2426... Remade prefabs and animations
-=======
   m_GameObject: {fileID: 1719076532293704}
   m_Mesh: {fileID: 4300000, guid: a2991cfb3391a4f2f80133612c27cf2c, type: 3}
 --- !u!33 &33859752111041052
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-  m_GameObject: {fileID: 1644087588371164}
-  m_Mesh: {fileID: 4300000, guid: 1d0f98d00821041f4b5405823f9555a6, type: 3}
---- !u!33 &33914964412260428
-=======
   m_GameObject: {fileID: 1514346765092430}
   m_Mesh: {fileID: 4300000, guid: 62af96f860f694d3ca6e75965f11557b, type: 3}
 --- !u!33 &33864028211998664
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -7352,16 +5905,9 @@ MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-<<<<<<< HEAD
->>>>>>> parent of d5a2426... Remade prefabs and animations
-  m_GameObject: {fileID: 1164582875224852}
-  m_Mesh: {fileID: 4300000, guid: ed307488a285843d993684a7a521ee94, type: 3}
---- !u!33 &33980361423270210
-=======
   m_GameObject: {fileID: 1289109627620392}
   m_Mesh: {fileID: 4300000, guid: 414bbdbb818a34d4db4fb1c9ab39424b, type: 3}
 --- !u!33 &33972361573924642
->>>>>>> parent of 2d519c8... Revert "Merge branch 'master' of https://github.com/seanocca/Ludum-Dare40"
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
