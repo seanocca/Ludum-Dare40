@@ -21,6 +21,10 @@ GameObject:
   - component: {fileID: 4291203835542908}
   - component: {fileID: 33367986485102022}
   - component: {fileID: 23607671419044034}
+<<<<<<< HEAD
+=======
+  - component: {fileID: 111876415771344298}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_Layer: 0
   m_Name: pill
   m_TagString: Untagged
@@ -35,7 +39,11 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1821322733699290}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+<<<<<<< HEAD
   m_LocalPosition: {x: 0, y: 0, z: 0}
+=======
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -82,3 +90,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1821322733699290}
   m_Mesh: {fileID: 4300000, guid: 046369208c1e64ac8b47c6ff4772637a, type: 3}
+<<<<<<< HEAD
+=======
+--- !u!111 &111876415771344298
+Animation:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1821322733699290}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 15efc31ae7f044068953001d4b76f982, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 15efc31ae7f044068953001d4b76f982, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+>>>>>>> parent of d5a2426... Remade prefabs and animations

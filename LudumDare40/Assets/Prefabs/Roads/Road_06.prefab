@@ -227,6 +227,7 @@ GameObject:
   - component: {fileID: 23905345764586228}
   m_Layer: 0
   m_Name: road_centre (6)
+<<<<<<< HEAD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -242,35 +243,54 @@ GameObject:
   - component: {fileID: 4410222105707340}
   m_Layer: 0
   m_Name: GameObject
+=======
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!1 &1270914366301702
+=======
+--- !u!1 &1213436658308330
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 4084593207254298}
   - component: {fileID: 33594624936351206}
   - component: {fileID: 23559079588993880}
   m_Layer: 0
   m_Name: road_left_right (18)
+=======
+  - component: {fileID: 4289074579358550}
+  - component: {fileID: 33454359964883524}
+  - component: {fileID: 23182471012131800}
+  m_Layer: 0
+  m_Name: house_pink
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!1 &1282494072993590
+=======
+--- !u!1 &1264724557726374
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 GameObject:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 4849374718426998}
   m_Layer: 0
   m_Name: Alcohol
@@ -288,19 +308,28 @@ GameObject:
   m_Component:
   - component: {fileID: 4230636635655198}
   m_Layer: 0
+=======
+  - component: {fileID: 4410222105707340}
+  m_Layer: 0
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!1 &1296014961669100
+=======
+--- !u!1 &1270914366301702
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 4430669721394916}
   - component: {fileID: 33497101049431640}
   - component: {fileID: 23252559161475442}
@@ -323,140 +352,235 @@ GameObject:
   - component: {fileID: 23436634566960816}
   m_Layer: 0
   m_Name: Matrix
+=======
+  - component: {fileID: 4084593207254298}
+  - component: {fileID: 33594624936351206}
+  - component: {fileID: 23559079588993880}
+  m_Layer: 0
+  m_Name: road_left_right (18)
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!1 &1327345557445854
+=======
+--- !u!1 &1282494072993590
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 4534132219149262}
   - component: {fileID: 33408074345882894}
   - component: {fileID: 23465142712452732}
+=======
+  - component: {fileID: 4849374718426998}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_Layer: 0
-  m_Name: road_left_right (1)
+  m_Name: Alcohol
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!1 &1332974206502540
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4463657426470470}
-  - component: {fileID: 33131236155548082}
-  - component: {fileID: 23258924733262738}
-  m_Layer: 0
-  m_Name: road_left_right (10)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1336813826966350
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4853214845595678}
-  - component: {fileID: 33420435449417302}
-  - component: {fileID: 23163996268307008}
-  m_Layer: 0
-  m_Name: road_left_right (7)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1354936681807744
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4841205425691526}
-  - component: {fileID: 33305447873921512}
-  - component: {fileID: 23606540167766976}
-  m_Layer: 0
-  m_Name: road_left_right (19)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1392257055316742
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4866429895305304}
-  - component: {fileID: 33679597507447054}
-  - component: {fileID: 23908682830109160}
-  m_Layer: 0
-  m_Name: footpath (7)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1433212631235338
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4337595707320270}
-  - component: {fileID: 33994147206323808}
-  - component: {fileID: 23107060798937966}
-  m_Layer: 0
-  m_Name: footpath (4)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &1449054255645490
+=======
+--- !u!1 &1291646883972414
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4680090402268942}
-  - component: {fileID: 33315865354536386}
-  - component: {fileID: 23842431016591666}
+<<<<<<< HEAD
+  - component: {fileID: 4463657426470470}
+  - component: {fileID: 33131236155548082}
+  - component: {fileID: 23258924733262738}
   m_Layer: 0
-  m_Name: alcohol_inner
+  m_Name: road_left_right (10)
+=======
+  - component: {fileID: 4230636635655198}
+  m_Layer: 0
+  m_Name: GameObject
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &1457069305011442
+<<<<<<< HEAD
+--- !u!1 &1336813826966350
+=======
+--- !u!1 &1296014961669100
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
+  - component: {fileID: 4853214845595678}
+  - component: {fileID: 33420435449417302}
+  - component: {fileID: 23163996268307008}
+  m_Layer: 0
+  m_Name: road_left_right (7)
+=======
+  - component: {fileID: 4430669721394916}
+  - component: {fileID: 33497101049431640}
+  - component: {fileID: 23252559161475442}
+  m_Layer: 0
+  m_Name: road_left_right (3)
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+<<<<<<< HEAD
+--- !u!1 &1354936681807744
+=======
+--- !u!1 &1314490923333736
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+<<<<<<< HEAD
+  - component: {fileID: 4841205425691526}
+  - component: {fileID: 33305447873921512}
+  - component: {fileID: 23606540167766976}
+  m_Layer: 0
+  m_Name: road_left_right (19)
+=======
+  - component: {fileID: 4232051953559056}
+  - component: {fileID: 33144703028835940}
+  - component: {fileID: 23436634566960816}
+  m_Layer: 0
+  m_Name: Matrix
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+<<<<<<< HEAD
+--- !u!1 &1392257055316742
+=======
+--- !u!1 &1327345557445854
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+<<<<<<< HEAD
+  - component: {fileID: 4866429895305304}
+  - component: {fileID: 33679597507447054}
+  - component: {fileID: 23908682830109160}
+  m_Layer: 0
+  m_Name: footpath (7)
+=======
+  - component: {fileID: 4534132219149262}
+  - component: {fileID: 33408074345882894}
+  - component: {fileID: 23465142712452732}
+  m_Layer: 0
+  m_Name: road_left_right (1)
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+<<<<<<< HEAD
+--- !u!1 &1433212631235338
+=======
+--- !u!1 &1332974206502540
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+<<<<<<< HEAD
+  - component: {fileID: 4337595707320270}
+  - component: {fileID: 33994147206323808}
+  - component: {fileID: 23107060798937966}
+  m_Layer: 0
+  m_Name: footpath (4)
+=======
+  - component: {fileID: 4463657426470470}
+  - component: {fileID: 33131236155548082}
+  - component: {fileID: 23258924733262738}
+  m_Layer: 0
+  m_Name: road_left_right (10)
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+<<<<<<< HEAD
+--- !u!1 &1449054255645490
+=======
+--- !u!1 &1336813826966350
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+<<<<<<< HEAD
+  - component: {fileID: 4680090402268942}
+  - component: {fileID: 33315865354536386}
+  - component: {fileID: 23842431016591666}
+  m_Layer: 0
+  m_Name: alcohol_inner
+=======
+  - component: {fileID: 4853214845595678}
+  - component: {fileID: 33420435449417302}
+  - component: {fileID: 23163996268307008}
+  m_Layer: 0
+  m_Name: road_left_right (7)
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+<<<<<<< HEAD
+--- !u!1 &1457069305011442
+=======
+--- !u!1 &1354936681807744
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+<<<<<<< HEAD
   - component: {fileID: 4317940690867952}
   - component: {fileID: 33168414689408020}
   - component: {fileID: 23433897815273224}
+=======
+  - component: {fileID: 4841205425691526}
+  - component: {fileID: 33305447873921512}
+  - component: {fileID: 23606540167766976}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_Layer: 0
   m_Name: road_left_right (17)
   m_TagString: Untagged
@@ -464,98 +588,163 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!1 &1461388472974572
+=======
+--- !u!1 &1392257055316742
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 4009120583152236}
   - component: {fileID: 33455473674073044}
   - component: {fileID: 23561811690683666}
   m_Layer: 0
   m_Name: Pill_Bottle_orange
+=======
+  - component: {fileID: 4866429895305304}
+  - component: {fileID: 33679597507447054}
+  - component: {fileID: 23908682830109160}
+  m_Layer: 0
+  m_Name: footpath (7)
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!1 &1473918858857826
+=======
+--- !u!1 &1433212631235338
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 4504988462674940}
   - component: {fileID: 33480867196416246}
   - component: {fileID: 23292967274759562}
   m_Layer: 0
   m_Name: footpath (11)
+=======
+  - component: {fileID: 4337595707320270}
+  - component: {fileID: 33994147206323808}
+  - component: {fileID: 23107060798937966}
+  m_Layer: 0
+  m_Name: footpath (4)
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!1 &1474850665309044
+=======
+--- !u!1 &1444688189788970
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 4849608320717036}
   - component: {fileID: 33250336978899072}
   - component: {fileID: 23314367523612782}
   m_Layer: 0
   m_Name: jeep_green
+=======
+  - component: {fileID: 4620410296266902}
+  - component: {fileID: 33215042082812182}
+  - component: {fileID: 23281529062953632}
+  m_Layer: 0
+  m_Name: house_orange
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!1 &1497806551993546
+=======
+--- !u!1 &1449054255645490
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 GameObject:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 4383223637716174}
   - component: {fileID: 33851524537732386}
   - component: {fileID: 23518742587583160}
   m_Layer: 0
   m_Name: road_left_right
+=======
+  - component: {fileID: 4680090402268942}
+  - component: {fileID: 33315865354536386}
+  - component: {fileID: 23842431016591666}
+  m_Layer: 0
+  m_Name: alcohol_inner
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!1 &1525424656450290
+=======
+--- !u!1 &1457069305011442
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 4163226244126196}
   - component: {fileID: 33714105615878768}
   - component: {fileID: 23145770800726864}
   m_Layer: 0
   m_Name: footpath (8)
+=======
+  - component: {fileID: 4317940690867952}
+  - component: {fileID: 33168414689408020}
+  - component: {fileID: 23433897815273224}
+  m_Layer: 0
+  m_Name: road_left_right (17)
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!1 &1551900398072358
+=======
+--- !u!1 &1461388472974572
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 GameObject:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 4800506220897186}
   - component: {fileID: 33963850982470260}
   - component: {fileID: 23288177754840664}
@@ -594,104 +783,173 @@ GameObject:
   - component: {fileID: 33050348463953480}
   - component: {fileID: 23384180288357122}
   m_Layer: 0
+=======
+  - component: {fileID: 4009120583152236}
+  - component: {fileID: 33455473674073044}
+  - component: {fileID: 23561811690683666}
+  m_Layer: 0
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_Name: Pill_Bottle_orange
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!1 &1576748307588378
+=======
+--- !u!1 &1473918858857826
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 4724000968413886}
   - component: {fileID: 33164990750356772}
   - component: {fileID: 23461000984860798}
   m_Layer: 0
   m_Name: footpath (9)
+=======
+  - component: {fileID: 4504988462674940}
+  - component: {fileID: 33480867196416246}
+  - component: {fileID: 23292967274759562}
+  m_Layer: 0
+  m_Name: footpath (11)
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!1 &1580039737151580
+=======
+--- !u!1 &1474850665309044
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 4252059772425914}
   - component: {fileID: 33062101096075834}
   - component: {fileID: 23423006255344114}
+=======
+  - component: {fileID: 4849608320717036}
+  - component: {fileID: 33250336978899072}
+  - component: {fileID: 23314367523612782}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_Layer: 0
-  m_Name: road_centre
+  m_Name: jeep_green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!1 &1587515365976278
+=======
+--- !u!1 &1497806551993546
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 4470814760966018}
   - component: {fileID: 33316257337560688}
   - component: {fileID: 23986063629765804}
   m_Layer: 0
   m_Name: footpath (16)
+=======
+  - component: {fileID: 4383223637716174}
+  - component: {fileID: 33851524537732386}
+  - component: {fileID: 23518742587583160}
+  m_Layer: 0
+  m_Name: road_left_right
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!1 &1591235394063460
+=======
+--- !u!1 &1525424656450290
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 4557483480340830}
   - component: {fileID: 33077109261755442}
   - component: {fileID: 23884084471342888}
   m_Layer: 0
   m_Name: road_left_right (5)
+=======
+  - component: {fileID: 4163226244126196}
+  - component: {fileID: 33714105615878768}
+  - component: {fileID: 23145770800726864}
+  m_Layer: 0
+  m_Name: footpath (8)
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!1 &1599219011760936
+=======
+--- !u!1 &1551900398072358
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 4974614332086692}
   - component: {fileID: 33650681165413770}
   - component: {fileID: 23402390797321982}
   m_Layer: 0
   m_Name: road_centre (5)
+=======
+  - component: {fileID: 4800506220897186}
+  - component: {fileID: 33963850982470260}
+  - component: {fileID: 23288177754840664}
+  m_Layer: 0
+  m_Name: footpath (14)
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!1 &1609678284318304
+=======
+--- !u!1 &1572076918511798
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 GameObject:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 4236599404605014}
   - component: {fileID: 33638516232956490}
   - component: {fileID: 23532322290172054}
@@ -729,52 +987,88 @@ GameObject:
   - component: {fileID: 23423909928082972}
   m_Layer: 0
   m_Name: Matrix_part
+=======
+  - component: {fileID: 4443465675038488}
+  - component: {fileID: 33291184303012930}
+  - component: {fileID: 23849815130152004}
+  m_Layer: 0
+  m_Name: Matrix
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!1 &1646371530706808
+=======
+--- !u!1 &1574554755793496
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 GameObject:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 4373648933575862}
   - component: {fileID: 33187543972053672}
   - component: {fileID: 23417743770615556}
   m_Layer: 0
   m_Name: road_centre (2)
+=======
+  - component: {fileID: 4258533699556026}
+  - component: {fileID: 33050348463953480}
+  - component: {fileID: 23384180288357122}
+  m_Layer: 0
+  m_Name: Pill_Bottle_orange
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!1 &1661021176957816
+=======
+--- !u!1 &1576748307588378
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 4843305842920634}
   - component: {fileID: 33395455035413384}
   - component: {fileID: 23640150716423688}
   m_Layer: 0
   m_Name: footpath (13)
+=======
+  - component: {fileID: 4724000968413886}
+  - component: {fileID: 33164990750356772}
+  - component: {fileID: 23461000984860798}
+  m_Layer: 0
+  m_Name: footpath (9)
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!1 &1661037699203884
+=======
+--- !u!1 &1580039737151580
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 4296682104537442}
   - component: {fileID: 33775188456218750}
   - component: {fileID: 23834596854639272}
@@ -797,103 +1091,173 @@ GameObject:
   - component: {fileID: 23641065492765652}
   m_Layer: 0
   m_Name: alcohol_inner
+=======
+  - component: {fileID: 4252059772425914}
+  - component: {fileID: 33062101096075834}
+  - component: {fileID: 23423006255344114}
+  m_Layer: 0
+  m_Name: road_centre
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!1 &1688946828354532
+=======
+--- !u!1 &1587515365976278
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 4086686669981212}
   - component: {fileID: 33589591988217900}
   - component: {fileID: 23891716769853926}
   m_Layer: 0
   m_Name: road_left_right (13)
+=======
+  - component: {fileID: 4470814760966018}
+  - component: {fileID: 33316257337560688}
+  - component: {fileID: 23986063629765804}
+  m_Layer: 0
+  m_Name: footpath (16)
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!1 &1690572475751780
+=======
+--- !u!1 &1591235394063460
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 4810314296684980}
   - component: {fileID: 33110660150700596}
   - component: {fileID: 23813920468538026}
   m_Layer: 0
   m_Name: road_left_right (2)
+=======
+  - component: {fileID: 4557483480340830}
+  - component: {fileID: 33077109261755442}
+  - component: {fileID: 23884084471342888}
+  m_Layer: 0
+  m_Name: road_left_right (5)
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!1 &1726036683972318
+=======
+--- !u!1 &1599219011760936
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 4026435163088524}
   - component: {fileID: 33748584326773348}
   - component: {fileID: 23349492386510382}
   m_Layer: 0
   m_Name: footpath (15)
+=======
+  - component: {fileID: 4974614332086692}
+  - component: {fileID: 33650681165413770}
+  - component: {fileID: 23402390797321982}
+  m_Layer: 0
+  m_Name: road_centre (5)
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!1 &1730659368845506
+=======
+--- !u!1 &1609678284318304
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 4273000763156038}
   - component: {fileID: 33039243827167604}
   - component: {fileID: 23958773124671416}
   m_Layer: 0
   m_Name: road_centre (7)
+=======
+  - component: {fileID: 4236599404605014}
+  - component: {fileID: 33638516232956490}
+  - component: {fileID: 23532322290172054}
+  m_Layer: 0
+  m_Name: footpath
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!1 &1740217588358264
+=======
+--- !u!1 &1622021515554720
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 GameObject:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 4071048412001160}
   - component: {fileID: 33859165563070850}
   - component: {fileID: 23867941918401490}
   m_Layer: 0
   m_Name: footpath (12)
+=======
+  - component: {fileID: 4906318956031860}
+  m_Layer: 0
+  m_Name: Pill_Bottle_outer
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!1 &1753080741724082
+=======
+--- !u!1 &1624307644933818
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 GameObject:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 4395897071475852}
   m_Layer: 0
   m_Name: Road_06
@@ -914,18 +1278,30 @@ GameObject:
   - component: {fileID: 23150209156200506}
   m_Layer: 0
   m_Name: footpath (17)
+=======
+  - component: {fileID: 4443462371452392}
+  - component: {fileID: 33879944117034322}
+  - component: {fileID: 23423909928082972}
+  m_Layer: 0
+  m_Name: Matrix_part
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!1 &1767283576843984
+=======
+--- !u!1 &1646371530706808
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 4047083835137932}
   - component: {fileID: 33215258297880288}
   - component: {fileID: 23980451945870516}
@@ -946,62 +1322,548 @@ GameObject:
   - component: {fileID: 4274547996253954}
   m_Layer: 0
   m_Name: Pill_Bottle_outer
+=======
+  - component: {fileID: 4373648933575862}
+  - component: {fileID: 33187543972053672}
+  - component: {fileID: 23417743770615556}
+  m_Layer: 0
+  m_Name: road_centre (2)
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!1 &1824499718288610
+=======
+--- !u!1 &1661021176957816
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 4298389726177146}
   - component: {fileID: 33196229974095794}
   - component: {fileID: 23390351844762680}
   m_Layer: 0
   m_Name: road_centre (3)
+=======
+  - component: {fileID: 4843305842920634}
+  - component: {fileID: 33395455035413384}
+  - component: {fileID: 23640150716423688}
+  m_Layer: 0
+  m_Name: footpath (13)
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!1 &1854766313036386
+=======
+--- !u!1 &1661037699203884
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 4104833725038250}
   - component: {fileID: 33717079369173936}
   - component: {fileID: 23330347619435308}
   m_Layer: 0
   m_Name: footpath (3)
+=======
+  - component: {fileID: 4296682104537442}
+  - component: {fileID: 33775188456218750}
+  - component: {fileID: 23834596854639272}
+  m_Layer: 0
+  m_Name: footpath (19)
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!1 &1858494843225798
+=======
+--- !u!1 &1662486721913128
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 4273925345200320}
   - component: {fileID: 33009975768788070}
   - component: {fileID: 23298778956221642}
   m_Layer: 0
   m_Name: road_centre (9)
+=======
+  - component: {fileID: 4570656205725642}
+  - component: {fileID: 33442264576511320}
+  - component: {fileID: 23641065492765652}
+  m_Layer: 0
+  m_Name: alcohol_inner
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
+--- !u!1 &1868889423048558
+=======
+--- !u!1 &1688946828354532
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+<<<<<<< HEAD
+  - component: {fileID: 4001189431587154}
+  - component: {fileID: 33349491363920366}
+  - component: {fileID: 23682398449672278}
+  m_Layer: 0
+  m_Name: footpath (1)
+=======
+  - component: {fileID: 4086686669981212}
+  - component: {fileID: 33589591988217900}
+  - component: {fileID: 23891716769853926}
+  m_Layer: 0
+  m_Name: road_left_right (13)
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+<<<<<<< HEAD
+--- !u!1 &1872766903849374
+=======
+--- !u!1 &1690572475751780
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+<<<<<<< HEAD
+  - component: {fileID: 4785817038395548}
+  - component: {fileID: 33655209501552840}
+  - component: {fileID: 23134339043105820}
+  m_Layer: 0
+  m_Name: road_left_right (11)
+=======
+  - component: {fileID: 4810314296684980}
+  - component: {fileID: 33110660150700596}
+  - component: {fileID: 23813920468538026}
+  m_Layer: 0
+  m_Name: road_left_right (2)
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+<<<<<<< HEAD
+--- !u!1 &1874121887622206
+=======
+--- !u!1 &1726036683972318
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+<<<<<<< HEAD
+  - component: {fileID: 4135461458265092}
+  m_Layer: 0
+  m_Name: Pill_Bottle
+=======
+  - component: {fileID: 4026435163088524}
+  - component: {fileID: 33748584326773348}
+  - component: {fileID: 23349492386510382}
+  m_Layer: 0
+  m_Name: footpath (15)
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+<<<<<<< HEAD
+--- !u!1 &1878039595291168
+=======
+--- !u!1 &1730659368845506
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+<<<<<<< HEAD
+  - component: {fileID: 4377909412150734}
+  - component: {fileID: 33296796435369272}
+  - component: {fileID: 23945340232384362}
+  m_Layer: 0
+  m_Name: road_centre (8)
+=======
+  - component: {fileID: 4273000763156038}
+  - component: {fileID: 33039243827167604}
+  - component: {fileID: 23958773124671416}
+  m_Layer: 0
+  m_Name: road_centre (7)
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+<<<<<<< HEAD
+--- !u!1 &1887451260588720
+=======
+--- !u!1 &1740217588358264
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+<<<<<<< HEAD
+  - component: {fileID: 4293625954821876}
+  m_Layer: 0
+  m_Name: Pill_Bottle (1)
+=======
+  - component: {fileID: 4071048412001160}
+  - component: {fileID: 33859165563070850}
+  - component: {fileID: 23867941918401490}
+  m_Layer: 0
+  m_Name: footpath (12)
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+<<<<<<< HEAD
+--- !u!1 &1909412255006912
+=======
+--- !u!1 &1753080741724082
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+<<<<<<< HEAD
+  - component: {fileID: 4951689542253162}
+  - component: {fileID: 33671088180967822}
+  - component: {fileID: 23325506049376942}
+=======
+  - component: {fileID: 4395897071475852}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+  m_Layer: 0
+  m_Name: road_left_right (12)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+<<<<<<< HEAD
+--- !u!1 &1932306594297168
+=======
+--- !u!1 &1766268356137988
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+<<<<<<< HEAD
+  - component: {fileID: 4288092442267018}
+  - component: {fileID: 33513114330814460}
+  - component: {fileID: 23814070383287424}
+  m_Layer: 0
+  m_Name: road_left_right (8)
+=======
+  - component: {fileID: 4685216315852768}
+  - component: {fileID: 33530960023535130}
+  - component: {fileID: 23150209156200506}
+  m_Layer: 0
+  m_Name: footpath (17)
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+<<<<<<< HEAD
+--- !u!1 &1936820307001262
+=======
+--- !u!1 &1767283576843984
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+<<<<<<< HEAD
+  - component: {fileID: 4032398939777626}
+  - component: {fileID: 33264345573050462}
+  - component: {fileID: 23679609941457204}
+  m_Layer: 0
+  m_Name: footpath (2)
+=======
+  - component: {fileID: 4047083835137932}
+  - component: {fileID: 33215258297880288}
+  - component: {fileID: 23980451945870516}
+  m_Layer: 0
+  m_Name: road_left_right (15)
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+<<<<<<< HEAD
+--- !u!1 &1954056106162412
+=======
+--- !u!1 &1779278782060806
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+<<<<<<< HEAD
+  - component: {fileID: 4268411530908988}
+  - component: {fileID: 33249966291189048}
+  - component: {fileID: 23650789021460552}
+  m_Layer: 0
+  m_Name: road_left_right (4)
+=======
+  - component: {fileID: 4274547996253954}
+  m_Layer: 0
+  m_Name: Pill_Bottle_outer
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+<<<<<<< HEAD
+--- !u!1 &1956489092171312
+=======
+--- !u!1 &1824499718288610
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+<<<<<<< HEAD
+  - component: {fileID: 4334820825490574}
+  - component: {fileID: 33013027951000960}
+  - component: {fileID: 23411595325367164}
+  m_Layer: 0
+  m_Name: footpath (5)
+=======
+  - component: {fileID: 4298389726177146}
+  - component: {fileID: 33196229974095794}
+  - component: {fileID: 23390351844762680}
+  m_Layer: 0
+  m_Name: road_centre (3)
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+<<<<<<< HEAD
+--- !u!1 &1963437946341874
+=======
+--- !u!1 &1854766313036386
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+<<<<<<< HEAD
+  - component: {fileID: 4041870581175436}
+  - component: {fileID: 33978354738463096}
+  - component: {fileID: 23857571088221040}
+  m_Layer: 0
+  m_Name: road_left_right (16)
+=======
+  - component: {fileID: 4104833725038250}
+  - component: {fileID: 33717079369173936}
+  - component: {fileID: 23330347619435308}
+  m_Layer: 0
+  m_Name: footpath (3)
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+<<<<<<< HEAD
+--- !u!1 &1987034422107830
+=======
+--- !u!1 &1858494843225798
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+<<<<<<< HEAD
+  - component: {fileID: 4544305564207066}
+  m_Layer: 0
+  m_Name: Alcohol (1)
+=======
+  - component: {fileID: 4273925345200320}
+  - component: {fileID: 33009975768788070}
+  - component: {fileID: 23298778956221642}
+  m_Layer: 0
+  m_Name: road_centre (9)
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+<<<<<<< HEAD
+--- !u!4 &4001189431587154
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1868889423048558}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2, y: 0, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4395897071475852}
+  m_RootOrder: 31
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4009120583152236
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1461388472974572}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.19999999, y: 0.049999997, z: -0.19999999}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4135461458265092}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4026435163088524
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1726036683972318}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2, y: 0, z: 5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4395897071475852}
+  m_RootOrder: 45
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4032398939777626
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1936820307001262}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2, y: 0, z: 2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4395897071475852}
+  m_RootOrder: 32
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4041870581175436
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1963437946341874}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4395897071475852}
+  m_RootOrder: 25
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4047083835137932
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1767283576843984}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1, y: 0, z: 2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4395897071475852}
+  m_RootOrder: 23
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4071048412001160
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1740217588358264}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2, y: 0, z: 2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4395897071475852}
+  m_RootOrder: 42
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4084593207254298
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1270914366301702}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1, y: 0, z: 9}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4395897071475852}
+  m_RootOrder: 28
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4086686669981212
+=======
 --- !u!1 &1868889423048558
 GameObject:
   m_ObjectHideFlags: 0
@@ -1214,10 +2076,22 @@ Transform:
   m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4009120583152236
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1688946828354532}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1, y: 0, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4395897071475852}
+  m_RootOrder: 20
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4092384382570788
+=======
   m_GameObject: {fileID: 1461388472974572}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.19999999, y: 0.049999997, z: -0.19999999}
@@ -1227,10 +2101,22 @@ Transform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4026435163088524
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1195709134403122}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4395897071475852}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4104833725038250
+=======
   m_GameObject: {fileID: 1726036683972318}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 2, y: 0, z: 5}
@@ -1240,10 +2126,14 @@ Transform:
   m_RootOrder: 45
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4032398939777626
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1854766313036386}
+=======
   m_GameObject: {fileID: 1936820307001262}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -2, y: 0, z: 2}
@@ -1271,18 +2161,51 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1767283576843984}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1, y: 0, z: 2}
+  m_LocalPosition: {x: -2, y: 0, z: 3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4395897071475852}
-  m_RootOrder: 23
+<<<<<<< HEAD
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4071048412001160
+--- !u!4 &4135461458265092
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1874121887622206}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 1, y: 0.5, z: 4}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_Children:
+  - {fileID: 4009120583152236}
+  - {fileID: 4906318956031860}
+  m_Father: {fileID: 4395897071475852}
+  m_RootOrder: 52
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!4 &4147074494118452
+=======
+  m_RootOrder: 23
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4071048412001160
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1042053458201700}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1, y: 0, z: 8}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4395897071475852}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4163226244126196
+=======
   m_GameObject: {fileID: 1740217588358264}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 2, y: 0, z: 2}
@@ -1305,10 +2228,22 @@ Transform:
   m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4086686669981212
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1525424656450290}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2, y: 0, z: 8}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4395897071475852}
+  m_RootOrder: 38
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4169904976186900
+=======
   m_GameObject: {fileID: 1688946828354532}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1, y: 0, z: 1}
@@ -1437,23 +2372,45 @@ Transform:
   m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4252059772425914
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1013880184944852}
+=======
   m_GameObject: {fileID: 1580039737151580}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 4}
+  m_LocalPosition: {x: 0, y: 0, z: 5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4395897071475852}
+<<<<<<< HEAD
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4230636635655198
+=======
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4258533699556026
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1291646883972414}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4274547996253954}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4232051953559056
+=======
   m_GameObject: {fileID: 1574554755793496}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.19999999, y: 0.049999997, z: -0.19999999}
@@ -1530,11 +2487,36 @@ Transform:
   m_Father: {fileID: 4395897071475852}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4293625954821876
+--- !u!4 &4289074579358550
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1213436658308330}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: -4.5, y: 0, z: 4.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4395897071475852}
+  m_RootOrder: 56
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!4 &4293625954821876
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1314490923333736}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4906318956031860}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4236599404605014
+=======
   m_GameObject: {fileID: 1887451260588720}
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
   m_LocalPosition: {x: 1, y: 0.5, z: 5}
@@ -1559,10 +2541,22 @@ Transform:
   m_RootOrder: 49
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4298389726177146
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1609678284318304}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4395897071475852}
+  m_RootOrder: 30
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4252059772425914
+=======
   m_GameObject: {fileID: 1824499718288610}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 7}
@@ -1650,10 +2644,451 @@ Transform:
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4395897071475852
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1580039737151580}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 4}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4395897071475852}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4258533699556026
+=======
+  m_GameObject: {fileID: 1753080741724082}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4252059772425914}
+  - {fileID: 4383223637716174}
+  - {fileID: 4534132219149262}
+  - {fileID: 4169904976186900}
+  - {fileID: 4810314296684980}
+  - {fileID: 4430669721394916}
+  - {fileID: 4373648933575862}
+  - {fileID: 4268411530908988}
+  - {fileID: 4557483480340830}
+  - {fileID: 4298389726177146}
+  - {fileID: 4566312620187820}
+  - {fileID: 4853214845595678}
+  - {fileID: 4504222068171346}
+  - {fileID: 4288092442267018}
+  - {fileID: 4147074494118452}
+  - {fileID: 4974614332086692}
+  - {fileID: 4463657426470470}
+  - {fileID: 4785817038395548}
+  - {fileID: 4092384382570788}
+  - {fileID: 4951689542253162}
+  - {fileID: 4086686669981212}
+  - {fileID: 4273000763156038}
+  - {fileID: 4494793498734784}
+  - {fileID: 4047083835137932}
+  - {fileID: 4377909412150734}
+  - {fileID: 4041870581175436}
+  - {fileID: 4317940690867952}
+  - {fileID: 4273925345200320}
+  - {fileID: 4084593207254298}
+  - {fileID: 4841205425691526}
+  - {fileID: 4236599404605014}
+  - {fileID: 4001189431587154}
+  - {fileID: 4032398939777626}
+  - {fileID: 4104833725038250}
+  - {fileID: 4337595707320270}
+  - {fileID: 4334820825490574}
+  - {fileID: 4672430977109206}
+  - {fileID: 4866429895305304}
+  - {fileID: 4163226244126196}
+  - {fileID: 4724000968413886}
+  - {fileID: 4578133124148236}
+  - {fileID: 4504988462674940}
+  - {fileID: 4071048412001160}
+  - {fileID: 4843305842920634}
+  - {fileID: 4800506220897186}
+  - {fileID: 4026435163088524}
+  - {fileID: 4470814760966018}
+  - {fileID: 4685216315852768}
+  - {fileID: 4982841163391406}
+  - {fileID: 4296682104537442}
+  - {fileID: 4479046825816540}
+  - {fileID: 4849608320717036}
+  - {fileID: 4135461458265092}
+  - {fileID: 4849374718426998}
+  - {fileID: 4544305564207066}
+  - {fileID: 4293625954821876}
+  - {fileID: 4289074579358550}
+  - {fileID: 4620410296266902}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4410222105707340
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1574554755793496}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.19999999, y: 0.049999997, z: -0.19999999}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4293625954821876}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4268411530908988
+=======
+  m_GameObject: {fileID: 1264724557726374}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4906318956031860}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4430669721394916
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1954056106162412}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1, y: 0, z: 3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4395897071475852}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4273000763156038
+=======
+  m_GameObject: {fileID: 1296014961669100}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1, y: 0, z: 5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4395897071475852}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4443462371452392
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1730659368845506}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4395897071475852}
+  m_RootOrder: 21
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4273925345200320
+=======
+  m_GameObject: {fileID: 1624307644933818}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.19999999, y: 0.19999999, z: -0.049999997}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4274547996253954}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4443465675038488
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1858494843225798}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 9}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4395897071475852}
+  m_RootOrder: 27
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4274547996253954
+=======
+  m_GameObject: {fileID: 1572076918511798}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4274547996253954}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4463657426470470
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1779278782060806}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4443465675038488}
+  - {fileID: 4443462371452392}
+  - {fileID: 4230636635655198}
+  m_Father: {fileID: 4293625954821876}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4288092442267018
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1932306594297168}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1, y: 0, z: 8}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4395897071475852}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4293625954821876
+=======
+  m_GameObject: {fileID: 1332974206502540}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1, y: 0, z: 6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4395897071475852}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4470814760966018
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1887451260588720}
+  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
+  m_LocalPosition: {x: 1, y: 0.5, z: 5}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_Children:
+  - {fileID: 4258533699556026}
+  - {fileID: 4274547996253954}
+  m_Father: {fileID: 4395897071475852}
+  m_RootOrder: 55
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!4 &4296682104537442
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1661037699203884}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2, y: 0, z: 9}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4395897071475852}
+  m_RootOrder: 49
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4298389726177146
+=======
+  m_GameObject: {fileID: 1587515365976278}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2, y: 0, z: 6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4395897071475852}
+  m_RootOrder: 46
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4479046825816540
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1824499718288610}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 7}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4395897071475852}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4317940690867952
+=======
+  m_GameObject: {fileID: 1040570301663886}
+  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
+  m_LocalPosition: {x: -1, y: 0, z: 2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4395897071475852}
+  m_RootOrder: 50
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!4 &4494793498734784
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1457069305011442}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4395897071475852}
+  m_RootOrder: 26
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4334820825490574
+=======
+  m_GameObject: {fileID: 1189257680439202}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1, y: 0, z: 2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4395897071475852}
+  m_RootOrder: 22
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4504222068171346
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1956489092171312}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2, y: 0, z: 5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4395897071475852}
+  m_RootOrder: 35
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4337595707320270
+=======
+  m_GameObject: {fileID: 1192501649335172}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 8}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4395897071475852}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4504988462674940
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1433212631235338}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2, y: 0, z: 4}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4395897071475852}
+  m_RootOrder: 34
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4373648933575862
+=======
+  m_GameObject: {fileID: 1473918858857826}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2, y: 0, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4395897071475852}
+  m_RootOrder: 41
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4534132219149262
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1646371530706808}
+=======
+  m_GameObject: {fileID: 1327345557445854}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1, y: 0, z: 4}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4395897071475852}
+<<<<<<< HEAD
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4377909412150734
+=======
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4544305564207066
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1878039595291168}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4395897071475852}
+  m_RootOrder: 24
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4383223637716174
+=======
+  m_GameObject: {fileID: 1987034422107830}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1, y: 0.5, z: 5}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_Children:
+  - {fileID: 4624828800543742}
+  - {fileID: 4680090402268942}
+  m_Father: {fileID: 4395897071475852}
+  m_RootOrder: 54
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4557483480340830
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1497806551993546}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1, y: 0, z: 4}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4395897071475852}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4395897071475852
+=======
+  m_GameObject: {fileID: 1591235394063460}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1, y: 0, z: 3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4395897071475852}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4566312620187820
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1753080741724082}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -1732,10 +3167,22 @@ Transform:
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4430669721394916
+=======
+  m_GameObject: {fileID: 1060095866168662}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1, y: 0, z: 7}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4395897071475852}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4570656205725642
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1296014961669100}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1, y: 0, z: 5}
@@ -1745,10 +3192,22 @@ Transform:
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4443462371452392
+=======
+  m_GameObject: {fileID: 1662486721913128}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.8644231, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4849374718426998}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4578133124148236
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1624307644933818}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.19999999, y: 0.19999999, z: -0.049999997}
@@ -1758,10 +3217,22 @@ Transform:
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4443465675038488
+=======
+  m_GameObject: {fileID: 1052436670562850}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4395897071475852}
+  m_RootOrder: 40
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4620410296266902
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1572076918511798}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
@@ -1771,10 +3242,22 @@ Transform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4463657426470470
+=======
+  m_GameObject: {fileID: 1444688189788970}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 4.5, y: 0, z: 4.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4395897071475852}
+  m_RootOrder: 57
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4624828800543742
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1332974206502540}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -1, y: 0, z: 6}
@@ -1784,10 +3267,22 @@ Transform:
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4470814760966018
+=======
+  m_GameObject: {fileID: 1045166423345794}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.23942316, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4544305564207066}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4672430977109206
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1587515365976278}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 2, y: 0, z: 6}
@@ -1823,10 +3318,22 @@ Transform:
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4504222068171346
+=======
+  m_GameObject: {fileID: 1026695908994196}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2, y: 0, z: 6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4395897071475852}
+  m_RootOrder: 36
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4680090402268942
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1192501649335172}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 8}
@@ -1836,23 +3343,45 @@ Transform:
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4504988462674940
+=======
+  m_GameObject: {fileID: 1449054255645490}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.8644231, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4544305564207066}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4685216315852768
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1473918858857826}
+=======
+  m_GameObject: {fileID: 1766268356137988}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2, y: 0, z: 1}
+  m_LocalPosition: {x: 2, y: 0, z: 7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4395897071475852}
+<<<<<<< HEAD
   m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4534132219149262
+=======
+  m_RootOrder: 47
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4724000968413886
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1327345557445854}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1, y: 0, z: 4}
@@ -1882,18 +3411,28 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1591235394063460}
+=======
+  m_GameObject: {fileID: 1576748307588378}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1, y: 0, z: 3}
+  m_LocalPosition: {x: -2, y: 0, z: 9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4395897071475852}
+<<<<<<< HEAD
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4566312620187820
+=======
+  m_RootOrder: 39
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4785817038395548
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1060095866168662}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -1, y: 0, z: 7}
@@ -1903,101 +3442,7 @@ Transform:
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4570656205725642
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1662486721913128}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.8644231, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4849374718426998}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4578133124148236
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1052436670562850}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4395897071475852}
-  m_RootOrder: 40
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4624828800543742
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1045166423345794}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.23942316, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4544305564207066}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4672430977109206
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1026695908994196}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2, y: 0, z: 6}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4395897071475852}
-  m_RootOrder: 36
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4680090402268942
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1449054255645490}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.8644231, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4544305564207066}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4685216315852768
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1766268356137988}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2, y: 0, z: 7}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4395897071475852}
-  m_RootOrder: 47
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4724000968413886
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1576748307588378}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2, y: 0, z: 9}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4395897071475852}
-  m_RootOrder: 39
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4785817038395548
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+=======
   m_GameObject: {fileID: 1872766903849374}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1, y: 0, z: 6}
@@ -2007,10 +3452,22 @@ Transform:
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4800506220897186
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1662486721913128}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.8644231, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4849374718426998}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4578133124148236
+=======
   m_GameObject: {fileID: 1551900398072358}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 2, y: 0, z: 4}
@@ -2020,10 +3477,22 @@ Transform:
   m_RootOrder: 44
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4810314296684980
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1052436670562850}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4395897071475852}
+  m_RootOrder: 40
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4624828800543742
+=======
   m_GameObject: {fileID: 1690572475751780}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -1, y: 0, z: 5}
@@ -2033,23 +3502,46 @@ Transform:
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4836511676104480
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1045166423345794}
+=======
   m_GameObject: {fileID: 1141968873291192}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0.23942316, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
+<<<<<<< HEAD
+  m_Father: {fileID: 4544305564207066}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4672430977109206
+=======
   m_Father: {fileID: 4849374718426998}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4841205425691526
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1026695908994196}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2, y: 0, z: 6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4395897071475852}
+  m_RootOrder: 36
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4680090402268942
+=======
   m_GameObject: {fileID: 1354936681807744}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1, y: 0, z: 9}
@@ -2059,10 +3551,216 @@ Transform:
   m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4843305842920634
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1449054255645490}
+=======
+  m_GameObject: {fileID: 1661021176957816}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.8644231, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+<<<<<<< HEAD
+  m_Father: {fileID: 4544305564207066}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4685216315852768
+=======
+  m_Father: {fileID: 4395897071475852}
+  m_RootOrder: 43
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4849374718426998
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1766268356137988}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2, y: 0, z: 7}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4395897071475852}
+  m_RootOrder: 47
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4724000968413886
+=======
+  m_GameObject: {fileID: 1282494072993590}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1, y: 0.5, z: 4}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_Children:
+  - {fileID: 4836511676104480}
+  - {fileID: 4570656205725642}
+  m_Father: {fileID: 4395897071475852}
+  m_RootOrder: 53
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4849608320717036
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1576748307588378}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2, y: 0, z: 9}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4395897071475852}
+  m_RootOrder: 39
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4785817038395548
+=======
+  m_GameObject: {fileID: 1474850665309044}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1, y: 0, z: 7}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4395897071475852}
+  m_RootOrder: 51
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4853214845595678
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1872766903849374}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1, y: 0, z: 6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4395897071475852}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4800506220897186
+=======
+  m_GameObject: {fileID: 1336813826966350}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1, y: 0, z: 7}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4395897071475852}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4866429895305304
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1551900398072358}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2, y: 0, z: 4}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4395897071475852}
+  m_RootOrder: 44
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4810314296684980
+=======
+  m_GameObject: {fileID: 1392257055316742}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2, y: 0, z: 7}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4395897071475852}
+  m_RootOrder: 37
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4906318956031860
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1690572475751780}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1, y: 0, z: 5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4395897071475852}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4836511676104480
+=======
+  m_GameObject: {fileID: 1622021515554720}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4232051953559056}
+  - {fileID: 4990701149160290}
+  - {fileID: 4410222105707340}
+  m_Father: {fileID: 4135461458265092}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4951689542253162
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1141968873291192}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.23942316, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4849374718426998}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4841205425691526
+=======
+  m_GameObject: {fileID: 1909412255006912}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1, y: 0, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4395897071475852}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4974614332086692
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1354936681807744}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1, y: 0, z: 9}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4395897071475852}
+  m_RootOrder: 29
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4843305842920634
+=======
+  m_GameObject: {fileID: 1599219011760936}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4395897071475852}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4982841163391406
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1661021176957816}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 2, y: 0, z: 3}
@@ -2087,10 +3785,22 @@ Transform:
   m_RootOrder: 53
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4849608320717036
+=======
+  m_GameObject: {fileID: 1072360877993500}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2, y: 0, z: 8}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4395897071475852}
+  m_RootOrder: 48
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4990701149160290
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1474850665309044}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1, y: 0, z: 7}
@@ -2185,6 +3895,16 @@ Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1118772939512870}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.19999999, y: 0.19999999, z: -0.049999997}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4906318956031860}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23002703118839784
+=======
   m_GameObject: {fileID: 1118772939512870}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.19999999, y: 0.19999999, z: -0.049999997}
@@ -2431,12 +4151,59 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!23 &23182471012131800
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1192501649335172}
+=======
+  m_GameObject: {fileID: 1213436658308330}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 47ce0a45523ee45cd877f6216e9b3ee6, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+<<<<<<< HEAD
+--- !u!23 &23107060798937966
+=======
 --- !u!23 &23252559161475442
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1433212631235338}
+=======
   m_GameObject: {fileID: 1296014961669100}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -2465,12 +4232,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD
+--- !u!23 &23123916005844400
+=======
 --- !u!23 &23258924733262738
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1189257680439202}
+=======
   m_GameObject: {fileID: 1332974206502540}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -2499,12 +4274,62 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD
+--- !u!23 &23134339043105820
+=======
+--- !u!23 &23281529062953632
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1872766903849374}
+=======
+  m_GameObject: {fileID: 1444688189788970}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 47ce0a45523ee45cd877f6216e9b3ee6, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+<<<<<<< HEAD
+--- !u!23 &23145770800726864
+=======
 --- !u!23 &23288177754840664
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1525424656450290}
+=======
   m_GameObject: {fileID: 1551900398072358}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -2533,12 +4358,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD
+--- !u!23 &23150209156200506
+=======
 --- !u!23 &23292967274759562
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1766268356137988}
+=======
   m_GameObject: {fileID: 1473918858857826}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -2567,12 +4400,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD
+--- !u!23 &23163996268307008
+=======
 --- !u!23 &23296238771877988
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1336813826966350}
+=======
   m_GameObject: {fileID: 1013880184944852}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -2601,12 +4442,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD
+--- !u!23 &23252559161475442
+=======
 --- !u!23 &23298778956221642
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1296014961669100}
+=======
   m_GameObject: {fileID: 1858494843225798}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -2635,12 +4484,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD
+--- !u!23 &23258924733262738
+=======
 --- !u!23 &23302843598426280
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1332974206502540}
+=======
   m_GameObject: {fileID: 1042053458201700}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -2669,12 +4526,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD
+--- !u!23 &23288177754840664
+=======
 --- !u!23 &23314367523612782
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1551900398072358}
+=======
   m_GameObject: {fileID: 1474850665309044}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -2703,12 +4568,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD
+--- !u!23 &23292967274759562
+=======
 --- !u!23 &23325506049376942
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1473918858857826}
+=======
   m_GameObject: {fileID: 1909412255006912}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -2737,12 +4610,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD
+--- !u!23 &23296238771877988
+=======
 --- !u!23 &23330347619435308
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1013880184944852}
+=======
   m_GameObject: {fileID: 1854766313036386}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -2771,12 +4652,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD
+--- !u!23 &23298778956221642
+=======
 --- !u!23 &23349492386510382
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1858494843225798}
+=======
   m_GameObject: {fileID: 1726036683972318}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -2805,12 +4694,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD
+--- !u!23 &23302843598426280
+=======
 --- !u!23 &23384180288357122
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1042053458201700}
+=======
   m_GameObject: {fileID: 1574554755793496}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -2839,12 +4736,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD
+--- !u!23 &23314367523612782
+=======
 --- !u!23 &23390351844762680
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1474850665309044}
+=======
   m_GameObject: {fileID: 1824499718288610}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -2873,12 +4778,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD
+--- !u!23 &23325506049376942
+=======
 --- !u!23 &23402390797321982
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1909412255006912}
+=======
   m_GameObject: {fileID: 1599219011760936}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -2907,12 +4820,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD
+--- !u!23 &23330347619435308
+=======
 --- !u!23 &23411595325367164
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1854766313036386}
+=======
   m_GameObject: {fileID: 1956489092171312}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -2941,12 +4862,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD
+--- !u!23 &23349492386510382
+=======
 --- !u!23 &23417743770615556
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1726036683972318}
+=======
   m_GameObject: {fileID: 1646371530706808}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -2975,12 +4904,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD
+--- !u!23 &23384180288357122
+=======
 --- !u!23 &23423006255344114
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1574554755793496}
+=======
   m_GameObject: {fileID: 1580039737151580}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -2989,7 +4926,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 47ce0a45523ee45cd877f6216e9b3ee6, type: 2}
+  - {fileID: 2100000, guid: 1c4fa86a29b3b4da0beb69e55c3f8d53, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3009,12 +4946,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD
+--- !u!23 &23390351844762680
+=======
 --- !u!23 &23423909928082972
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1824499718288610}
+=======
   m_GameObject: {fileID: 1624307644933818}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -3043,12 +4988,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD
+--- !u!23 &23402390797321982
+=======
 --- !u!23 &23433897815273224
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1599219011760936}
+=======
   m_GameObject: {fileID: 1457069305011442}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -3077,12 +5030,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD
+--- !u!23 &23411595325367164
+=======
 --- !u!23 &23436634566960816
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1956489092171312}
+=======
   m_GameObject: {fileID: 1314490923333736}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -3111,12 +5072,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD
+--- !u!23 &23417743770615556
+=======
 --- !u!23 &23461000984860798
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1646371530706808}
+=======
   m_GameObject: {fileID: 1576748307588378}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -3145,12 +5114,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD
+--- !u!23 &23423006255344114
+=======
 --- !u!23 &23463094859913914
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1580039737151580}
+=======
   m_GameObject: {fileID: 1118772939512870}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -3179,12 +5156,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD
+--- !u!23 &23423909928082972
+=======
 --- !u!23 &23465142712452732
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1624307644933818}
+=======
   m_GameObject: {fileID: 1327345557445854}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -3213,12 +5198,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD
+--- !u!23 &23433897815273224
+=======
 --- !u!23 &23518742587583160
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1457069305011442}
+=======
   m_GameObject: {fileID: 1497806551993546}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -3247,12 +5240,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD
+--- !u!23 &23436634566960816
+=======
 --- !u!23 &23532322290172054
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1314490923333736}
+=======
   m_GameObject: {fileID: 1609678284318304}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -3281,12 +5282,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD
+--- !u!23 &23461000984860798
+=======
 --- !u!23 &23559079588993880
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1576748307588378}
+=======
   m_GameObject: {fileID: 1270914366301702}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -3315,6 +5324,217 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD
+--- !u!23 &23463094859913914
+=======
+--- !u!23 &23561811690683666
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1118772939512870}
+=======
+  m_GameObject: {fileID: 1461388472974572}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 1c4fa86a29b3b4da0beb69e55c3f8d53, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+<<<<<<< HEAD
+--- !u!23 &23465142712452732
+=======
+--- !u!23 &23606540167766976
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1327345557445854}
+=======
+  m_GameObject: {fileID: 1354936681807744}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 47ce0a45523ee45cd877f6216e9b3ee6, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+<<<<<<< HEAD
+--- !u!23 &23518742587583160
+=======
+--- !u!23 &23640150716423688
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1497806551993546}
+=======
+  m_GameObject: {fileID: 1661021176957816}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 47ce0a45523ee45cd877f6216e9b3ee6, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+<<<<<<< HEAD
+--- !u!23 &23532322290172054
+=======
+--- !u!23 &23641065492765652
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1609678284318304}
+=======
+  m_GameObject: {fileID: 1662486721913128}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 47ce0a45523ee45cd877f6216e9b3ee6, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+<<<<<<< HEAD
+--- !u!23 &23559079588993880
+=======
+--- !u!23 &23650789021460552
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1270914366301702}
+=======
+  m_GameObject: {fileID: 1954056106162412}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 47ce0a45523ee45cd877f6216e9b3ee6, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+<<<<<<< HEAD
 --- !u!23 &23561811690683666
 MeshRenderer:
   m_ObjectHideFlags: 1
@@ -3350,147 +5570,18 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
 --- !u!23 &23606540167766976
-MeshRenderer:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1354936681807744}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 47ce0a45523ee45cd877f6216e9b3ee6, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!23 &23640150716423688
-MeshRenderer:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1661021176957816}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 47ce0a45523ee45cd877f6216e9b3ee6, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!23 &23641065492765652
-MeshRenderer:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1662486721913128}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 47ce0a45523ee45cd877f6216e9b3ee6, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!23 &23650789021460552
-MeshRenderer:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1954056106162412}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 47ce0a45523ee45cd877f6216e9b3ee6, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+=======
 --- !u!23 &23679609941457204
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1354936681807744}
+=======
   m_GameObject: {fileID: 1936820307001262}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -3519,12 +5610,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD
+--- !u!23 &23640150716423688
+=======
 --- !u!23 &23682398449672278
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1661021176957816}
+=======
   m_GameObject: {fileID: 1868889423048558}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -3553,6 +5652,175 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD
+--- !u!23 &23641065492765652
+=======
+--- !u!23 &23728258877260870
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1662486721913128}
+=======
+  m_GameObject: {fileID: 1141968873291192}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: b94d5fec004ee4cccb3b641ccf38b413, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+<<<<<<< HEAD
+--- !u!23 &23650789021460552
+=======
+--- !u!23 &23813920468538026
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1954056106162412}
+=======
+  m_GameObject: {fileID: 1690572475751780}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 47ce0a45523ee45cd877f6216e9b3ee6, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+<<<<<<< HEAD
+--- !u!23 &23679609941457204
+=======
+--- !u!23 &23814070383287424
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1936820307001262}
+=======
+  m_GameObject: {fileID: 1932306594297168}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 47ce0a45523ee45cd877f6216e9b3ee6, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+<<<<<<< HEAD
+--- !u!23 &23682398449672278
+=======
+--- !u!23 &23834596854639272
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1868889423048558}
+=======
+  m_GameObject: {fileID: 1661037699203884}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 47ce0a45523ee45cd877f6216e9b3ee6, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+<<<<<<< HEAD
 --- !u!23 &23728258877260870
 MeshRenderer:
   m_ObjectHideFlags: 1
@@ -3588,11 +5856,18 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
 --- !u!23 &23813920468538026
+=======
+--- !u!23 &23839708427805486
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1690572475751780}
+=======
+  m_GameObject: {fileID: 1045166423345794}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -3601,7 +5876,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 47ce0a45523ee45cd877f6216e9b3ee6, type: 2}
+  - {fileID: 2100000, guid: b94d5fec004ee4cccb3b641ccf38b413, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3621,12 +5896,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD
 --- !u!23 &23814070383287424
+=======
+--- !u!23 &23842431016591666
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1932306594297168}
+=======
+  m_GameObject: {fileID: 1449054255645490}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -3655,12 +5938,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD
 --- !u!23 &23834596854639272
+=======
+--- !u!23 &23849815130152004
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1661037699203884}
+=======
+  m_GameObject: {fileID: 1572076918511798}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -3689,6 +5980,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD
 --- !u!23 &23839708427805486
 MeshRenderer:
   m_ObjectHideFlags: 1
@@ -3724,79 +6016,18 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
 --- !u!23 &23842431016591666
-MeshRenderer:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1449054255645490}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 47ce0a45523ee45cd877f6216e9b3ee6, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!23 &23849815130152004
-MeshRenderer:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1572076918511798}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 2100000, guid: 47ce0a45523ee45cd877f6216e9b3ee6, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+=======
 --- !u!23 &23857571088221040
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1449054255645490}
+=======
   m_GameObject: {fileID: 1963437946341874}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -3825,12 +6056,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD
+--- !u!23 &23849815130152004
+=======
 --- !u!23 &23867941918401490
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1572076918511798}
+=======
   m_GameObject: {fileID: 1740217588358264}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -3859,12 +6098,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD
+--- !u!23 &23857571088221040
+=======
 --- !u!23 &23879243713127186
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1963437946341874}
+=======
   m_GameObject: {fileID: 1026695908994196}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -3893,12 +6140,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD
+--- !u!23 &23867941918401490
+=======
 --- !u!23 &23884084471342888
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1740217588358264}
+=======
   m_GameObject: {fileID: 1591235394063460}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -3927,12 +6182,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD
+--- !u!23 &23879243713127186
+=======
 --- !u!23 &23891716769853926
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1026695908994196}
+=======
   m_GameObject: {fileID: 1688946828354532}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -3961,12 +6224,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD
+--- !u!23 &23884084471342888
+=======
 --- !u!23 &23895914439813536
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1591235394063460}
+=======
   m_GameObject: {fileID: 1040570301663886}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -3995,12 +6266,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD
+--- !u!23 &23891716769853926
+=======
 --- !u!23 &23905345764586228
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1688946828354532}
+=======
   m_GameObject: {fileID: 1195709134403122}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -4029,12 +6308,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD
+--- !u!23 &23895914439813536
+=======
 --- !u!23 &23908682830109160
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1040570301663886}
+=======
   m_GameObject: {fileID: 1392257055316742}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -4063,12 +6350,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD
+--- !u!23 &23905345764586228
+=======
 --- !u!23 &23936222513018022
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1195709134403122}
+=======
   m_GameObject: {fileID: 1072360877993500}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -4097,12 +6392,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD
+--- !u!23 &23908682830109160
+=======
 --- !u!23 &23943598524334274
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1392257055316742}
+=======
   m_GameObject: {fileID: 1060095866168662}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -4131,12 +6434,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD
+--- !u!23 &23936222513018022
+=======
 --- !u!23 &23945340232384362
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1072360877993500}
+=======
   m_GameObject: {fileID: 1878039595291168}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -4165,12 +6476,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD
+--- !u!23 &23943598524334274
+=======
 --- !u!23 &23946898029017238
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1060095866168662}
+=======
   m_GameObject: {fileID: 1052436670562850}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -4199,12 +6518,20 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD
+--- !u!23 &23945340232384362
+=======
 --- !u!23 &23958773124671416
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 MeshRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1878039595291168}
+=======
   m_GameObject: {fileID: 1730659368845506}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -4233,6 +6560,91 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD
+--- !u!23 &23946898029017238
+=======
+--- !u!23 &23980451945870516
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1052436670562850}
+=======
+  m_GameObject: {fileID: 1767283576843984}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 47ce0a45523ee45cd877f6216e9b3ee6, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+<<<<<<< HEAD
+--- !u!23 &23958773124671416
+=======
+--- !u!23 &23986063629765804
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1730659368845506}
+=======
+  m_GameObject: {fileID: 1587515365976278}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 47ce0a45523ee45cd877f6216e9b3ee6, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+<<<<<<< HEAD
 --- !u!23 &23980451945870516
 MeshRenderer:
   m_ObjectHideFlags: 1
@@ -4302,6 +6714,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
 --- !u!33 &33009975768788070
+=======
+--- !u!33 &33009975768788070
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -4316,45 +6730,103 @@ MeshFilter:
   m_GameObject: {fileID: 1956489092171312}
   m_Mesh: {fileID: 4300000, guid: 1d0f98d00821041f4b5405823f9555a6, type: 3}
 --- !u!33 &33039108204695674
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1858494843225798}
+  m_Mesh: {fileID: 4300000, guid: 8c88f8a7b6fed45f79e0b43003fc0c0a, type: 3}
+--- !u!33 &33013027951000960
+=======
   m_GameObject: {fileID: 1189257680439202}
   m_Mesh: {fileID: 4300000, guid: 414bbdbb818a34d4db4fb1c9ab39424b, type: 3}
 --- !u!33 &33039243827167604
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1956489092171312}
+  m_Mesh: {fileID: 4300000, guid: 1d0f98d00821041f4b5405823f9555a6, type: 3}
+--- !u!33 &33039108204695674
+=======
   m_GameObject: {fileID: 1730659368845506}
   m_Mesh: {fileID: 4300000, guid: 8c88f8a7b6fed45f79e0b43003fc0c0a, type: 3}
 --- !u!33 &33050348463953480
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1189257680439202}
+  m_Mesh: {fileID: 4300000, guid: 414bbdbb818a34d4db4fb1c9ab39424b, type: 3}
+--- !u!33 &33039243827167604
+=======
   m_GameObject: {fileID: 1574554755793496}
   m_Mesh: {fileID: 4300000, guid: a2991cfb3391a4f2f80133612c27cf2c, type: 3}
 --- !u!33 &33062101096075834
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1730659368845506}
+  m_Mesh: {fileID: 4300000, guid: 8c88f8a7b6fed45f79e0b43003fc0c0a, type: 3}
+--- !u!33 &33050348463953480
+=======
   m_GameObject: {fileID: 1580039737151580}
   m_Mesh: {fileID: 4300000, guid: 8c88f8a7b6fed45f79e0b43003fc0c0a, type: 3}
 --- !u!33 &33077109261755442
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1574554755793496}
+  m_Mesh: {fileID: 4300000, guid: a2991cfb3391a4f2f80133612c27cf2c, type: 3}
+--- !u!33 &33062101096075834
+=======
   m_GameObject: {fileID: 1591235394063460}
   m_Mesh: {fileID: 4300000, guid: 414bbdbb818a34d4db4fb1c9ab39424b, type: 3}
 --- !u!33 &33083692269410212
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1580039737151580}
+  m_Mesh: {fileID: 4300000, guid: 8c88f8a7b6fed45f79e0b43003fc0c0a, type: 3}
+--- !u!33 &33077109261755442
+=======
+  m_GameObject: {fileID: 1195709134403122}
+  m_Mesh: {fileID: 4300000, guid: 8c88f8a7b6fed45f79e0b43003fc0c0a, type: 3}
+--- !u!33 &33102822953438088
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1591235394063460}
+  m_Mesh: {fileID: 4300000, guid: 414bbdbb818a34d4db4fb1c9ab39424b, type: 3}
+--- !u!33 &33083692269410212
+=======
+  m_GameObject: {fileID: 1013880184944852}
+  m_Mesh: {fileID: 4300000, guid: 8c88f8a7b6fed45f79e0b43003fc0c0a, type: 3}
+--- !u!33 &33110660150700596
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1195709134403122}
   m_Mesh: {fileID: 4300000, guid: 8c88f8a7b6fed45f79e0b43003fc0c0a, type: 3}
 --- !u!33 &33102822953438088
@@ -4365,75 +6837,139 @@ MeshFilter:
   m_GameObject: {fileID: 1013880184944852}
   m_Mesh: {fileID: 4300000, guid: 8c88f8a7b6fed45f79e0b43003fc0c0a, type: 3}
 --- !u!33 &33110660150700596
-MeshFilter:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+=======
   m_GameObject: {fileID: 1690572475751780}
   m_Mesh: {fileID: 4300000, guid: 414bbdbb818a34d4db4fb1c9ab39424b, type: 3}
 --- !u!33 &33131236155548082
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1690572475751780}
+  m_Mesh: {fileID: 4300000, guid: 414bbdbb818a34d4db4fb1c9ab39424b, type: 3}
+--- !u!33 &33131236155548082
+=======
   m_GameObject: {fileID: 1332974206502540}
   m_Mesh: {fileID: 4300000, guid: 414bbdbb818a34d4db4fb1c9ab39424b, type: 3}
 --- !u!33 &33144703028835940
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1332974206502540}
+  m_Mesh: {fileID: 4300000, guid: 414bbdbb818a34d4db4fb1c9ab39424b, type: 3}
+--- !u!33 &33144703028835940
+=======
   m_GameObject: {fileID: 1314490923333736}
   m_Mesh: {fileID: 4300000, guid: 62af96f860f694d3ca6e75965f11557b, type: 3}
 --- !u!33 &33150536824267070
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1314490923333736}
+  m_Mesh: {fileID: 4300000, guid: 62af96f860f694d3ca6e75965f11557b, type: 3}
+--- !u!33 &33150536824267070
+=======
   m_GameObject: {fileID: 1042053458201700}
   m_Mesh: {fileID: 4300000, guid: 414bbdbb818a34d4db4fb1c9ab39424b, type: 3}
 --- !u!33 &33164990750356772
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1042053458201700}
+  m_Mesh: {fileID: 4300000, guid: 414bbdbb818a34d4db4fb1c9ab39424b, type: 3}
+--- !u!33 &33164990750356772
+=======
   m_GameObject: {fileID: 1576748307588378}
   m_Mesh: {fileID: 4300000, guid: 1d0f98d00821041f4b5405823f9555a6, type: 3}
 --- !u!33 &33168414689408020
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1576748307588378}
+  m_Mesh: {fileID: 4300000, guid: 1d0f98d00821041f4b5405823f9555a6, type: 3}
+--- !u!33 &33168414689408020
+=======
   m_GameObject: {fileID: 1457069305011442}
   m_Mesh: {fileID: 4300000, guid: 414bbdbb818a34d4db4fb1c9ab39424b, type: 3}
 --- !u!33 &33178384480793242
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1457069305011442}
+  m_Mesh: {fileID: 4300000, guid: 414bbdbb818a34d4db4fb1c9ab39424b, type: 3}
+--- !u!33 &33178384480793242
+=======
   m_GameObject: {fileID: 1141968873291192}
   m_Mesh: {fileID: 4300000, guid: 568f003e61bf24bfa824cbc52dc76507, type: 3}
 --- !u!33 &33187543972053672
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1141968873291192}
+  m_Mesh: {fileID: 4300000, guid: 568f003e61bf24bfa824cbc52dc76507, type: 3}
+--- !u!33 &33187543972053672
+=======
   m_GameObject: {fileID: 1646371530706808}
   m_Mesh: {fileID: 4300000, guid: 8c88f8a7b6fed45f79e0b43003fc0c0a, type: 3}
 --- !u!33 &33196229974095794
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1646371530706808}
+  m_Mesh: {fileID: 4300000, guid: 8c88f8a7b6fed45f79e0b43003fc0c0a, type: 3}
+--- !u!33 &33196229974095794
+=======
   m_GameObject: {fileID: 1824499718288610}
   m_Mesh: {fileID: 4300000, guid: 8c88f8a7b6fed45f79e0b43003fc0c0a, type: 3}
 --- !u!33 &33198469694579574
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1824499718288610}
+  m_Mesh: {fileID: 4300000, guid: 8c88f8a7b6fed45f79e0b43003fc0c0a, type: 3}
+--- !u!33 &33198469694579574
+=======
   m_GameObject: {fileID: 1192501649335172}
   m_Mesh: {fileID: 4300000, guid: 8c88f8a7b6fed45f79e0b43003fc0c0a, type: 3}
+--- !u!33 &33215042082812182
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 1192501649335172}
+  m_Mesh: {fileID: 4300000, guid: 8c88f8a7b6fed45f79e0b43003fc0c0a, type: 3}
+=======
+  m_GameObject: {fileID: 1444688189788970}
+  m_Mesh: {fileID: 4300000, guid: 9a5ce725694f74c9b9dac49fed34b48a, type: 3}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
 --- !u!33 &33215258297880288
 MeshFilter:
   m_ObjectHideFlags: 1
@@ -4546,6 +7082,26 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1662486721913128}
   m_Mesh: {fileID: 4300000, guid: ed307488a285843d993684a7a521ee94, type: 3}
+<<<<<<< HEAD
+--- !u!33 &33455473674073044
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1461388472974572}
+  m_Mesh: {fileID: 4300000, guid: a2991cfb3391a4f2f80133612c27cf2c, type: 3}
+--- !u!33 &33480867196416246
+=======
+--- !u!33 &33454359964883524
+>>>>>>> parent of d5a2426... Remade prefabs and animations
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
+=======
+  m_GameObject: {fileID: 1213436658308330}
+  m_Mesh: {fileID: 4300000, guid: cb43fb2d4771e406eb72ef9f80b60cb5, type: 3}
 --- !u!33 &33455473674073044
 MeshFilter:
   m_ObjectHideFlags: 1
@@ -4558,6 +7114,7 @@ MeshFilter:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_GameObject: {fileID: 1473918858857826}
   m_Mesh: {fileID: 4300000, guid: 1d0f98d00821041f4b5405823f9555a6, type: 3}
 --- !u!33 &33497101049431640

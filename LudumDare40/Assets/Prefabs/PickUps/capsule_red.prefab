@@ -21,6 +21,10 @@ GameObject:
   - component: {fileID: 4565626135132180}
   - component: {fileID: 33501756099120608}
   - component: {fileID: 23349467344114928}
+<<<<<<< HEAD
+=======
+  - component: {fileID: 111557820365049428}
+>>>>>>> parent of d5a2426... Remade prefabs and animations
   m_Layer: 0
   m_Name: capsule_red
   m_TagString: Untagged
@@ -82,3 +86,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1616009806353120}
   m_Mesh: {fileID: 4300000, guid: d7aa624f5171148019a95e93250e977a, type: 3}
+<<<<<<< HEAD
+=======
+--- !u!111 &111557820365049428
+Animation:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1616009806353120}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 86c317cf6dcb74801a3156502a8fd344, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 86c317cf6dcb74801a3156502a8fd344, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+>>>>>>> parent of d5a2426... Remade prefabs and animations
