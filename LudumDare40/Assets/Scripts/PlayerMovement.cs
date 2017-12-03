@@ -26,7 +26,6 @@ public class PlayerMovement : Player {
 
         if ((Input.GetKeyDown(moveL) || Input.GetKeyDown(moveLL)) && currLane > 1) 
         {
-            Debug.Log("Player Moving Left");
 
             Vector3 newPos = GetPlayerPosition();
 
@@ -40,7 +39,6 @@ public class PlayerMovement : Player {
 
         if ((Input.GetKeyDown(moveR) || Input.GetKeyDown(moveRR)) && currLane < 5)
         {
-            Debug.Log("Player Moving Right");
 
             Vector3 newPos = GetPlayerPosition();
 

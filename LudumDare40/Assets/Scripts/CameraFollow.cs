@@ -14,6 +14,7 @@ public class CameraFollow : MonoBehaviour
     public bool inPlay;
 
 	private Vector3 offset = new Vector3(0.0f, 1.4f, -0.3f);
+
     void Awake()
     {
 		gameManager = GameObject.Find ("GameManager");
@@ -44,6 +45,7 @@ public class CameraFollow : MonoBehaviour
         if (inPlay)
         {
 			transform.position = new Vector3 (0f ,player.transform.position.y + 2.4f, player.transform.position.z - 1.25f );
+            transform.eulerAngles = new Vector3(42f, 0f, 0f);
         }
 
     }
