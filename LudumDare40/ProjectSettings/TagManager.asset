@@ -7,11 +7,6 @@ TagManager:
   - Road
   - SlowObstacle
   - DeathObstacle
-  - Pills
-  - Alcohol
-  - CapsuleRed
-  - CapsuleBlue
-  - CapsuleRedBlue
   layers:
   - Default
   - TransparentFX

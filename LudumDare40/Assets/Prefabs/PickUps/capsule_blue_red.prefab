@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 23399384780926950}
   m_Layer: 0
   m_Name: capsule_blue_red
-  m_TagString: CapsuleRedBlue
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
