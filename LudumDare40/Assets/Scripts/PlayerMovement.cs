@@ -36,13 +36,13 @@ public class PlayerMovement : Player {
 
             newPos.x = newPos.x - 1;
 
-            this.transform.position = Vector3.Slerp(GetPlayerPosition(), newPos ,1f);
+			this.transform.position = Vector3.MoveTowards(GetPlayerPosition(), newPos , 1f);
 
             currLane--;
 
         }
 
-        if ((Input.GetKeyDown(moveR) || Input.GetKeyDown(moveRR))&& currLane < 5)
+        if ((Input.GetKeyDown(moveR) || Input.GetKeyDown(moveRR)) && currLane < 5)
         {
             Debug.Log("Player Moving Right");
 
@@ -50,7 +50,7 @@ public class PlayerMovement : Player {
 
             newPos.x = newPos.x + 1;
 
-            this.transform.position = Vector3.Slerp(GetPlayerPosition(), newPos,1f);
+			this.transform.position = Vector3.MoveTowards(GetPlayerPosition(), newPos, 1f);
 
             currLane++;
         }
