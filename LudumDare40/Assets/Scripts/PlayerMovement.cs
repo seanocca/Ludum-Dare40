@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class PlayerMovement : Player {
 
-    public static float playerSpeed = 3f;
     private float horizVel = 0;
 
     public KeyCode moveL;
@@ -13,7 +12,6 @@ public class PlayerMovement : Player {
     public KeyCode moveRR;
 
     private int currLane = 3;
-  
 
 	private Animator animator;
 
@@ -75,25 +73,25 @@ public class PlayerMovement : Player {
         while (pharmAmount > 0f)
         {
             yield return new WaitForSecondsRealtime(waitTime);
-            if (playerSpeed < 20 && pharmAmount < 85)
+            if (playerSpeed > 1f && pharmAmount < 85f)
             {
-                if (pharmAmount > 50)
+                if (pharmAmount > 50f)
                 {
-                    playerSpeed += playerSpeed / (waitTime * pharmAmount);
+                    playerSpeed -= (waitTime / pharmAmount) / playerSpeed;
                 }
                 else
                 {
-                    playerSpeed += 0.12f;
-                }
-            } else if (playerSpeed > 1f && pharmAmount > 85)
-            {
-                if (pharmAmount > 100)
-                {
-                    playerSpeed -= (waitTime / pharmAmount ) / playerSpeed;
-                }
-                else if (pharmAmount > 85)
-                {
                     playerSpeed -= (waitTime / (pharmAmount * 2)) / playerSpeed;
+                }
+            } else if (playerSpeed < 20f && pharmAmount > 85f)
+            {
+                if (pharmAmount > 85f)
+                {
+                    playerSpeed += 0.04f;
+                }
+                else if (pharmAmount > 100f)
+                {
+                    playerSpeed += 0.12f;
                 }
             }
         }

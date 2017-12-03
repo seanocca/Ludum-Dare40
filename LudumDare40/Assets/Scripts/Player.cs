@@ -7,14 +7,17 @@ public class Player : MonoBehaviour
 {
     public static Vector3 currPlayerPosition;
 
-    public static float pharmAmount = 100f;    
+    public GameObject blurr;
+    public Shader shaderBlur;
+    public static Renderer rend;
+    private float incSize = 0f;
 
-    public 
-    public Shader shaderBlur
+    public static float pharmAmount = 100f;
+    public static float playerSpeed = 3f;
 
     public static float waitTime = 0.5f;
     public static float lostPharm = 1f;
-    public static float incPharm = 0.5f;
+    public static float incPharm = 0.25f;
     public static float pillBottlePharm = 2f;
     public static float pillPharm = 0.5f;
 
@@ -28,16 +31,19 @@ public class Player : MonoBehaviour
 	public Text alcohol_text;
 	public Text pill_bottle_text;
 	public Text pill_text;
-	public Text capsule_blue_text;
-	public Text capsule_red_text;
 	public Text capsule_blue_red_text;
 
 	public int alcohol_count = 0;
 	public int pill_bottle_count = 0;
 	public int pill_count = 0;
-	public int capsule_blue_count = 0;
-	public int capsule_red_count = 0;
 	public int capsule_blue_red_count = 0;
+
+    public int totalScore = 0;
+
+    void Start()
+    {
+        blurr = GameObject.FindGameObjectWithTag("BlurredPlane");
+    }
 
     /// <summary>
     /// Updates text on screen with the pharmAmount
@@ -51,6 +57,8 @@ public class Player : MonoBehaviour
         {
             //Game Over
         }
+
+        totalScore = (alcohol_count / 2) + (pill_bottle_count / 4) + (pill_count) + (capsule_blue_red_count / 6);
     }
 
     /// <summary>
@@ -63,17 +71,24 @@ public class Player : MonoBehaviour
         if (other.gameObject.tag == "DeathObstacle")
         {
             pharmAmount = 0f;
-            PlayerMovement.playerSpeed = 0f;
+            playerSpeed = 0f;
             StopAllCoroutines();
             Time.timeScale = 0;
 
             //Player showing death
             //Game Over
         }
-        else if (other.gameObject.tag == "SlowObstacle")
+
+        if (other.gameObject.tag == "SlowObstacle")
         {
             //Slow player down
-            PlayerMovement.playerSpeed = 0.5f;
+            if (playerSpeed > 1.5f)
+            {
+                playerSpeed -= 1f;
+            } else
+            {
+                playerSpeed = 0.75f;
+            }
             Destroy(other.gameObject);
         }
 
@@ -81,6 +96,10 @@ public class Player : MonoBehaviour
         {
             //Increase PharmAmount
 			pill_count++;
+            if (pill_count % 5 == 0)
+            {
+                incSize -= 0.5f;
+            }
 			pill_text.text = pill_count.ToString ();
             pharmAmount += pillPharm;
             Destroy(other.gameObject);
@@ -90,6 +109,10 @@ public class Player : MonoBehaviour
         {
             //Increase PharmAmount
 			pill_bottle_count++;
+            if (pill_bottle_count % 10 == 0)
+            {
+                incSize -= 0.5f;
+            }
 			pill_bottle_text.text = pill_bottle_count.ToString ();
             pharmAmount += pillBottlePharm;
             Destroy(other.gameObject);
@@ -99,31 +122,23 @@ public class Player : MonoBehaviour
         {
             //Slowly Increase PharmAmount for three seconds
 			alcohol_count++;
+            if (alcohol_count % 10 == 0)
+            {
+                StartCoroutine("BlurrScreen");
+            }
 			alcohol_text.text = alcohol_count.ToString ();
             StartCoroutine("IncreasingPharm");
             Destroy(other.gameObject);
         }
 
-        if (other.gameObject.tag == "CapsuleBlue")
-        {
-            //Blurr Screen and reset to the best amount
-			capsule_blue_count++;
-			capsule_blue_text.text = capsule_blue_count.ToString ();
-            Destroy(other.gameObject);
-        }
-
-        if (other.gameObject.tag == "CapsuleRed")
-        {
-            //Fisheye Screen and Increase or Decrease to the best amount
-			capsule_red_count++;
-			capsule_red_text.text = capsule_blue_count.ToString ();
-            Destroy(other.gameObject);
-        }
-
         if (other.gameObject.tag == "CapsuleRedBlue")
         {
-            //Make Skybox go nuts
-			capsule_blue_red_count++;
+            capsule_blue_red_count++;
+            if (capsule_blue_red_count % 5 == 0)
+            {
+                StartCoroutine("BlurrScreen");
+                incSize += 0.5f;
+            }            
 			capsule_blue_red_text.text = capsule_blue_red_count.ToString ();
             Destroy(other.gameObject);
         }
@@ -163,7 +178,7 @@ public class Player : MonoBehaviour
     {
         int x = 0;
         increasePharm = true;
-        while (x < 20)
+        while (x < 10)
         {
             yield return new WaitForSecondsRealtime(waitTime);
             pharmAmount += incPharm;
@@ -175,7 +190,16 @@ public class Player : MonoBehaviour
 
     IEnumerator BlurrScreen()
     {
-        if ()
+        if (blurr.activeSelf == false)
+        {
+            blurr.SetActive(true);
+        }
+        rend = blurr.GetComponent<Renderer>();
+        rend.material.SetFloat("_Size", incSize);
+        int rando = Random.Range(0, 5);
+        yield return new WaitForSecondsRealtime(2f);
+        blurr.SetActive(false);
         yield return null;
+        
     }
 }
