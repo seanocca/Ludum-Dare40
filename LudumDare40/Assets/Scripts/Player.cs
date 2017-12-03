@@ -58,7 +58,7 @@ public class Player : MonoBehaviour
             //Game Over
         }
 
-        totalScore = (alcohol_count / 2) + (pill_bottle_count / 4) + (pill_count) + (capsule_blue_red_count / 6);
+        totalScore = (int)Mathf.Round((alcohol_count / 2) + (pill_bottle_count / 4) + (pill_count) + (capsule_blue_red_count / 6));
     }
 
     /// <summary>
