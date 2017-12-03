@@ -8,11 +8,6 @@ public class CameraFollow : MonoBehaviour
 
     private GameObject player;
 
-    private float smoothTime = 0.5f;
-    public float startMovementTime = 2f;
-
-    private Vector3 velocity = Vector3.zero;
-
     public bool inPlay;
 
     void Awake()
@@ -46,7 +41,7 @@ public class CameraFollow : MonoBehaviour
         {
             if (inPlay)
             {
-				transform.position = new Vector3 (player.transform.position.x ,player.transform.position.y + 2.5f, player.transform.position.z - 1.25f );
+				transform.position = new Vector3 (player.transform.position.x ,player.transform.position.y + 1.2f, player.transform.position.z - 1.4f );
             }
         }
     }

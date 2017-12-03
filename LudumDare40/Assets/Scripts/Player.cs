@@ -1,6 +1,7 @@
 ﻿﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
@@ -9,7 +10,7 @@ public class Player : MonoBehaviour
     public static float pharmAmount = 100f;
     public static float playerSpeed = 1f;
 
-    public static float waitTime = 1f;
+    public static float waitTime = 0.5f;
     public static float lostPharm = 1f;
     public static float incPharm = 0.5f;
     public static float pillBottlePharm = 2f;
@@ -19,16 +20,17 @@ public class Player : MonoBehaviour
     public static bool increaseSpeed = false;
     public static bool increasePharm = false;
 
+    public Text pharmaText;
 
-    void Update()
+    void FixedUpdate()
     {
         if (losingPharm == false && pharmAmount > 0f)
         {
             StartCoroutine("LosingPharm");
             StartCoroutine("IncreasingSpeed");
         }
-        
 
+        pharmaText.text = "Medic: " + pharmAmount.ToString();
 
     }
 

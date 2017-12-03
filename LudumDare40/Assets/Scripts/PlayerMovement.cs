@@ -7,7 +7,9 @@ public class PlayerMovement : Player {
     private float horizVel = 0;
 
     public KeyCode moveL;
+    public KeyCode moveLL;
     public KeyCode moveR;
+    public KeyCode moveRR;
 
     private int currLane = 3;
 
@@ -23,19 +25,19 @@ public class PlayerMovement : Player {
 
         GetComponent<Rigidbody>().velocity = new Vector3(horizVel, 0, playerSpeed);
 
-        if (Input.GetKeyDown(moveL) && isMovingSideways == false && currLane > 1) 
+        if ((Input.GetKey(moveL) || Input.GetKey(moveLL)) && isMovingSideways == false && currLane > 1) 
         {
             Debug.Log("Player Moving Left");
-            horizVel = -2;
+            horizVel = -4;
             isMovingSideways = true;
             currLane--;
             StartCoroutine("PlayerMove");
         }
 
-        if (Input.GetKeyDown(moveR) && isMovingSideways == false && currLane < 5)
+        if ((Input.GetKey(moveR) || Input.GetKey(moveRR))&& isMovingSideways == false && currLane < 5)
         {
             Debug.Log("Player Moving Right");
-            horizVel = 2;
+            horizVel = 4;
             isMovingSideways = true;
             currLane++;
             StartCoroutine("PlayerMove");
@@ -53,7 +55,7 @@ public class PlayerMovement : Player {
     /// <returns></returns>
     IEnumerator PlayerMove()
     {
-        yield return new WaitForSecondsRealtime(0.5f);
+        yield return new WaitForSecondsRealtime(0.25f);
         horizVel = 0;
         isMovingSideways = false;
     }
