@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.3731316, g: 0.38074896, b: 0.3587254, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -584,7 +584,9 @@ MonoBehaviour:
   spawnedRoadSections: []
   lastPositionCheck: 1
   inPlay: 0
+  isDead: 0
   playerStart: {fileID: 1569527908}
+  restart_button: {fileID: 0}
 --- !u!4 &939007927 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4450218004770700, guid: 595c04381b605a648a233973921e0702,
@@ -1028,6 +1030,18 @@ Prefab:
       propertyPath: m_Layer
       value: 31
       objectReference: {fileID: 0}
+    - target: {fileID: 4461754344711618, guid: af7bc72c4e391469ca75e6c81852d835, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 4461754344711618, guid: af7bc72c4e391469ca75e6c81852d835, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 4461754344711618, guid: af7bc72c4e391469ca75e6c81852d835, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 50
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 65560690086561592, guid: af7bc72c4e391469ca75e6c81852d835, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: af7bc72c4e391469ca75e6c81852d835, type: 2}
@@ -1465,12 +1479,12 @@ GameObject:
   - component: {fileID: 1651218264}
   - component: {fileID: 1651218263}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Restart_Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1651218262
 RectTransform:
   m_ObjectHideFlags: 0

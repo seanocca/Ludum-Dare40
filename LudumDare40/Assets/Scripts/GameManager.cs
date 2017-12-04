@@ -18,10 +18,11 @@ public class GameManager : MonoBehaviour {
 	private float roadLength = 10f;
 
 	public bool inPlay = false;
+	public bool isDead = false;
 
 	public GameObject playerStart;
 
-    public GameObject restarted;
+	public GameObject restart_button;
 
 	public static GameObject title;
     public static GameObject enter;
@@ -39,6 +40,7 @@ public class GameManager : MonoBehaviour {
 		if (camera == null) {
 			GameObject.Find ("Main Camera");
 		}
+
 		title = GameObject.Find ("Title");
 		enter = GameObject.Find ("Enter");
 		credits = GameObject.Find ("Credits");
@@ -50,29 +52,23 @@ public class GameManager : MonoBehaviour {
 		pill_text = GameObject.Find ("pill_text");
 		capsule_blue_red = GameObject.Find ("capsule_blue_red");
 		capsule_blue_red_text = GameObject.Find ("capsule_blue_red_text");
-        restarted = GameObject.FindGameObjectWithTag("Restart");
+		restart_button = GameObject.Find("Restart_Button");
     }
 
 	// Use this for initialization
 	void Start () {
-        GameStart();	
+		spawnedRoadSections.AddRange(GameObject.FindGameObjectsWithTag("Road"));
+		inPlay = false;
+		alcohol.SetActive(false);
+		alcohol_text.SetActive(false);
+		pill_bottle.SetActive(false);
+		pill_bottle_text.SetActive(false);
+		pill.SetActive(false);
+		pill_text.SetActive(false);
+		capsule_blue_red.SetActive(false);
+		capsule_blue_red_text.SetActive(false);
+		restart_button.SetActive(false);	
 	}
-	
-    public void GameStart()
-    {
-        // Grab the road objects already in scene at start and store them in a list
-        spawnedRoadSections.AddRange(GameObject.FindGameObjectsWithTag("Road"));
-        inPlay = false;
-        alcohol.SetActive(false);
-        alcohol_text.SetActive(false);
-        pill_bottle.SetActive(false);
-        pill_bottle_text.SetActive(false);
-        pill.SetActive(false);
-        pill_text.SetActive(false);
-        capsule_blue_red.SetActive(false);
-        capsule_blue_red_text.SetActive(false);
-        restarted.SetActive(false);
-    }
 
 	// Update is called once per frame
 	void Update () {
@@ -103,15 +99,14 @@ public class GameManager : MonoBehaviour {
 				capsule_blue_red_text.SetActive(true);
                 inPlay = true;
             }
-            if (restarted.activeSelf)
-            {
-                if (Input.GetKeyDown("return"))
-                {
-                    GameStart();
-                    SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-                }
-            }
-
+		}
+		if (isDead) {
+			restart_button.SetActive (true);
+			if (Input.GetKeyDown("return"))
+			{
+				//GameStart();
+				SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+			}
 		}
 	}
 

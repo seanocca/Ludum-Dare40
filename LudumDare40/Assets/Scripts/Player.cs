@@ -1,4 +1,4 @@
-﻿﻿using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -127,7 +127,8 @@ public class Player : MonoBehaviour
             pharmAmount = 0f;
             playerSpeed = 0f;
             StopAllCoroutines();
-            restart.SetActive(true);
+            //restart.SetActive(true);
+			gameMan.GetComponent<GameManager>().isDead = true;
 
 
             //Player showing death
