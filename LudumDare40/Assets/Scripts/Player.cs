@@ -26,9 +26,6 @@ public class Player : MonoBehaviour
     public static bool increasePharm = false;
 
 
-    public Color barColour;
-    public static Renderer render;
-
     private Text alcohol_texts;
     private Text pill_bottle_texts;
     private Text pill_texts;
@@ -46,6 +43,11 @@ public class Player : MonoBehaviour
 
 	private AudioSource audioSource;
 
+    public GameObject gameMan;
+    public bool inGame;
+
+    public GameObject restart;
+
     void Awake()
     {
         //alcohol_texts = GameObject.Find("alcohol_text").GetComponent<Text>();
@@ -55,6 +57,30 @@ public class Player : MonoBehaviour
         alcohol_texts = GameManager.alcohol_text.GetComponent<Text>();
         blurr = GameObject.Find("Blur");
 		audioSource = GetComponent<AudioSource> ();
+
+        gameMan = GameObject.Find("GameManager");
+        inGame = gameMan.GetComponent<GameManager>().inPlay;
+
+        restart = GameObject.Find("Restart");
+    }
+
+    void Restart()
+    {
+        pharmAmount = 100f;
+        playerSpeed = 3f;
+        incSize = 0f;
+        blurr.SetActive(false);
+        rend = blurr.GetComponent<Renderer>();
+        rend.material.SetFloat("_Size", incSize);
+        alcohol_count = 0;
+        alcohol_texts.text = "000";
+        pill_bottle_count = 0;
+        pill_bottle_texts.text = "000";
+        pill_count = 0;
+        pill_texts.text = "000";
+        capsule_blue_red_count = 0;
+        capsule_blue_red_texts.text = "000";
+        inGame = true;
     }
 
     /// <summary>
@@ -63,7 +89,11 @@ public class Player : MonoBehaviour
     /// </summary>
     void FixedUpdate()
     {
-        PharmaBar();
+        while (inGame == false && pharmAmount > 10f)
+        {
+            inGame = gameMan.GetComponent<GameManager>().inPlay;
+        }
+
         if (pharmAmount <= 0f)
         {
             //Game Over
@@ -81,7 +111,8 @@ public class Player : MonoBehaviour
     {
         if (other.gameObject.tag == "DeathObstacle")
         {
-			if (other.name == "jeep_blue" ||
+            inGame = false;
+            if (other.name == "jeep_blue" ||
 			    other.name == "jeep_green" ||
 			    other.name == "jeep_red") {
 
@@ -91,11 +122,13 @@ public class Player : MonoBehaviour
 			}
 
 			audioSource.Play ();
+            
 
             pharmAmount = 0f;
             playerSpeed = 0f;
             StopAllCoroutines();
-            Time.timeScale = 0;
+            restart.SetActive(true);
+
 
             //Player showing death
             //Game Over
@@ -131,7 +164,7 @@ public class Player : MonoBehaviour
 			pill_count++;
             if (incSize > 0.25f)
             {
-                incSize -= 0.25f;
+                incSize -= incPharm;
             }
 			pill_texts.text = pill_count.ToString ();
             pharmAmount += pillPharm;
@@ -147,7 +180,7 @@ public class Player : MonoBehaviour
 			pill_bottle_count++;
             if (incSize > 0.5f)
             {
-                incSize -= 0.5f;
+                incSize -= pillPharm;
             }
 			pill_bottle_texts.text = pill_bottle_count.ToString ();
             pharmAmount += pillBottlePharm;
@@ -240,24 +273,5 @@ public class Player : MonoBehaviour
         rend.material.SetFloat("_Size", incSize);
         yield return null;
         
-    }
-
-    public void PharmaBar()
-    {
-
-        if (pharmAmount > 150f && pharmAmount < 100f) { barColour = Color.red; }
-        else if (pharmAmount > 100f && pharmAmount < 75f) { barColour = new Color(255f, 165f, 0f, 255f); }
-        else if (pharmAmount > 75f && pharmAmount < 50f) { barColour = Color.yellow; }
-        else if (pharmAmount > 50f && pharmAmount < 25f) { barColour = Color.green; }
-        else if (pharmAmount > 25f && pharmAmount < 10f) { barColour = Color.yellow; }
-        else if (pharmAmount > 10f && pharmAmount < 0f) { barColour = new Color(255f, 265f, 0f, 255f); }
-        else if (pharmAmount > 0f) { barColour = Color.red; }
-
-        Debug.Log(pharmAmount.ToString() + barColour.ToString());
-
-        render = GameManager.pharmBar.GetComponent<Renderer>();
-        render.material.color = barColour;
-
-
     }
 }

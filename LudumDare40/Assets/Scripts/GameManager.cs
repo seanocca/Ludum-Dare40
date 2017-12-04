@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour {
@@ -18,8 +19,9 @@ public class GameManager : MonoBehaviour {
 
 	public bool inPlay = false;
 
-
 	public GameObject playerStart;
+
+    public GameObject restarted;
 
 	public static GameObject title;
     public static GameObject enter;
@@ -32,7 +34,6 @@ public class GameManager : MonoBehaviour {
     public static GameObject pill_text;
     public static GameObject capsule_blue_red;
     public static GameObject capsule_blue_red_text;
-    public static GameObject pharmBar;
 
 	void Awake() {
 		if (camera == null) {
@@ -49,33 +50,40 @@ public class GameManager : MonoBehaviour {
 		pill_text = GameObject.Find ("pill_text");
 		capsule_blue_red = GameObject.Find ("capsule_blue_red");
 		capsule_blue_red_text = GameObject.Find ("capsule_blue_red_text");
-        pharmBar = GameObject.Find("PharmaBar");
-	}
+        restarted = GameObject.FindGameObjectWithTag("Restart");
+    }
 
 	// Use this for initialization
 	void Start () {
-		// Grab the road objects already in scene at start and store them in a list
-		spawnedRoadSections.AddRange (GameObject.FindGameObjectsWithTag ("Road"));
-		inPlay = false;
-		alcohol.SetActive(false);
-		alcohol_text.SetActive(false);
-		pill_bottle.SetActive(false);
-		pill_bottle_text.SetActive(false);
-		pill.SetActive(false);
-		pill_text.SetActive(false);
-		capsule_blue_red.SetActive(false);
-		capsule_blue_red_text.SetActive(false);
-        pharmBar.SetActive(false);
+        GameStart();	
 	}
 	
+    public void GameStart()
+    {
+        // Grab the road objects already in scene at start and store them in a list
+        spawnedRoadSections.AddRange(GameObject.FindGameObjectsWithTag("Road"));
+        inPlay = false;
+        alcohol.SetActive(false);
+        alcohol_text.SetActive(false);
+        pill_bottle.SetActive(false);
+        pill_bottle_text.SetActive(false);
+        pill.SetActive(false);
+        pill_text.SetActive(false);
+        capsule_blue_red.SetActive(false);
+        capsule_blue_red_text.SetActive(false);
+        restarted.SetActive(false);
+    }
+
 	// Update is called once per frame
 	void Update () {
-		if (inPlay) {
+		if (inPlay)
+        {
 			if (player.transform.position.z >= lastPositionCheck && player.transform.position.z <= lastPositionCheck + 1f) {
 				SpawnRoad ();
 				DestroyRoad ();
 			}
-		} else {
+		} else
+        {
 			if (Input.GetKeyDown ("return")) {
 				Debug.Log ("Enter");
 				Destroy (playerStart);
@@ -93,22 +101,19 @@ public class GameManager : MonoBehaviour {
 				pill_text.SetActive(true);
 				capsule_blue_red.SetActive(true);
 				capsule_blue_red_text.SetActive(true);
-                pharmBar.SetActive(true);
                 inPlay = true;
+            }
+            if (restarted.activeSelf)
+            {
+                if (Input.GetKeyDown("return"))
+                {
+                    GameStart();
+                    SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+                }
+            }
 
-			}
 		}
 	}
-
-    private void PlayGame()
-    {
-        //Setup Player
-            //GameObject player = Instantiate(playerPrefab, new Vector3(Maze.GetPlayerStartingX(), 0.5f, Maze.GetPlayerStartingZ()), Quaternion.identity);
-
-        //Setup Camera and other game neccessities
-            //gameCamera.transform.position = new Vector3();
-            //menu.SetActive(false);
-    }
 
 	private void SpawnRoad() {
 		// Get a random road section from the array of stored sections

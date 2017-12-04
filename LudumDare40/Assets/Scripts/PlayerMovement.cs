@@ -17,14 +17,15 @@ public class PlayerMovement : Player {
 
 	void Start() {
 		animator = GetComponent<Animator> ();
-	}
+        
+    }
 
     // Update is called once per frame
     void Update () {
 
         GetComponent<Rigidbody>().velocity = new Vector3(horizVel, 0, playerSpeed);
 
-        if ((Input.GetKeyDown(moveL) || Input.GetKeyDown(moveLL)) && currLane > 1) 
+        if ((Input.GetKeyDown(moveL) || Input.GetKeyDown(moveLL)) && inGame && currLane > 1) 
         {
 
             Vector3 newPos = GetPlayerPosition();
@@ -37,7 +38,7 @@ public class PlayerMovement : Player {
 
         }
 
-        if ((Input.GetKeyDown(moveR) || Input.GetKeyDown(moveRR)) && currLane < 5)
+        if ((Input.GetKeyDown(moveR) || Input.GetKeyDown(moveRR)) && inGame && currLane < 5)
         {
 
             Vector3 newPos = GetPlayerPosition();

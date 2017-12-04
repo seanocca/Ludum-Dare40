@@ -18,7 +18,7 @@ public class CameraFollow : MonoBehaviour
     void Awake()
     {
 		gameManager = GameObject.Find ("GameManager");
-		this.inPlay = gameManager.GetComponent<GameManager> ().inPlay;
+        this.inPlay = gameManager.GetComponent<GameManager>().inPlay;
         if (Instance != null && Instance != this)
         {
             Destroy(gameObject);
