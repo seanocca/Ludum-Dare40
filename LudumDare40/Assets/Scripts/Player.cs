@@ -48,6 +48,9 @@ public class Player : MonoBehaviour
 
     public GameObject restart;
 
+	[SerializeField]
+	private ParticleSystem gibs;
+
     void Awake()
     {
         //alcohol_texts = GameObject.Find("alcohol_text").GetComponent<Text>();
@@ -122,12 +125,14 @@ public class Player : MonoBehaviour
 			}
 
 			audioSource.Play ();
-            
+			ParticleSystem death_gibs = Instantiate (gibs, new Vector3(this.transform.position.x, this.transform.position.y + 2, this.transform.position.z), Quaternion.identity);
+
 
             pharmAmount = 0f;
             playerSpeed = 0f;
             StopAllCoroutines();
             //restart.SetActive(true);
+			this.gameObject.SetActive(false);
 			gameMan.GetComponent<GameManager>().isDead = true;
 
 

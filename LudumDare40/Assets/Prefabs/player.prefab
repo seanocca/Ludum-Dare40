@@ -1034,7 +1034,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blurr: {fileID: 0}
   shaderBlur: {fileID: 4800000, guid: 28e18299f72e5e943bd73e470391615f, type: 3}
-  barColour: {r: 0, g: 0, b: 0, a: 0}
   alcohol_count: 0
   pill_bottle_count: 0
   pill_count: 0
@@ -1049,6 +1048,10 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 3371e72d3f244411dbb6d6612e4fa377, type: 3}
   - {fileID: 8300000, guid: d3a8b7035c5474e708528ae0dfbf881a, type: 3}
   - {fileID: 8300000, guid: c503d3a3026e3434c811c648e584be62, type: 3}
+  gameMan: {fileID: 0}
+  inGame: 0
+  restart: {fileID: 0}
+  gibs: {fileID: 198454375613129138, guid: 4abb60f77ebb94958bf7dbf41f29e29e, type: 2}
   moveL: 97
   moveLL: 276
   moveR: 100
