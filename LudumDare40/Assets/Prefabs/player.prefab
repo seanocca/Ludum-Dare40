@@ -228,6 +228,7 @@ GameObject:
   - component: {fileID: 95483074270859302}
   - component: {fileID: 136039318205774334}
   - component: {fileID: 143412532630722674}
+  - component: {fileID: 82395298979177328}
   m_Layer: 0
   m_Name: player
   m_TagString: Player
@@ -923,6 +924,86 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!82 &82395298979177328
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1788707442257618}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!95 &95483074270859302
 Animator:
   serializedVersion: 3
@@ -953,17 +1034,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blurr: {fileID: 0}
   shaderBlur: {fileID: 4800000, guid: 28e18299f72e5e943bd73e470391615f, type: 3}
-  pharmaText: {fileID: 0}
-  speedText: {fileID: 0}
-  alcohol_text: {fileID: 0}
-  pill_bottle_text: {fileID: 0}
-  pill_text: {fileID: 0}
-  capsule_blue_red_text: {fileID: 0}
+  barColour: {r: 0, g: 0, b: 0, a: 0}
   alcohol_count: 0
   pill_bottle_count: 0
   pill_count: 0
   capsule_blue_red_count: 0
   totalScore: 0
+  soundEffects:
+  - {fileID: 8300000, guid: 1e7e36a8a8cee4fe5bf300ab0e40fc9d, type: 3}
+  - {fileID: 8300000, guid: e1430737d89564cb1ade0e4ecc2e15ec, type: 3}
+  - {fileID: 8300000, guid: 9b7e13549f34e4d41a7bd4bd5d807ad7, type: 3}
+  - {fileID: 8300000, guid: 8598b12507ea14ab68102f0a7e50b31c, type: 3}
+  - {fileID: 8300000, guid: aff59685a76a448c8b899b94b84017c4, type: 3}
+  - {fileID: 8300000, guid: 3371e72d3f244411dbb6d6612e4fa377, type: 3}
+  - {fileID: 8300000, guid: d3a8b7035c5474e708528ae0dfbf881a, type: 3}
+  - {fileID: 8300000, guid: c503d3a3026e3434c811c648e584be62, type: 3}
   moveL: 97
   moveLL: 276
   moveR: 100

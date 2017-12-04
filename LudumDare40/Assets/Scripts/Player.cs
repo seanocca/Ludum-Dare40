@@ -41,6 +41,11 @@ public class Player : MonoBehaviour
 
     public int totalScore = 0;
 
+	[SerializeField]
+	private List<AudioClip> soundEffects;
+
+	private AudioSource audioSource;
+
     void Awake()
     {
         //alcohol_texts = GameObject.Find("alcohol_text").GetComponent<Text>();
@@ -49,6 +54,7 @@ public class Player : MonoBehaviour
         capsule_blue_red_texts = GameManager.capsule_blue_red_text.GetComponent<Text>();
         alcohol_texts = GameManager.alcohol_text.GetComponent<Text>();
         blurr = GameObject.Find("Blur");
+		audioSource = GetComponent<AudioSource> ();
     }
 
     /// <summary>
@@ -75,6 +81,17 @@ public class Player : MonoBehaviour
     {
         if (other.gameObject.tag == "DeathObstacle")
         {
+			if (other.name == "jeep_blue" ||
+			    other.name == "jeep_green" ||
+			    other.name == "jeep_red") {
+
+				audioSource.clip = soundEffects [2];
+			} else {
+				audioSource.clip = soundEffects [3];
+			}
+
+			audioSource.Play ();
+
             pharmAmount = 0f;
             playerSpeed = 0f;
             StopAllCoroutines();
@@ -87,6 +104,14 @@ public class Player : MonoBehaviour
         if (other.gameObject.tag == "SlowObstacle")
         {
             //Slow player down
+			if (other.name == "Traffic_Cone") {
+				audioSource.clip = soundEffects [6];
+			} else if (other.name == "wheelie_bin") {
+				audioSource.clip = soundEffects [7];
+			}
+
+			audioSource.Play ();
+
             if (playerSpeed > 1.5f)
             {
                 playerSpeed -= 1f;
@@ -100,6 +125,9 @@ public class Player : MonoBehaviour
         if (other.gameObject.tag == "Pill")
         {
             //Increase PharmAmount
+			audioSource.clip = soundEffects [4];
+			audioSource.Play ();
+
 			pill_count++;
             if (incSize > 0.25f)
             {
@@ -113,6 +141,9 @@ public class Player : MonoBehaviour
         if (other.gameObject.tag == "PillBottle")
         {
             //Increase PharmAmount
+			audioSource.clip = soundEffects [5];
+			audioSource.Play ();
+
 			pill_bottle_count++;
             if (incSize > 0.5f)
             {
@@ -126,6 +157,9 @@ public class Player : MonoBehaviour
         if (other.gameObject.tag == "Alcohol")
         {
             //Slowly Increase PharmAmount for three seconds
+			audioSource.clip = soundEffects [0];
+			audioSource.Play ();
+
 			alcohol_count++;
             StartCoroutine("BlurrScreen");
             incSize += 0.25f;
@@ -137,6 +171,9 @@ public class Player : MonoBehaviour
 
         if (other.gameObject.tag == "CapsuleRedBlue")
         {
+			audioSource.clip = soundEffects [1];
+			audioSource.Play ();
+
             capsule_blue_red_count++;
             if (capsule_blue_red_count % 5 == 0)
             {
