@@ -89,7 +89,7 @@ public class Player : MonoBehaviour
     /// </summary>
     void FixedUpdate()
     {
-        while (inGame == false && pharmAmount > 10f)
+        while (inGame == false)
         {
             inGame = gameMan.GetComponent<GameManager>().inPlay;
         }

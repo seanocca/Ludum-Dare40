@@ -25,7 +25,7 @@ public class PlayerMovement : Player {
 
         GetComponent<Rigidbody>().velocity = new Vector3(horizVel, 0, playerSpeed);
 
-        if ((Input.GetKeyDown(moveL) || Input.GetKeyDown(moveLL)) && inGame && currLane > 1) 
+        if ((Input.GetKeyDown(moveL) || Input.GetKeyDown(moveLL)) && gameMan.GetComponent<GameManager>().isDead == false && currLane > 1) 
         {
 
             Vector3 newPos = GetPlayerPosition();
@@ -38,7 +38,7 @@ public class PlayerMovement : Player {
 
         }
 
-        if ((Input.GetKeyDown(moveR) || Input.GetKeyDown(moveRR)) && inGame && currLane < 5)
+        if ((Input.GetKeyDown(moveR) || Input.GetKeyDown(moveRR)) && gameMan.GetComponent<GameManager>().isDead == false && currLane < 5)
         {
 
             Vector3 newPos = GetPlayerPosition();

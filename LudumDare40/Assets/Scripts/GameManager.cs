@@ -106,6 +106,7 @@ public class GameManager : MonoBehaviour {
 			{
 				//GameStart();
 				SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+                Player.playerSpeed = 3f;
 			}
 		}
 	}
