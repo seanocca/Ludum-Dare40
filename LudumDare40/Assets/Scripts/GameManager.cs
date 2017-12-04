@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using System.Linq;
 
 public class GameManager : MonoBehaviour {
 
@@ -57,8 +58,10 @@ public class GameManager : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		spawnedRoadSections.AddRange(GameObject.FindGameObjectsWithTag("Road"));
+		spawnedRoadSections.AddRange(GameObject.FindGameObjectsWithTag("Road").OrderBy(go => go.name).ToList());
+
 		inPlay = false;
+		isDead = false;
 		alcohol.SetActive(false);
 		alcohol_text.SetActive(false);
 		pill_bottle.SetActive(false);
@@ -68,6 +71,10 @@ public class GameManager : MonoBehaviour {
 		capsule_blue_red.SetActive(false);
 		capsule_blue_red_text.SetActive(false);
 		restart_button.SetActive(false);	
+	}
+
+	private static int SortByName(GameObject o1, GameObject o2) {
+		return o1.name.CompareTo(o2.name);
 	}
 
 	// Update is called once per frame
